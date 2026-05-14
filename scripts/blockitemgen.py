@@ -14,7 +14,7 @@ def generate_blockstate(name: str):
         }
     }
 
-    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_neoforge\src\main\resources\assets\cobblemonfury\blockstates\{name}.json"
+    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\blockstates\{name}.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -28,7 +28,7 @@ def copy_json(name: str):
     src_path = os.path.join(os.path.dirname(__file__), f"{name}.json")
 
     # Destination file path
-    dest_path = rf"C:\Users\garat\Documents\cobblemon_fury_neoforge\src\main\resources\assets\cobblemonfury\models\block\{name}.json"
+    dest_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\models\block\{name}.json"
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
 
     # Charger et modifier le JSON
@@ -52,7 +52,7 @@ def copy_texture_png(name: str):
     src_path = os.path.join(os.path.dirname(__file__), f"{name}.png")
 
     # Destination path
-    dest_path = rf"C:\Users\garat\Documents\cobblemon_fury_neoforge\src\main\resources\assets\cobblemonfury\textures\block\{name}.png"
+    dest_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\textures\block\{name}.png"
 
     # Ensure destination folder exists
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
@@ -78,7 +78,7 @@ def generate_item_model(name: str):
         }
     }
 
-    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_neoforge\src\main\resources\assets\cobblemonfury\models\item\{name}.json"
+    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\models\item\{name}.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -95,7 +95,7 @@ def generate_item(folder:str,name: str):
         }
     }
 
-    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_neoforge\src\main\resources\assets\cobblemonfury\models\item\{folder}\{name}.json"
+    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\models\item\{folder}\{name}.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -109,22 +109,7 @@ def generate_block(name:str):
     copy_texture_png(name)
     generate_item_model(name)
     
-generate_item("rune","dark1")
-generate_item("rune","dark2")
-generate_item("rune","dragon")
-generate_item("rune","elec1")
-generate_item("rune","elec2")
-generate_item("rune","fight")
-generate_item("rune","fire1")
-generate_item("rune","fire2")
-generate_item("rune","fire3")
-generate_item("rune","ice")
-generate_item("rune","plant1")
-generate_item("rune","plant2")
-generate_item("rune","poison1")
-generate_item("rune","poison2")
-generate_item("rune","psy")
-generate_item("rune","rock1")
-generate_item("rune","rock2")
-generate_item("rune","water1")
-generate_item("rune","water2")
+generate_block("forge_bottom")
+generate_block("forge_top")
+generate_block("forge_side")
+generate_block("apricorn_pack")
