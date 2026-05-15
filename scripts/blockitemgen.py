@@ -108,8 +108,53 @@ def generate_block(name:str):
     copy_json(name)
     copy_texture_png(name)
     generate_item_model(name)
-    
-generate_block("forge_bottom")
-generate_block("forge_top")
-generate_block("forge_side")
-generate_block("apricorn_pack")
+
+
+def generate_block_model_from_template(name: str):
+    # Le template basé sur ton JSON, avec le nom de texture dynamique
+    data = {
+        "parent": "block/block",
+        "textures": {
+            "particle": f"cobblemonfury:block/{name}",
+            "texture": f"cobblemonfury:block/{name}"
+        },
+        "elements": [
+            {
+                "from": [0, 0, 0],
+                "to": [16, 16, 16],
+                "faces": {
+                    "down":  {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "down"},
+                    "up":    {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "up"},
+                    "north": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "north"},
+                    "south": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "south"},
+                    "west":  {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "west"},
+                    "east":  {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "east"}
+                }
+            }
+        ]
+    }
+
+    output_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\models\block\{name}.json"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+    print(f"✅ Block model JSON generated from template at: {output_path}")
+
+def generate_block_without_model(name: str):
+    """Génère blockstate, modèle de bloc (via template), copie la texture et modèle d'item"""
+    generate_blockstate(name)
+    generate_block_model_from_template(name) # Utilise le template au lieu de copier un fichier
+    copy_texture_png(name)
+    generate_item_model(name)
+
+# Utilisation
+generate_block_without_model("cobblestone_poisoned")
+generate_block_without_model("crystal_fire")
+generate_block_without_model("crystal_poison")
+generate_block_without_model("crystal_sand")
+generate_block_without_model("labo_1")
+generate_block_without_model("mini_xp")
+generate_block_without_model("silice")
+generate_block_without_model("silice_melted")
