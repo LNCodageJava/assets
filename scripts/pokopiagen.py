@@ -15,45 +15,74 @@ def clean_namespace(val):
 
     return val
 
-def generate_habitat_json(excel_file_name, output_json_name):
+def generate_mod_data_json(excel_file_name, output_json_name):
     base_dir = Path(__file__).resolve().parent
     excel_path = base_dir / excel_file_name
     output_path = base_dir / output_json_name
 
     try:
-        # On lit le fichier (Assure-toi que le nom de la feuille est correct)
         df = pd.read_excel(excel_path, sheet_name='Feuille 1')
     except Exception as e:
         print(f"Erreur : {e}")
         return
 
     habitats_list = []
+    capacities_list = []
+
+    # Identification des colonnes
     hab_columns = [col for col in df.columns if str(col).startswith('HAB')]
+    block_columns = [col for col in df.columns if str(col).startswith('BLOCK')]
 
     for _, row in df.iterrows():
-        name = row['NAME']
-        if pd.isna(name) or str(name).strip().upper() == 'TODO':
+        # --- CONDITION BIO ---
+        # Si la colonne BIO est vide, on passe directement à la ligne suivante
+        if pd.isna(row.get('BIO')) or str(row.get('BIO')).strip() == "":
             continue
 
+        name = str(row['NAME']).lower().strip() if pd.notna(row['NAME']) else None
+        ability = str(row['ABILITY']).strip() if pd.notna(row['ABILITY']) else None
+
+        if not name or name.upper() == 'TODO':
+            continue
+
+        # --- Section HABITATS ---
         habs = []
         for col in hab_columns:
             val = row[col]
             if pd.notna(val) and str(val).strip().upper() != 'TODO':
-                # On applique la transformation du namespace ici
                 habs.append(clean_namespace(val))
 
         if habs:
             habitats_list.append({
-                "name": str(name).lower().strip(),
+                "name": name,
                 "hab": habs
             })
 
-    result = {"habitats": habitats_list}
+        # --- Section CAPACITIES ---
+        blocks = []
+        for col in block_columns:
+            val = row[col]
+            if pd.notna(val) and str(val).strip().upper() != 'TODO':
+                blocks.append(clean_namespace(val))
 
+        if ability or blocks:
+            capacities_list.append({
+                "name": name,
+                "ability": ability if ability and ability.upper() != 'TODO' else "",
+                "blocks": blocks
+            })
+
+    # Construction du dictionnaire final
+    result = {
+        "habitats": habitats_list,
+        "capacities": capacities_list
+    }
+
+    # Écriture du fichier
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=4, ensure_ascii=False)
 
-    print(f"Fichier généré avec namespaces corrigés : {output_path}")
+    print(f"Fichier généré (Filtrage BIO actif) : {output_path}")
 
 # Lancement
-generate_habitat_json("pokomons.xlsx", "habitats.json")
+generate_mod_data_json("pokomons.xlsx", "pokopia_data.json")
