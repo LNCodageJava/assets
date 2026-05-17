@@ -1,0 +1,54 @@
+{
+  "components": [
+    { "type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 5, "y": 0 },
+    { "type": "patchouli:item", "item": "poke1item3", "framed": false, "x": 25, "y": 0 },
+    { "type": "patchouli:item", "item": "poke1item4", "framed": false, "x": 45, "y": 0 },
+
+    { "type": "patchouli:item", "item": "poke1item5", "framed": false, "x": 5, "y": 20 },
+    { "type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 25, "y": 20 },
+    { "type": "patchouli:item", "item": "poke1item6", "framed": false, "x": 45, "y": 20 },
+
+    { "type": "patchouli:item", "item": "poke1item7", "framed": false, "x": 5, "y": 40 },
+    { "type": "patchouli:item", "item": "poke1item8", "framed": false, "x": 25, "y": 40 },
+    { "type": "patchouli:item", "item": "poke1item9", "framed": false, "x": 45, "y": 40 },
+
+
+
+    { "type": "patchouli:item", "item": "poke2item2", "framed": false, "x": 5, "y": 75 },
+    { "type": "patchouli:item", "item": "poke2item3", "framed": false, "x": 25, "y": 75 },
+    { "type": "patchouli:item", "item": "poke2item4", "framed": false, "x": 45, "y": 75 },
+
+    { "type": "patchouli:item", "item": "poke2item5", "framed": false, "x": 5, "y": 95 },
+    { "type": "patchouli:item", "item": "poke2item1", "framed": false, "x": 25, "y": 95 },
+    { "type": "patchouli:item", "item": "poke2item6", "framed": false, "x": 45, "y": 95 },
+
+    { "type": "patchouli:item", "item": "poke2item7", "framed": false, "x": 5, "y": 115 },
+    { "type": "patchouli:item", "item": "poke2item8", "framed": false, "x": 25, "y": 115 },
+    { "type": "patchouli:item", "item": "poke2item9", "framed": false, "x": 45, "y": 115 },
+
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/placeholder_top.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 60,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/placeholder_bottom.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 60,
+      "y": 80
+    }
+  ]
+}
