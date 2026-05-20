@@ -150,5 +150,4 @@ def generate_block_without_model(name: str):
     generate_item_model(name)
 
 # Utilisation
-generate_block_without_model("island_generator_1")
-generate_block_without_model("poke_crafter")
+generate_block_without_model("labo_2")

@@ -176,7 +176,7 @@
         {
             "name": "rhyhorn",
             "hab": [
-                "minecraft:glided_blackstone",
+                "minecraft:gilded_blackstone",
                 "minecraft:blackstone_stairs",
                 "minecraft:blackstone_stairs",
                 "minecraft:blackstone_stairs",
@@ -267,10 +267,10 @@
                 "cobblemonfury:tapis_poison",
                 "cobblemonfury:tapis_poison",
                 "cobblemonfury:tapis_poison",
-                "cobblemonfury:poison_flower",
-                "cobblemonfury:poison_flower",
-                "cobblemonfury:poison_flower",
-                "cobblemonfury:poison_flower"
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison"
             ]
         },
         {
@@ -303,6 +303,176 @@
             ]
         }
     ],
+    "mega_habitats": [
+        {
+            "name": "forge",
+            "blockList": [
+                "cobblemonfury:forge_bottom",
+                "cobblemonfury:forge_top",
+                "cobblemonfury:forge_side",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:magma_block",
+                "minecraft:magma_block",
+                "minecraft:magma_block",
+                "minecraft:magma_block",
+                "minecraft:campfire",
+                "minecraft:campfire",
+                "minecraft:campfire",
+                "minecraft:campfire",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch"
+            ],
+            "recipe": [
+                "minecraft:emerald_block",
+                "minecraft:magma_block",
+                "minecraft:magma_block",
+                "minecraft:magma_block",
+                "cobblemonfury:crystal_fire"
+            ]
+        },
+        {
+            "name": "desert",
+            "blockList": [
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:chiseled_sandstone",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch",
+                "minecraft:torch"
+            ],
+            "recipe": [
+                "minecraft:emerald_block",
+                "minecraft:sand",
+                "minecraft:sand",
+                "minecraft:sand",
+                "cobblemonfury:crystal_sand"
+            ]
+        },
+        {
+            "name": "poison",
+            "blockList": [
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison",
+                "cobblemonfury:plant_poison"
+            ],
+            "recipe": [
+                "minecraft:emerald_block",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:crystal_poison"
+            ]
+        },
+        {
+            "name": "labo",
+            "blockList": [
+                "cobblemonfury:labo_1",
+                "cobblemonfury:labo_2",
+                "cobblemonfury:mini_xp",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:copper_block",
+                "minecraft:repeater",
+                "minecraft:repeater",
+                "minecraft:repeater",
+                "minecraft:repeater"
+            ],
+            "recipe": [
+                "minecraft:emerald",
+                "minecraft:redstone",
+                "minecraft:redstone",
+                "minecraft:redstone",
+                "cobblemon:exp_candy_s"
+            ]
+        },
+        {
+            "name": "rhyhorn",
+            "blockList": [
+                "minecraft:gilded_blackstone",
+                "minecraft:blackstone_stairs",
+                "minecraft:blackstone_stairs",
+                "minecraft:blackstone_stairs",
+                "minecraft:blackstone_stairs",
+                "minecraft:gold_block",
+                "minecraft:gold_block",
+                "minecraft:gold_block",
+                "minecraft:gold_block"
+            ],
+            "recipe": [
+                "minecraft:iron_pickaxe",
+                "minecraft:paper",
+                "minecraft:paper",
+                "minecraft:paper",
+                "minecraft:enchanted_book"
+            ]
+        }
+    ],
     "capacities": [
         {
             "name": "krookodile",
@@ -324,7 +494,7 @@
             "ability": "transform",
             "blocks": [
                 "cobblemonfury:silice",
-                "cobblemonfury:silice_melted"
+                "cobblemonfury:melted_silice"
             ]
         },
         {
@@ -494,8 +664,8 @@
             "name": "victreebel",
             "ability": "transform",
             "blocks": [
-                "minecraft:red_flower",
-                "minecraft:poison_flower"
+                "minecraft:poppy",
+                "cobblemonfury:plant_poison"
             ]
         },
         {

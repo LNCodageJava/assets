@@ -3,6 +3,7 @@ import os
 INPUT = "pokopia_data.json"
 TEMPLATE = "templates/template_spawn.json"
 TEMPLATE_DESTROY = "template_destroy.json"
+TEMPLATE_MEGA_HABITAT = "template_mega_habitat.json"
 OUT_DIR = "generated"
 
 def generate_destroy_files(data, template):
@@ -61,5 +62,15 @@ def generate_destroy_files(data, template):
     # Générer les fichiers pour les Pokémon avec la capacité "destroy"
     with open(TEMPLATE_DESTROY, "r", encoding="utf-8") as f:
         template_destroy = json.load(f)
+
+    # ---------------------------------------------------------
+    # PARTIE 4 : Génération des Méga-Habitats
+    # ---------------------------------------------------------
+    mega_habitats = data.get("mega_habitats", [])
+    for idx, mega_hab in enumerate(mega_habitats, start=1):
+        generate_mega_habitat(template_mega_habitat, mega_hab, idx)
+
+with open(TEMPLATE_MEGA_HABITAT, "r", encoding="utf-8") as f:
+    template_mega_habitat = json.load(f)
 
     generate_destroy_files(data, template_destroy)

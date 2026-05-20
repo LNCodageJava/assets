@@ -1,0 +1,45 @@
+{
+  "components": [
+    { "type": "patchouli:item", "item": "item1", "framed": false, "x": 5, "y": 0 },
+    { "type": "patchouli:item", "item": "item2", "framed": false, "x": 25, "y": 0 },
+    { "type": "patchouli:item", "item": "item3", "framed": false, "x": 45, "y": 0 },
+    { "type": "patchouli:item", "item": "item4", "framed": false, "x": 65, "y": 0 },
+    { "type": "patchouli:item", "item": "recipe1", "framed": true, "x": 95, "y": -5 },
+
+    { "type": "patchouli:item", "item": "item5", "framed": false, "x": 5, "y": 20 },
+    { "type": "patchouli:item", "item": "item6", "framed": false, "x": 25, "y": 20 },
+    { "type": "patchouli:item", "item": "item7", "framed": false, "x": 45, "y": 20 },
+    { "type": "patchouli:item", "item": "item8", "framed": false, "x": 65, "y": 20 },
+    { "type": "patchouli:item", "item": "recipe2", "framed": true, "x": 95, "y": 11 },
+
+    { "type": "patchouli:item", "item": "item9", "framed": false, "x": 5, "y": 40 },
+    { "type": "patchouli:item", "item": "item10", "framed": false, "x": 25, "y": 40 },
+    { "type": "patchouli:item", "item": "item11", "framed": false, "x": 45, "y": 40 },
+    { "type": "patchouli:item", "item": "item12", "framed": false, "x": 65, "y": 40 },
+    { "type": "patchouli:item", "item": "recipe3", "framed": true, "x": 95, "y": 27 },
+
+    { "type": "patchouli:item", "item": "item13", "framed": false, "x": 5, "y": 60 },
+    { "type": "patchouli:item", "item": "item14", "framed": false, "x": 25, "y": 60 },
+    { "type": "patchouli:item", "item": "item15", "framed": false, "x": 45, "y": 60 },
+    { "type": "patchouli:item", "item": "item16", "framed": false, "x": 65, "y": 60 },
+    { "type": "patchouli:item", "item": "recipe4", "framed": true, "x": 95, "y": 43 },
+
+    { "type": "patchouli:item", "item": "item17", "framed": false, "x": 5, "y": 80 },
+    { "type": "patchouli:item", "item": "item18", "framed": false, "x": 25, "y": 80 },
+    { "type": "patchouli:item", "item": "item19", "framed": false, "x": 45, "y": 80 },
+    { "type": "patchouli:item", "item": "item20", "framed": false, "x": 65, "y": 80 },
+    { "type": "patchouli:item", "item": "recipe5", "framed": true, "x": 95, "y": 59 },
+
+    { "type": "patchouli:item", "item": "item21", "framed": false, "x": 5, "y": 100 },
+    { "type": "patchouli:item", "item": "item22", "framed": false, "x": 25, "y": 100 },
+    { "type": "patchouli:item", "item": "item23", "framed": false, "x": 45, "y": 100 },
+    { "type": "patchouli:item", "item": "item24", "framed": false, "x": 65, "y": 100 },
+    { "type": "patchouli:item", "item": "recipe6", "framed": true, "x": 95, "y": 75 },
+
+    { "type": "patchouli:item", "item": "item25", "framed": false, "x": 5, "y": 120 },
+    { "type": "patchouli:item", "item": "item26", "framed": false, "x": 25, "y": 120 },
+    { "type": "patchouli:item", "item": "item27", "framed": false, "x": 45, "y": 120 },
+    { "type": "patchouli:item", "item": "item28", "framed": false, "x": 65, "y": 120 },
+    { "type": "patchouli:item", "item": "recipe7", "framed": true, "x": 95, "y": 91 }
+  ]
+}
