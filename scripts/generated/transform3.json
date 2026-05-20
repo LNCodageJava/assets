@@ -60,14 +60,14 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:red_flower",
+      "item": "minecraft:poppy",
       "framed": false,
       "x": 60,
       "y": 50
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:poison_flower",
+      "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 80,
       "y": 50

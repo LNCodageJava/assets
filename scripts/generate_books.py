@@ -9,6 +9,7 @@ INPUT = "pokopia_data.json"
 TEMPLATE_HAB = "templates/template_spawn.json"
 TEMPLATE_DESTROY = "templates/template_destroy.json"
 TEMPLATE_TRANSFORM = "templates/template_transform.json"
+TEMPLATE_MEGA_HABITAT = "templates/template_mega_habitat.json"
 OUT_DIR = "generated"
 
 def fill_placeholders(components, prefix, items, fallback="minecraft:birch_button"):
@@ -100,6 +101,9 @@ def main():
     with open(TEMPLATE_TRANSFORM, "r", encoding="utf-8") as f:
         template_transform = json.load(f)
 
+    with open(TEMPLATE_MEGA_HABITAT, "r", encoding="utf-8") as f:
+        template_mega_habitat = json.load(f)
+
     # ---------------------------------------------------------
     # PARTIE 1 : Génération des Habitats (Template Habitat)
     # ---------------------------------------------------------
@@ -167,6 +171,52 @@ def main():
         chunk = transform_pokemon[i:i+6]
         process_pokemon_group(template_transform, chunk, "transform", transform_idx)
         transform_idx += 1
+
+    # ---------------------------------------------------------
+    # PARTIE 3 : Génération des Mega Habitats
+    # ---------------------------------------------------------
+    mega_habitats = data.get("mega_habitats", [])
+    mega_idx = 1
+    for mega in mega_habitats:
+        out = deepcopy(template_mega_habitat)
+        components = out.get("components", [])
+
+        block_list = mega.get("blockList", [])
+        recipes = mega.get("recipe", [])
+        name = mega.get("name", f"mega_{mega_idx}")
+
+        # Remplace item1, item2, ... par les blocks de blockList
+        for comp in components:
+            if comp.get("type") == "patchouli:item":
+                item_name = comp.get("item", "")
+
+                # Si c'est itemN
+                if item_name.startswith("item"):
+                    try:
+                        idx = int(item_name[4:]) - 1  # item1 -> index 0
+                        if 0 <= idx < len(block_list):
+                            comp["item"] = block_list[idx]
+                        else:
+                            comp["item"] = "minecraft:birch_button"
+                    except ValueError:
+                        comp["item"] = "minecraft:birch_button"
+
+                # Si c'est recipeN
+                elif item_name.startswith("recipe"):
+                    try:
+                        idx = int(item_name[6:]) - 1  # recipe1 -> index 0
+                        if 0 <= idx < len(recipes):
+                            comp["item"] = recipes[idx]
+                        else:
+                            comp["item"] = "minecraft:birch_button"
+                    except ValueError:
+                        comp["item"] = "minecraft:birch_button"
+
+        out_path = os.path.join(OUT_DIR, f"mega_{name}.json")
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+        print(f"Généré: {out_path}")
+        mega_idx += 1
 
 if __name__ == "__main__":
     main()

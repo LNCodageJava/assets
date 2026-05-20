@@ -43,7 +43,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:silice_melted",
+      "item": "cobblemonfury:melted_silice",
       "framed": false,
       "x": 80,
       "y": 25

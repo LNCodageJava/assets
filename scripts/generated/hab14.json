@@ -100,28 +100,28 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:poison_flower",
+      "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 45,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:poison_flower",
+      "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 5,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:poison_flower",
+      "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 25,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:poison_flower",
+      "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 45,
       "y": 115
