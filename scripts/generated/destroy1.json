@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hippopotas.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sand",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 80,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 100,
+      "y": 0
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/graveler.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:stone",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:gravel",
+      "framed": false,
+      "x": 80,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 100,
+      "y": 25
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/golem.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:deepslate",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:blackstone",
+      "framed": false,
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 100,
+      "y": 50
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/dugtrio.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:dirt",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:grass_block",
+      "framed": false,
+      "x": 80,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 100,
+      "y": 75
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/excadrill.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:obsidian",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 80,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 100,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/turtwig.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:carrot",
+      "framed": false,
+      "x": 60,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:potato",
+      "framed": false,
+      "x": 80,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:wheat",
+      "framed": false,
+      "x": 100,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 22,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 22,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 22,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 22,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 22,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 22,
+      "y": 105
+    }
+  ]
+}

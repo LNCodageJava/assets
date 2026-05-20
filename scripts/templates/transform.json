@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/chimchar.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/torkoal.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/emboar.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/krookodile.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/fraxure.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hippopotas.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 55,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 55,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 55,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 55,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 55,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 55,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:stone",
+      "framed": false,
+      "x": 50,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:blackstone",
+      "framed": false,
+      "x": 90,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:carrot",
+      "framed": false,
+      "x": 50,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:potato",
+      "framed": false,
+      "x": 90,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:oak_log",
+      "framed": false,
+      "x": 50,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sandstone",
+      "framed": false,
+      "x": 90,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sand",
+      "framed": false,
+      "x": 50,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sandstone",
+      "framed": false,
+      "x": 90,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sandstone",
+      "framed": false,
+      "x": 50,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sandstone",
+      "framed": false,
+      "x": 90,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sandstone",
+      "framed": false,
+      "x": 50,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sandstone",
+      "framed": false,
+      "x": 90,
+      "y": 125
+    }
+  ]
+}

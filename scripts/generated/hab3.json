@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 25,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:leaf_stone",
+      "framed": true,
+      "x": 25,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 25,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 25,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:sun_stone",
+      "framed": true,
+      "x": 25,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 115
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 25,
+      "y": 115
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 115
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/leafeon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 60,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/espeon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 60,
+      "y": 80
+    }
+  ]
+}

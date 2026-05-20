@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/rhyhorn.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:bone_meal",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:book",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    }
+  ]
+}

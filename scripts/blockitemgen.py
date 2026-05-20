@@ -150,11 +150,5 @@ def generate_block_without_model(name: str):
     generate_item_model(name)
 
 # Utilisation
-generate_block_without_model("cobblestone_poisoned")
-generate_block_without_model("crystal_fire")
-generate_block_without_model("crystal_poison")
-generate_block_without_model("crystal_sand")
-generate_block_without_model("labo_1")
-generate_block_without_model("mini_xp")
-generate_block_without_model("silice")
-generate_block_without_model("silice_melted")
+generate_block_without_model("island_generator_1")
+generate_block_without_model("poke_crafter")

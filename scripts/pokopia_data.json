@@ -35,6 +35,20 @@
             ]
         },
         {
+            "name": "trapinch",
+            "hab": [
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted",
+                "cobblemonfury:silice_melted"
+            ]
+        },
+        {
             "name": "leafeon",
             "hab": [
                 "cobblemon:leaf_stone"
@@ -75,6 +89,20 @@
                 "cobblemonfury:block_charbon_inc",
                 "cobblemonfury:block_charbon_inc",
                 "cobblemonfury:block_charbon_inc"
+            ]
+        },
+        {
+            "name": "heatmor",
+            "hab": [
+                "minecraft:glowstone",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket",
+                "minecraft:lava_bucket"
             ]
         },
         {
@@ -148,7 +176,11 @@
         {
             "name": "rhyhorn",
             "hab": [
-                "minecraft:gold_ore"
+                "minecraft:glided_blackstone",
+                "minecraft:blackstone_stairs",
+                "minecraft:blackstone_stairs",
+                "minecraft:blackstone_stairs",
+                "minecraft:blackstone_stairs"
             ]
         },
         {
@@ -161,18 +193,18 @@
         {
             "name": "miltank",
             "hab": [
-                "minecraft:wheat_block",
-                "minecraft:wheat_block",
-                "minecraft:wheat_block",
-                "minecraft:wheat_block",
-                "minecraft:wheat_block",
-                "minecraft:wheat_block"
+                "minecraft:hay_block",
+                "minecraft:hay_block",
+                "minecraft:hay_block",
+                "minecraft:hay_block",
+                "minecraft:hay_block",
+                "minecraft:hay_block"
             ]
         },
         {
             "name": "tauros",
             "hab": [
-                "minecraft:apricorn_pack"
+                "cobblemonfury:apricorn_pack"
             ]
         },
         {
@@ -214,6 +246,34 @@
             ]
         },
         {
+            "name": "weezing",
+            "hab": [
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison"
+            ]
+        },
+        {
+            "name": "toxicroak",
+            "hab": [
+                "cobblemonfury:cobblestone_poisoned",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:tapis_poison",
+                "cobblemonfury:poison_flower",
+                "cobblemonfury:poison_flower",
+                "cobblemonfury:poison_flower",
+                "cobblemonfury:poison_flower"
+            ]
+        },
+        {
             "name": "turtwig",
             "hab": [
                 "minecraft:wheat_seeds",
@@ -231,7 +291,7 @@
             "name": "fraxure",
             "hab": [
                 "minecraft:pumpkin",
-                "minecraft:watermelon"
+                "minecraft:melon"
             ]
         },
         {
@@ -264,15 +324,13 @@
             "ability": "transform",
             "blocks": [
                 "cobblemonfury:silice",
-                "cobblemonfury:melted_silice"
+                "cobblemonfury:silice_melted"
             ]
         },
         {
             "name": "trapinch",
             "ability": "convert",
-            "blocks": [
-                "minecraft:TODO SPAWN"
-            ]
+            "blocks": []
         },
         {
             "name": "chimchar",
@@ -292,10 +350,10 @@
         },
         {
             "name": "emboar",
-            "ability": "convert",
+            "ability": "transform",
             "blocks": [
                 "minecraft:cobblestone",
-                "cobblemonfury:coal_ore"
+                "minecraft:coal_ore"
             ]
         },
         {
@@ -311,8 +369,7 @@
             "ability": "transform",
             "blocks": [
                 "minecraft:iron_block",
-                "cobblemonfury:forge_side",
-                "minecraft:TODO STRUCTURE ET SPAWN"
+                "cobblemonfury:forge_side"
             ]
         },
         {
@@ -320,8 +377,7 @@
             "ability": "transform",
             "blocks": [
                 "minecraft:gold_block",
-                "cobblemonfury:forge_top",
-                "minecraft:TODO PIERRE MAGMA"
+                "cobblemonfury:forge_top"
             ]
         },
         {
@@ -389,23 +445,21 @@
         },
         {
             "name": "rhyhorn",
-            "ability": "",
+            "ability": "convert",
             "blocks": [
-                "minecraft:NOT GENERATED YET",
-                "minecraft:silktouch",
-                "minecraft:TODO STRUCTURE ET SPAWN"
+                "minecraft:silktouch"
             ]
         },
         {
             "name": "mareep",
-            "ability": "",
+            "ability": "convert",
             "blocks": [
                 "minecraft:wool"
             ]
         },
         {
             "name": "miltank",
-            "ability": "",
+            "ability": "convert",
             "blocks": [
                 "minecraft:milk_bucket"
             ]
@@ -445,11 +499,6 @@
             ]
         },
         {
-            "name": "toxicroak",
-            "ability": "",
-            "blocks": []
-        },
-        {
             "name": "turtwig",
             "ability": "destroy",
             "blocks": [
@@ -462,24 +511,27 @@
             "name": "fraxure",
             "ability": "destroy",
             "blocks": [
-                "minecraft:NOT GENERATED YET",
-                "minecraft:LOGS"
+                "minecraft:oak_log",
+                "minecraft:birch_log",
+                "minecraft:cherry_log"
             ]
         },
         {
             "name": "vileplume",
             "ability": "place",
             "blocks": [
-                "minecraft:NOT GENERATED YET",
-                "minecraft:seeds"
+                "minecraft:carrot",
+                "minecraft:potato",
+                "minecraft:wheat"
             ]
         },
         {
             "name": "grotle",
             "ability": "place",
             "blocks": [
-                "minecraft:NOT GENERATED YET",
-                "minecraft:saplings"
+                "minecraft:oak_sapling",
+                "minecraft:birch_sapling",
+                "minecraft:cherry_sapling"
             ]
         }
     ]
