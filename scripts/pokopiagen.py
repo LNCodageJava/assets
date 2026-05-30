@@ -1,3 +1,4 @@
+# python
 import pandas as pd
 import json
 from pathlib import Path
@@ -14,6 +15,19 @@ def clean_namespace(val):
         return f"minecraft:{val}"
 
     return val
+
+def _parse_lvl(val):
+    """Retourne un entier si possible, sinon une chaîne vide."""
+    if pd.isna(val):
+        return ""
+    try:
+        # Convertir en int si c'est un nombre (ex: 5.0 -> 5)
+        iv = int(val)
+        return iv
+    except Exception:
+        # Si non convertible, utiliser la représentation string propre
+        s = str(val).strip()
+        return s if s else ""
 
 def generate_mod_data_json(excel_file_name, output_json_name):
     base_dir = Path(__file__).resolve().parent
@@ -47,6 +61,9 @@ def generate_mod_data_json(excel_file_name, output_json_name):
         if not name or name.upper() == 'TODO':
             continue
 
+        # Lire et parser la colonne LVL
+        lvl_value = _parse_lvl(row.get('LVL'))
+
         # Section HABITATS
         habs = []
         for col in hab_columns:
@@ -57,7 +74,8 @@ def generate_mod_data_json(excel_file_name, output_json_name):
         if habs:
             habitats_list.append({
                 "name": name,
-                "hab": habs
+                "hab": habs,
+                "lvl": lvl_value
             })
 
         # Section CAPACITIES

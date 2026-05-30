@@ -51,14 +51,14 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:gold_block",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:gold_block",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 65,
       "y": 20
@@ -72,7 +72,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:gold_block",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 5,
       "y": 40

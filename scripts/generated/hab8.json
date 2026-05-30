@@ -2,133 +2,133 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:redstone_ore",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 5,
       "y": 20
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:lapis_ore",
-      "framed": true,
-      "x": 25,
-      "y": 20
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:birch_button",
-      "framed": false,
-      "x": 45,
-      "y": 20
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:birch_button",
-      "framed": false,
-      "x": 5,
-      "y": 40
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:birch_button",
-      "framed": false,
-      "x": 25,
-      "y": 40
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:birch_button",
-      "framed": false,
-      "x": 45,
-      "y": 40
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:copper_block",
-      "framed": false,
-      "x": 5,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:copper_block",
-      "framed": false,
-      "x": 25,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:copper_block",
-      "framed": false,
-      "x": 45,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:copper_block",
-      "framed": false,
-      "x": 5,
-      "y": 95
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:gold_block",
       "framed": true,
       "x": 25,
-      "y": 95
+      "y": 20
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:copper_block",
       "framed": false,
       "x": 45,
-      "y": 95
+      "y": 20
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:copper_block",
       "framed": false,
       "x": 5,
-      "y": 115
+      "y": 40
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:copper_block",
       "framed": false,
       "x": 25,
-      "y": 115
+      "y": 40
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:copper_block",
       "framed": false,
       "x": 45,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:iron_ore",
+      "framed": false,
+      "x": 5,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:iron_ore",
+      "framed": false,
+      "x": 25,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:block_special_ore",
+      "framed": true,
+      "x": 25,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 115
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 25,
+      "y": 115
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
       "y": 115
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/ditto.png",
+      "image": "cobblemonfury:pokesprites/magnemite.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/magnemite.png",
+      "image": "cobblemonfury:pokesprites/graveler.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

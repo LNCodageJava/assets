@@ -30,105 +30,105 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": true,
-      "x": 25,
-      "y": 20
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 45,
-      "y": 20
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 5,
-      "y": 40
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 25,
-      "y": 40
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 45,
-      "y": 40
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 5,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 25,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 45,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 5,
-      "y": 95
-    },
-    {
-      "type": "patchouli:item",
       "item": "cobblemonfury:cobblestone_poisoned",
       "framed": true,
       "x": 25,
-      "y": 95
+      "y": 20
     },
     {
       "type": "patchouli:item",
       "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 45,
-      "y": 95
+      "y": 20
     },
     {
       "type": "patchouli:item",
       "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 5,
-      "y": 115
+      "y": 40
     },
     {
       "type": "patchouli:item",
       "item": "cobblemonfury:plant_poison",
       "framed": false,
       "x": 25,
-      "y": 115
+      "y": 40
     },
     {
       "type": "patchouli:item",
       "item": "cobblemonfury:plant_poison",
+      "framed": false,
+      "x": 45,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:poppy",
+      "framed": false,
+      "x": 5,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:dandelion",
+      "framed": false,
+      "x": 25,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:dandelion",
+      "framed": false,
+      "x": 45,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:poppy",
+      "framed": true,
+      "x": 25,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 45,
+      "y": 95
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 5,
+      "y": 115
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
+      "framed": false,
+      "x": 25,
+      "y": 115
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 115
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/weezing.png",
+      "image": "cobblemonfury:pokesprites/toxicroak.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/toxicroak.png",
+      "image": "cobblemonfury:pokesprites/bellsprout.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
