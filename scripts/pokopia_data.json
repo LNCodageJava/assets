@@ -328,16 +328,41 @@
       "name": "vileplume",
       "hab": [
         "cobblemon:oran_berry",
-        "cobblemon:cherry_berry",
+        "cobblemon:cheri_berry",
         "cobblemon:chesto_berry"
       ],
       "lvl": 10
+    },
+    {
+      "name": "monferno",
+      "hab": [],
+      "lvl": 0
+    },
+    {
+      "name": "magmortar",
+      "hab": [],
+      "lvl": 0
+    },
+    {
+      "name": "golem",
+      "hab": [],
+      "lvl": 0
+    },
+    {
+      "name": "victreebel",
+      "hab": [],
+      "lvl": 0
+    },
+    {
+      "name": "grotle",
+      "hab": [],
+      "lvl": 0
     }
   ],
   "mega_habitats": [
     {
       "name": "forge",
-      "blockList": [
+      "biomes": [
         "cobblemonfury:forge_bottom",
         "cobblemonfury:forge_top",
         "cobblemonfury:forge_side",
@@ -367,17 +392,16 @@
         "minecraft:torch",
         "minecraft:torch"
       ],
-      "recipe": [
-        "minecraft:emerald_block",
-        "minecraft:magma_block",
-        "minecraft:magma_block",
-        "minecraft:magma_block",
-        "cobblemonfury:crystal_fire"
+      "pokemons": [
+        "emboar",
+        "magmortar",
+        "heatmor",
+        "magmar"
       ]
     },
     {
-      "name": "desert",
-      "blockList": [
+      "name": "sandy_base",
+      "biomes": [
         "cobblemonfury:silice_melted",
         "cobblemonfury:silice_melted",
         "cobblemonfury:silice_melted",
@@ -407,17 +431,16 @@
         "minecraft:torch",
         "minecraft:torch"
       ],
-      "recipe": [
-        "minecraft:emerald_block",
-        "minecraft:sand",
-        "minecraft:sand",
-        "minecraft:sand",
-        "cobblemonfury:crystal_sand"
+      "pokemons": [
+        "krookodile",
+        "camerupt",
+        "hippopotas",
+        "trapinch"
       ]
     },
     {
-      "name": "poison",
-      "blockList": [
+      "name": "poison_base",
+      "biomes": [
         "cobblemonfury:cobblestone_poisoned",
         "cobblemonfury:cobblestone_poisoned",
         "cobblemonfury:cobblestone_poisoned",
@@ -446,17 +469,17 @@
         "cobblemonfury:plant_poison",
         "cobblemonfury:plant_poison"
       ],
-      "recipe": [
-        "minecraft:emerald_block",
-        "cobblemonfury:cobblestone_poisoned",
-        "cobblemonfury:cobblestone_poisoned",
-        "cobblemonfury:cobblestone_poisoned",
-        "cobblemonfury:crystal_poison"
+      "pokemons": [
+        "muk",
+        "skorupi",
+        "victreebel",
+        "weezing",
+        "toxicroak"
       ]
     },
     {
-      "name": "labo",
-      "blockList": [
+      "name": "Faire pleuvoir des minerais",
+      "biomes": [
         "cobblemonfury:labo_1",
         "cobblemonfury:labo_2",
         "cobblemonfury:mini_xp",
@@ -474,33 +497,176 @@
         "minecraft:repeater",
         "minecraft:repeater"
       ],
-      "recipe": [
-        "minecraft:emerald",
-        "minecraft:redstone",
-        "minecraft:redstone",
-        "minecraft:redstone",
-        "cobblemon:exp_candy_s"
+      "pokemons": [
+        "machop",
+        "ditto",
+        "magnemite"
       ]
     },
     {
-      "name": "rhyhorn",
-      "blockList": [
+      "name": "underground",
+      "biomes": [
         "minecraft:gilded_blackstone",
         "minecraft:blackstone_stairs",
         "minecraft:blackstone_stairs",
         "minecraft:blackstone_stairs",
         "minecraft:blackstone_stairs",
-        "minecraft:gold_block",
-        "minecraft:gold_block",
-        "minecraft:gold_block",
         "minecraft:gold_block"
       ],
-      "recipe": [
-        "minecraft:iron_pickaxe",
-        "minecraft:paper",
-        "minecraft:paper",
-        "minecraft:paper",
-        "minecraft:enchanted_book"
+      "pokemons": [
+        "rhyhorn",
+        "dugtrio"
+      ]
+    },
+    {
+      "name": "fence_base",
+      "biomes": [
+        "cobblemon:apricorn_fence",
+        "cobblemon:apricorn_fence",
+        "cobblemon:apricorn_fence",
+        "cobblemon:apricorn_fence",
+        "minecraft:hay_block",
+        "minecraft:hay_block",
+        "minecraft:hay_block",
+        "minecraft:hay_block",
+        "minecraft:hay_block",
+        "minecraft:hay_block",
+        "minecraft:barrel",
+        "minecraft:campfire",
+        "minecraft:campfire",
+        "minecraft:campfire",
+        "minecraft:campfire",
+        "minecraft:mossy_cobblestone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:mossy_cobblestone"
+      ],
+      "pokemons": [
+        "miltank",
+        "mareep"
+      ]
+    },
+    {
+      "name": "heating_base",
+      "biomes": [
+        "minecraft:magma_block",
+        "minecraft:magma_block",
+        "minecraft:magma_block",
+        "minecraft:magma_block",
+        "minecraft:lava_bucket",
+        "minecraft:lava_bucket",
+        "minecraft:lava_bucket",
+        "minecraft:lava_bucket",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:copper_block"
+      ],
+      "pokemons": [
+        "chimchar",
+        "monferno",
+        "torkoal"
+      ]
+    },
+    {
+      "name": "wooding_base",
+      "biomes": [
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_log",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch"
+      ],
+      "pokemons": [
+        "fraxure",
+        "grotle"
+      ]
+    },
+    {
+      "name": "farmer_base",
+      "biomes": [
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "cobblemon:apricorn_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:stone_bricks",
+        "minecraft:stone_bricks",
+        "minecraft:stone_bricks",
+        "minecraft:water_bucket",
+        "cobblemon:apricorn_fence",
+        "cobblemon:apricorn_fence",
+        "cobblemon:apricorn_fence",
+        "cobblemon:apricorn_fence"
+      ],
+      "pokemons": [
+        "vileplume",
+        "turtwig"
+      ]
+    },
+    {
+      "name": "mining_base",
+      "biomes": [
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:rail",
+        "minecraft:minecart",
+        "minecraft:lantern",
+        "minecraft:lantern",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks",
+        "cobblemon:apricorn_planks"
+      ],
+      "pokemons": [
+        "garganacl",
+        "graveler"
       ]
     }
   ],
@@ -525,7 +691,7 @@
       "ability": "transform",
       "blocks": [
         "cobblemonfury:silice",
-        "cobblemonfury:melted_silice"
+        "cobblemonfury:silice_melted"
       ]
     },
     {
@@ -558,27 +724,11 @@
       ]
     },
     {
-      "name": "monferno",
-      "ability": "transform",
-      "blocks": [
-        "minecraft:copper_block",
-        "cobblemonfury:forge_bottom"
-      ]
-    },
-    {
       "name": "heatmor",
       "ability": "transform",
       "blocks": [
         "minecraft:iron_block",
         "cobblemonfury:forge_side"
-      ]
-    },
-    {
-      "name": "magmortar",
-      "ability": "transform",
-      "blocks": [
-        "minecraft:gold_block",
-        "cobblemonfury:forge_top"
       ]
     },
     {
@@ -595,14 +745,6 @@
       "blocks": [
         "minecraft:stone",
         "minecraft:gravel"
-      ]
-    },
-    {
-      "name": "golem",
-      "ability": "destroy",
-      "blocks": [
-        "minecraft:deepslate",
-        "minecraft:blackstone"
       ]
     },
     {
@@ -692,14 +834,6 @@
       ]
     },
     {
-      "name": "victreebel",
-      "ability": "transform",
-      "blocks": [
-        "minecraft:poppy",
-        "cobblemonfury:plant_poison"
-      ]
-    },
-    {
       "name": "turtwig",
       "ability": "destroy",
       "blocks": [
@@ -724,6 +858,38 @@
         "minecraft:carrot",
         "minecraft:potato",
         "minecraft:wheat"
+      ]
+    },
+    {
+      "name": "monferno",
+      "ability": "transform",
+      "blocks": [
+        "minecraft:copper_block",
+        "cobblemonfury:forge_bottom"
+      ]
+    },
+    {
+      "name": "magmortar",
+      "ability": "transform",
+      "blocks": [
+        "minecraft:gold_block",
+        "cobblemonfury:forge_top"
+      ]
+    },
+    {
+      "name": "golem",
+      "ability": "destroy",
+      "blocks": [
+        "minecraft:deepslate",
+        "minecraft:blackstone"
+      ]
+    },
+    {
+      "name": "victreebel",
+      "ability": "transform",
+      "blocks": [
+        "minecraft:poppy",
+        "cobblemonfury:plant_poison"
       ]
     },
     {
