@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/fraxure.png",
+      "image": "cobblemonfury:pokesprites/golem.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,23 +12,16 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:oak_log",
+      "item": "minecraft:deepslate",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_log",
+      "item": "minecraft:blackstone",
       "framed": false,
       "x": 80,
-      "y": 0
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:cherry_log",
-      "framed": false,
-      "x": 100,
       "y": 0
     },
     {

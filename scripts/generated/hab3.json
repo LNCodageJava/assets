@@ -30,7 +30,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemon:leaf_stone_ore",
+      "item": "cobblemon:leaf_stone",
       "framed": true,
       "x": 25,
       "y": 20
@@ -93,7 +93,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemon:sun_stone_ore",
+      "item": "cobblemon:sun_stone",
       "framed": true,
       "x": 25,
       "y": 95

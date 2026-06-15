@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "cobblemon:wepear_berry",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 5,
       "y": 0
@@ -30,7 +30,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemon:pinap_berry",
+      "item": "minecraft:powered_rail",
       "framed": true,
       "x": 25,
       "y": 20
@@ -65,42 +65,42 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "cobblemonfury:crystal_fire",
       "framed": false,
       "x": 5,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "cobblemonfury:crystal_sand",
       "framed": false,
       "x": 25,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:chiseled_stone_bricks",
       "framed": false,
       "x": 45,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:chiseled_stone_bricks",
       "framed": false,
       "x": 5,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "cobblemonfury:crystal_poison",
       "framed": true,
       "x": 25,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:chiseled_stone_bricks",
       "framed": false,
       "x": 45,
       "y": 95
@@ -128,7 +128,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/mareep.png",
+      "image": "cobblemonfury:pokesprites/dugtrio.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/miltank.png",
+      "image": "cobblemonfury:pokesprites/excadrill.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

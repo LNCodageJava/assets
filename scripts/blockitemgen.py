@@ -184,4 +184,11 @@ def generate_block_without_model(name: str):
     generate_item_model(name)
     generate_block_loot_table(name)
 
-generate_block_without_model("heavy_metal")
+generate_block("rotom_farm")
+generate_block("rotom_fence")
+generate_block("rotom_forge")
+generate_block("rotom_heating")
+generate_block("rotom_mining")
+generate_block("rotom_poison")
+generate_block("rotom_sand")
+generate_block("rotom_wooding")

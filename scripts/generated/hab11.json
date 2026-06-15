@@ -2,42 +2,42 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:crystal_fire",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:crystal_sand",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:chiseled_stone_bricks",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:chiseled_stone_bricks",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:crystal_poison",
+      "item": "minecraft:hay_block",
       "framed": true,
       "x": 25,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:chiseled_stone_bricks",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 45,
       "y": 20
@@ -128,7 +128,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/excadrill.png",
+      "image": "cobblemonfury:pokesprites/miltank.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

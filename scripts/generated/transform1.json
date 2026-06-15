@@ -43,7 +43,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:melted_silice",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 80,
       "y": 25
@@ -122,7 +122,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/monferno.png",
+      "image": "cobblemonfury:pokesprites/heatmor.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -132,14 +132,14 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:iron_block",
       "framed": false,
       "x": 60,
       "y": 125
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:forge_bottom",
+      "item": "cobblemonfury:forge_side",
       "framed": false,
       "x": 80,
       "y": 125

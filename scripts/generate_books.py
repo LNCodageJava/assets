@@ -181,7 +181,7 @@ def main():
         out = deepcopy(template_mega_habitat)
         components = out.get("components", [])
 
-        block_list = mega.get("blockList", [])
+        block_list = mega.get("biomes", [])
         recipes = mega.get("recipe", [])
         name = mega.get("name", f"mega_{mega_idx}")
 

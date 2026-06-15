@@ -43,7 +43,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/golem.png",
+      "image": "cobblemonfury:pokesprites/dugtrio.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -53,41 +53,17 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:deepslate",
-      "framed": false,
-      "x": 60,
-      "y": 50
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:blackstone",
-      "framed": false,
-      "x": 80,
-      "y": 50
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/dugtrio.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 55
-    },
-    {
-      "type": "patchouli:item",
       "item": "minecraft:dirt",
       "framed": false,
       "x": 60,
-      "y": 75
+      "y": 50
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:grass_block",
       "framed": false,
       "x": 80,
-      "y": 75
+      "y": 50
     },
     {
       "type": "patchouli:image",
@@ -97,14 +73,14 @@
       "texture_width": 48,
       "texture_height": 48,
       "x": 0,
-      "y": 80
+      "y": 55
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:obsidian",
       "framed": false,
       "x": 60,
-      "y": 100
+      "y": 75
     },
     {
       "type": "patchouli:image",
@@ -114,25 +90,56 @@
       "texture_width": 48,
       "texture_height": 48,
       "x": 0,
-      "y": 105
+      "y": 80
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:carrot",
       "framed": false,
       "x": 60,
-      "y": 125
+      "y": 100
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:potato",
       "framed": false,
       "x": 80,
-      "y": 125
+      "y": 100
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:wheat",
+      "framed": false,
+      "x": 100,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/fraxure.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:oak_log",
+      "framed": false,
+      "x": 60,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_log",
+      "framed": false,
+      "x": 80,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:cherry_log",
       "framed": false,
       "x": 100,
       "y": 125

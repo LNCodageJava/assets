@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/muk.png",
+      "image": "cobblemonfury:pokesprites/monferno.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,21 +12,21 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
+      "item": "cobblemonfury:forge_bottom",
       "framed": false,
       "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/skorupi.png",
+      "image": "cobblemonfury:pokesprites/magmortar.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -36,14 +36,14 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:gold_block",
       "framed": false,
       "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:cobblestone_poisoned",
+      "item": "cobblemonfury:forge_top",
       "framed": false,
       "x": 80,
       "y": 25
