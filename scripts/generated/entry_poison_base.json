@@ -1,0 +1,16 @@
+{
+  "name": "poison_base",
+  "icon": "cobblemonfury:rotom_poison",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:poison_base_hab_1"
+    },
+    {
+      "type": "cobblemonfury:poison_base_hab_2"
+    },
+    {
+      "type": "cobblemonfury:poison_base_capa_1"
+    }
+  ]
+}

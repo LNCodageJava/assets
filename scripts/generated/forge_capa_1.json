@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/garganacl.png",
+      "image": "cobblemonfury:pokesprites/emboar.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,21 +12,21 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:iron_ore",
+      "item": "minecraft:cobblestone",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:block_special_ore",
+      "item": "minecraft:coal_ore",
       "framed": false,
       "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/machop.png",
+      "image": "cobblemonfury:pokesprites/magmortar.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -36,21 +36,21 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:redstone_block",
+      "item": "minecraft:gold_block",
       "framed": false,
       "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:labo_1",
+      "item": "cobblemonfury:forge_top",
       "framed": false,
       "x": 80,
       "y": 25
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/ditto.png",
+      "image": "cobblemonfury:pokesprites/heatmor.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -60,89 +60,17 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:redstone_block",
+      "item": "minecraft:iron_block",
       "framed": false,
       "x": 60,
       "y": 50
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:labo_2",
+      "item": "cobblemonfury:forge_side",
       "framed": false,
       "x": 80,
       "y": 50
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/magnemite.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 55
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:emerald_block",
-      "framed": false,
-      "x": 60,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:mini_xp",
-      "framed": false,
-      "x": 80,
-      "y": 75
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/muk.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 80
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:water_bucket",
-      "framed": false,
-      "x": 60,
-      "y": 100
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:tapis_poison",
-      "framed": false,
-      "x": 80,
-      "y": 100
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/skorupi.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 105
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
-      "framed": false,
-      "x": 60,
-      "y": 125
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:cobblestone_poisoned",
-      "framed": false,
-      "x": 80,
-      "y": 125
     },
     {
       "type": "patchouli:image",

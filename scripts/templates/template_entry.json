@@ -1,0 +1,13 @@
+{
+  "name": "megahabitat_name",
+  "icon": "cobblemonfury:rotom_XX",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:page1"
+    },
+    {
+      "type": "cobblemonfury:page2"
+    }
+  ]
+}

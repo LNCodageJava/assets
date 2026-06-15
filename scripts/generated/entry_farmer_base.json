@@ -1,0 +1,13 @@
+{
+  "name": "farmer_base",
+  "icon": "cobblemonfury:rotom_farm",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:farmer_base_hab_1"
+    },
+    {
+      "type": "cobblemonfury:farmer_base_capa_1"
+    }
+  ]
+}

@@ -2,42 +2,42 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cactus",
+      "item": "minecraft:hay_block",
       "framed": true,
       "x": 25,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 45,
       "y": 20
@@ -65,70 +65,70 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "cobblemon:wepear_berry",
       "framed": false,
       "x": 5,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 25,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 5,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:block_sable_rocheux",
+      "item": "cobblemon:pinap_berry",
       "framed": true,
       "x": 25,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 5,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 25,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cut_sandstone_slab",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 115
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/krookodile.png",
+      "image": "cobblemonfury:pokesprites/miltank.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/hippopotas.png",
+      "image": "cobblemonfury:pokesprites/mareep.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

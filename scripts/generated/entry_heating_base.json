@@ -1,0 +1,13 @@
+{
+  "name": "heating_base",
+  "icon": "cobblemonfury:rotom_heating",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:heating_base_hab_1"
+    },
+    {
+      "type": "cobblemonfury:heating_base_capa_1"
+    }
+  ]
+}

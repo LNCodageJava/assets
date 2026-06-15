@@ -2,133 +2,133 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "cobblemonfury:block_sable_rocheux",
       "framed": true,
       "x": 25,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:hay_block",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 45,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 5,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 25,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:cut_sandstone_slab",
       "framed": false,
       "x": 45,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 5,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 25,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 45,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 5,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:apricorn_pack",
+      "item": "cobblemonfury:silice_melted",
       "framed": true,
       "x": 25,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 45,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 5,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 25,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice_melted",
       "framed": false,
       "x": 45,
       "y": 115
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/miltank.png",
+      "image": "cobblemonfury:pokesprites/hippopotas.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/tauros.png",
+      "image": "cobblemonfury:pokesprites/trapinch.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

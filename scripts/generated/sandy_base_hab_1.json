@@ -2,35 +2,35 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:water_bucket",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:water_bucket",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:water_bucket",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:water_bucket",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:cactus",
       "framed": true,
       "x": 25,
       "y": 20
@@ -65,35 +65,35 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:chiseled_sandstone",
       "framed": false,
       "x": 5,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:chiseled_sandstone",
       "framed": false,
       "x": 25,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:chiseled_sandstone",
       "framed": false,
       "x": 45,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:chiseled_sandstone",
       "framed": false,
       "x": 5,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemonfury:silice",
       "framed": true,
       "x": 25,
       "y": 95
@@ -128,7 +128,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/victreebel.png",
+      "image": "cobblemonfury:pokesprites/krookodile.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/grotle.png",
+      "image": "cobblemonfury:pokesprites/camerupt.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

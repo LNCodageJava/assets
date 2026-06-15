@@ -2,14 +2,14 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemon:cheri_berry",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "cobblemon:chesto_berry",
       "framed": false,
       "x": 25,
       "y": 0
@@ -30,7 +30,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:powered_rail",
+      "item": "cobblemon:oran_berry",
       "framed": true,
       "x": 25,
       "y": 20
@@ -65,70 +65,70 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:crystal_fire",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 5,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:crystal_sand",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 25,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:chiseled_stone_bricks",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 45,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:chiseled_stone_bricks",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 5,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:crystal_poison",
+      "item": "minecraft:wheat_seeds",
       "framed": true,
       "x": 25,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:chiseled_stone_bricks",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 45,
       "y": 95
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 5,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 25,
       "y": 115
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:wheat_seeds",
       "framed": false,
       "x": 45,
       "y": 115
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/dugtrio.png",
+      "image": "cobblemonfury:pokesprites/vileplume.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/excadrill.png",
+      "image": "cobblemonfury:pokesprites/turtwig.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/monferno.png",
+      "image": "cobblemonfury:pokesprites/fraxure.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,69 +12,28 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:oak_log",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:forge_bottom",
+      "item": "minecraft:birch_log",
       "framed": false,
       "x": 80,
       "y": 0
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/magmortar.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 5
-    },
-    {
       "type": "patchouli:item",
-      "item": "minecraft:gold_block",
+      "item": "minecraft:cherry_log",
       "framed": false,
-      "x": 60,
-      "y": 25
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:forge_top",
-      "framed": false,
-      "x": 80,
-      "y": 25
+      "x": 100,
+      "y": 0
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/victreebel.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 30
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:poppy",
-      "framed": false,
-      "x": 60,
-      "y": 50
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:plant_poison",
-      "framed": false,
-      "x": 80,
-      "y": 50
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "image": "cobblemonfury:pokesprites/0_break.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -84,7 +43,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "image": "cobblemonfury:pokesprites/0_break.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -94,7 +53,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "image": "cobblemonfury:pokesprites/0_break.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -104,7 +63,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "image": "cobblemonfury:pokesprites/0_break.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -114,7 +73,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "image": "cobblemonfury:pokesprites/0_break.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -124,7 +83,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "image": "cobblemonfury:pokesprites/0_break.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

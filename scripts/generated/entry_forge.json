@@ -1,0 +1,16 @@
+{
+  "name": "forge",
+  "icon": "cobblemonfury:rotom_forge",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:forge_hab_1"
+    },
+    {
+      "type": "cobblemonfury:forge_hab_2"
+    },
+    {
+      "type": "cobblemonfury:forge_capa_1"
+    }
+  ]
+}

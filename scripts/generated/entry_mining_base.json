@@ -1,0 +1,16 @@
+{
+  "name": "mining_base",
+  "icon": "cobblemonfury:rotom_mining",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:mining_base_hab_1"
+    },
+    {
+      "type": "cobblemonfury:mining_base_capa_1"
+    },
+    {
+      "type": "cobblemonfury:mining_base_capa_2"
+    }
+  ]
+}

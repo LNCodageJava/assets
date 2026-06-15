@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/golem.png",
+      "image": "cobblemonfury:pokesprites/garganacl.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,21 +12,21 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:deepslate",
+      "item": "minecraft:iron_ore",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:blackstone",
+      "item": "cobblemonfury:block_special_ore",
       "framed": false,
       "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -36,7 +36,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -46,7 +46,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -56,7 +56,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -66,7 +66,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -76,7 +76,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

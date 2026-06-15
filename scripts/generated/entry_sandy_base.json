@@ -1,0 +1,19 @@
+{
+  "name": "sandy_base",
+  "icon": "cobblemonfury:rotom_sand",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:sandy_base_hab_1"
+    },
+    {
+      "type": "cobblemonfury:sandy_base_hab_2"
+    },
+    {
+      "type": "cobblemonfury:sandy_base_capa_1"
+    },
+    {
+      "type": "cobblemonfury:sandy_base_capa_2"
+    }
+  ]
+}

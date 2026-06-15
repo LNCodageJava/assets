@@ -1,0 +1,13 @@
+{
+  "name": "wooding_base",
+  "icon": "cobblemonfury:rotom_wooding",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:wooding_base_hab_1"
+    },
+    {
+      "type": "cobblemonfury:wooding_base_capa_1"
+    }
+  ]
+}

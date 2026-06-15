@@ -362,6 +362,7 @@
   "mega_habitats": [
     {
       "name": "forge",
+      "rotom": "cobblemonfury:rotom_forge",
       "biomes": [
         "cobblemonfury:forge_bottom",
         "cobblemonfury:forge_top",
@@ -401,6 +402,7 @@
     },
     {
       "name": "sandy_base",
+      "rotom": "cobblemonfury:rotom_sand",
       "biomes": [
         "cobblemonfury:silice_melted",
         "cobblemonfury:silice_melted",
@@ -440,6 +442,7 @@
     },
     {
       "name": "poison_base",
+      "rotom": "cobblemonfury:rotom_poison",
       "biomes": [
         "cobblemonfury:cobblestone_poisoned",
         "cobblemonfury:cobblestone_poisoned",
@@ -520,6 +523,7 @@
     },
     {
       "name": "fence_base",
+      "rotom": "cobblemonfury:rotom_fence",
       "biomes": [
         "cobblemon:apricorn_fence",
         "cobblemon:apricorn_fence",
@@ -548,6 +552,7 @@
     },
     {
       "name": "heating_base",
+      "rotom": "cobblemonfury:rotom_heating",
       "biomes": [
         "minecraft:magma_block",
         "minecraft:magma_block",
@@ -575,6 +580,7 @@
     },
     {
       "name": "wooding_base",
+      "rotom": "cobblemonfury:rotom_wooding",
       "biomes": [
         "cobblemon:apricorn_log",
         "cobblemon:apricorn_log",
@@ -604,6 +610,7 @@
     },
     {
       "name": "farmer_base",
+      "rotom": "cobblemonfury:rotom_farm",
       "biomes": [
         "cobblemon:apricorn_planks",
         "cobblemon:apricorn_planks",
@@ -642,6 +649,7 @@
     },
     {
       "name": "mining_base",
+      "rotom": "cobblemonfury:rotom_mining",
       "biomes": [
         "minecraft:rail",
         "minecraft:rail",

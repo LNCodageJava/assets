@@ -1,0 +1,10 @@
+{
+  "name": "fence_base",
+  "icon": "cobblemonfury:rotom_fence",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:fence_base_hab_1"
+    }
+  ]
+}

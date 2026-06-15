@@ -2,35 +2,35 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:melon",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "minecraft:pumpkin",
       "framed": true,
       "x": 25,
       "y": 20
@@ -93,7 +93,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:deepslate_diamond_ore",
+      "item": "minecraft:birch_button",
       "framed": true,
       "x": 25,
       "y": 95
@@ -128,7 +128,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/magmar.png",
+      "image": "cobblemonfury:pokesprites/fraxure.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/garganacl.png",
+      "image": "cobblemonfury:pokesprites/placeholder_bottom.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
