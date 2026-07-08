@@ -4,6 +4,9 @@
   "category": "cobblemonfury:capacity_category",
   "pages": [
     {
+      "type": "cobblemonfury:mining_base_mega"
+    },
+    {
       "type": "cobblemonfury:mining_base_hab_1"
     },
     {

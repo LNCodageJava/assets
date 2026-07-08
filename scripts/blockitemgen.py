@@ -103,6 +103,13 @@ def generate_item(folder:str,name: str):
 
     print(f"✅ Item JSON generated at: {output_path}")
 
+    # Copy texture PNG
+    src_path = os.path.join(os.path.dirname(__file__), f"{name}.png")
+    dest_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\textures\item\{folder}\{name}.png"
+    os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+    shutil.copyfile(src_path, dest_path)
+    print(f"✅ Item texture PNG copied to: {dest_path}")
+
 def generate_block(name:str):
     generate_blockstate(name)
     copy_json(name)
@@ -184,11 +191,18 @@ def generate_block_without_model(name: str):
     generate_item_model(name)
     generate_block_loot_table(name)
 
-generate_block("rotom_farm")
-generate_block("rotom_fence")
-generate_block("rotom_forge")
-generate_block("rotom_heating")
-generate_block("rotom_mining")
-generate_block("rotom_poison")
-generate_block("rotom_sand")
-generate_block("rotom_wooding")
+
+generate_item("","rotom_part")
+# generate_item("produced","smoothie_green")
+# generate_item("produced","smoothie_yellow")
+# generate_item("produced","smoothie_red")
+# generate_item("produced","smoothie_blue")
+# generate_item("produced","smoothie_white")
+# generate_item("produced","soup_carrot")
+# generate_item("produced","soup_potato")
+# generate_item("produced","soup_wheat")
+# generate_item("produced","wood_birch")
+# generate_item("produced","wood_jungle")
+# generate_item("produced","wood_oak")
+# generate_item("produced","wood_spruce")
+# generate_item("produced","wood_cherry")

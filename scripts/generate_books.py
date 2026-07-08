@@ -136,6 +136,48 @@ def main():
         mega_capacities_destroy = [capacity_dict.get(poke) for poke in mega_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "destroy"]
         mega_capacities_transform = [capacity_dict.get(poke) for poke in mega_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "transform"]
 
+        # Générer la page du megahabitat
+        all_pages = []
+        mega_page = deepcopy(template_mega_habitat)
+        components = mega_page.get("components", [])
+
+        block_list = mega.get("biomes", [])
+        recipes = mega.get("recipe", [])
+
+        # Remplace item1, item2, ... par les blocks de blockList
+        for comp in components:
+            if comp.get("type") == "patchouli:item":
+                item_name = comp.get("item", "")
+
+                # Si c'est itemN
+                if item_name.startswith("item"):
+                    try:
+                        idx = int(item_name[4:]) - 1  # item1 -> index 0
+                        if 0 <= idx < len(block_list):
+                            comp["item"] = block_list[idx]
+                        else:
+                            comp["item"] = "minecraft:birch_button"
+                    except ValueError:
+                        comp["item"] = "minecraft:birch_button"
+
+                # Si c'est recipeN
+                elif item_name.startswith("recipe"):
+                    try:
+                        idx = int(item_name[6:]) - 1  # recipe1 -> index 0
+                        if 0 <= idx < len(recipes):
+                            comp["item"] = recipes[idx]
+                        else:
+                            comp["item"] = "minecraft:birch_button"
+                    except ValueError:
+                        comp["item"] = "minecraft:birch_button"
+
+        mega_page_name = f"{mega_name}_mega"
+        mega_page_path = os.path.join(OUT_DIR, f"{mega_page_name}.json")
+        with open(mega_page_path, "w", encoding="utf-8") as f:
+            json.dump(mega_page, f, ensure_ascii=False, indent=2)
+        print(f"Généré: {mega_page_path}")
+        all_pages.append({"type": f"cobblemonfury:{mega_page_name}"})
+
         # Générer les pages d'habitats
         hab_pages = []
         hab_page_idx = 1
@@ -255,7 +297,7 @@ def main():
         entry = deepcopy(template_entry)
         entry["name"] = mega_name
         entry["icon"] = rotom if rotom else "minecraft:book"
-        entry["pages"] = hab_pages + capa_pages
+        entry["pages"] = all_pages + hab_pages + capa_pages
 
         entry_path = os.path.join(OUT_DIR, f"entry_{mega_name}.json")
         with open(entry_path, "w", encoding="utf-8") as f:

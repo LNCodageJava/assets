@@ -4,6 +4,9 @@
   "category": "cobblemonfury:capacity_category",
   "pages": [
     {
+      "type": "cobblemonfury:poison_base_mega"
+    },
+    {
       "type": "cobblemonfury:poison_base_hab_1"
     },
     {

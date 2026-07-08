@@ -4,6 +4,9 @@
   "category": "cobblemonfury:capacity_category",
   "pages": [
     {
+      "type": "cobblemonfury:sandy_base_mega"
+    },
+    {
       "type": "cobblemonfury:sandy_base_hab_1"
     },
     {

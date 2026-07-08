@@ -4,6 +4,9 @@
   "category": "cobblemonfury:capacity_category",
   "pages": [
     {
+      "type": "cobblemonfury:forge_mega"
+    },
+    {
       "type": "cobblemonfury:forge_hab_1"
     },
     {
