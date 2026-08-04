@@ -1,0 +1,19 @@
+{
+  "name": "rotom_forge",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:rotom_forge_mega"
+    },
+    {
+      "type": "cobblemonfury:rotom_forge_hab_1"
+    },
+    {
+      "type": "cobblemonfury:rotom_forge_hab_2"
+    },
+    {
+      "type": "cobblemonfury:rotom_forge_capa_1"
+    }
+  ]
+}

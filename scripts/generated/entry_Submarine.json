@@ -1,0 +1,13 @@
+{
+  "name": "Submarine",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:Submarine_mega"
+    },
+    {
+      "type": "cobblemonfury:Submarine_hab_1"
+    }
+  ]
+}

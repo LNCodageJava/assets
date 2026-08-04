@@ -1,0 +1,16 @@
+{
+  "name": "underground",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:underground_mega"
+    },
+    {
+      "type": "cobblemonfury:underground_hab_1"
+    },
+    {
+      "type": "cobblemonfury:underground_capa_1"
+    }
+  ]
+}

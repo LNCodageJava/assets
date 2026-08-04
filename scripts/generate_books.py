@@ -123,8 +123,8 @@ def main():
         mega_pokemons = mega.get("pokemons", [])
         rotom = mega.get("rotom", "")
 
-        # Ne générer que si la clé rotom existe
-        if not rotom:
+        # Sauter les megahabitats vides (sans recettes et sans pokémons)
+        if not mega.get("recipes") and not mega_pokemons:
             continue
 
         # Créer des dictionnaires pour retrouver habitats et capacités
@@ -141,35 +141,70 @@ def main():
         mega_page = deepcopy(template_mega_habitat)
         components = mega_page.get("components", [])
 
-        block_list = mega.get("biomes", [])
-        recipes = mega.get("recipe", [])
+        recipes = mega.get("recipes", [])
+        pokemons = mega.get("pokemons", [])
 
-        # Remplace item1, item2, ... par les blocks de blockList
+        # Remplacer les recettes (recipeN_ingredientM et recipeN_result)
         for comp in components:
             if comp.get("type") == "patchouli:item":
                 item_name = comp.get("item", "")
 
-                # Si c'est itemN
-                if item_name.startswith("item"):
+                # Si c'est recipeN_ingredientM (ex: recipe1_ingredient2)
+                if item_name.startswith("recipe") and "_ingredient" in item_name:
                     try:
-                        idx = int(item_name[4:]) - 1  # item1 -> index 0
-                        if 0 <= idx < len(block_list):
-                            comp["item"] = block_list[idx]
-                        else:
-                            comp["item"] = "minecraft:birch_button"
-                    except ValueError:
-                        comp["item"] = "minecraft:birch_button"
+                        # Extraire le numéro de recette et d'ingrédient
+                        # Format: recipeN_ingredientM
+                        parts = item_name.replace("recipe", "").split("_ingredient")
+                        recipe_idx = int(parts[0]) - 1  # recipe1 -> index 0
+                        ingredient_idx = int(parts[1]) - 1  # ingredient1 -> index 0
 
-                # Si c'est recipeN
-                elif item_name.startswith("recipe"):
-                    try:
-                        idx = int(item_name[6:]) - 1  # recipe1 -> index 0
-                        if 0 <= idx < len(recipes):
-                            comp["item"] = recipes[idx]
+                        if 0 <= recipe_idx < len(recipes):
+                            ingredients = recipes[recipe_idx].get("ingredients", [])
+                            if 0 <= ingredient_idx < len(ingredients):
+                                comp["item"] = ingredients[ingredient_idx]
+                            else:
+                                comp["item"] = "minecraft:air"
                         else:
-                            comp["item"] = "minecraft:birch_button"
-                    except ValueError:
-                        comp["item"] = "minecraft:birch_button"
+                            comp["item"] = "minecraft:air"
+                    except (ValueError, IndexError):
+                        comp["item"] = "minecraft:air"
+
+                # Si c'est recipeN_result (ex: recipe1_result)
+                elif item_name.startswith("recipe") and "_result" in item_name:
+                    try:
+                        # Format: recipeN_result
+                        recipe_num = item_name.replace("recipe", "").replace("_result", "")
+                        recipe_idx = int(recipe_num) - 1  # recipe1 -> index 0
+
+                        if 0 <= recipe_idx < len(recipes):
+                            result = recipes[recipe_idx].get("result", "minecraft:air")
+                            comp["item"] = result
+                        else:
+                            comp["item"] = "minecraft:air"
+                    except (ValueError, IndexError):
+                        comp["item"] = "minecraft:air"
+
+        # Remplacer les images des pokémons (poke1.png à poke6.png)
+        for comp in components:
+            if comp.get("type") == "patchouli:image":
+                image_name = comp.get("image", "")
+
+                for poke_idx in range(1, 7):
+                    if f"/poke{poke_idx}.png" in image_name:
+                        if poke_idx - 1 < len(pokemons):
+                            poke_name = pokemons[poke_idx - 1]
+                            comp["image"] = f"cobblemonfury:pokesprites/{poke_name}.png"
+                        else:
+                            # Pas de pokémon pour ce slot, on supprime l'image
+                            comp["image"] = ""
+                        break
+
+        # Filtrer les composants vides (items air et images vides)
+        components = [
+            comp for comp in components
+            if not (comp.get("item") == "minecraft:air" or (comp.get("type") == "patchouli:image" and comp.get("image") == ""))
+        ]
+        mega_page["components"] = components
 
         mega_page_name = f"{mega_name}_mega"
         mega_page_path = os.path.join(OUT_DIR, f"{mega_page_name}.json")

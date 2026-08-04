@@ -2,112 +2,147 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemon:apricorn_fence",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemon:apricorn_fence",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemon:apricorn_fence",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemon:apricorn_fence",
       "framed": false,
       "x": 65,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:hay_block",
       "framed": true,
       "x": 85,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 25,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 45,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:hay_block",
       "framed": false,
       "x": 65,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:hay_block",
       "framed": true,
       "x": 85,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:barrel",
       "framed": false,
       "x": 5,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:campfire",
       "framed": false,
       "x": 25,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:campfire",
       "framed": false,
       "x": 45,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:campfire",
       "framed": false,
       "x": 65,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:campfire",
       "framed": true,
       "x": 85,
       "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:mossy_cobblestone",
+      "framed": false,
+      "x": 5,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:mossy_cobblestone",
+      "framed": false,
+      "x": 25,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:mossy_cobblestone",
+      "framed": false,
+      "x": 45,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:mossy_cobblestone",
+      "framed": false,
+      "x": 65,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:campfire_pot_red",
+      "framed": true,
+      "x": 85,
+      "y": 60
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/chimchar.png",
+      "image": "cobblemonfury:pokesprites/alcremie.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -117,7 +152,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/monferno.png",
+      "image": "cobblemonfury:pokesprites/dachsbun.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -127,13 +162,23 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/torkoal.png",
+      "image": "cobblemonfury:pokesprites/monferno.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
       "texture_height": 48,
       "x": 60,
       "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/geodude.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 125
     }
   ]
 }

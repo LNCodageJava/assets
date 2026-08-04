@@ -2,56 +2,56 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemonfury:labo_1",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemonfury:labo_2",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "cobblemonfury:mini_xp",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:magma_block",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 65,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:copper_block",
       "framed": true,
       "x": 85,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 25,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:lava_bucket",
+      "item": "minecraft:copper_block",
       "framed": false,
       "x": 45,
       "y": 20
@@ -86,28 +86,28 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:repeater",
       "framed": false,
       "x": 45,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:repeater",
       "framed": false,
       "x": 65,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:repeater",
       "framed": true,
       "x": 85,
       "y": 40
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/chimchar.png",
+      "image": "cobblemonfury:pokesprites/machop.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -117,7 +117,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/monferno.png",
+      "image": "cobblemonfury:pokesprites/ditto.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -127,7 +127,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/torkoal.png",
+      "image": "cobblemonfury:pokesprites/magnemite.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

@@ -1,6 +1,6 @@
 {
   "name": "heating_base",
-  "icon": "cobblemonfury:rotom_heating",
+  "icon": "minecraft:book",
   "category": "cobblemonfury:capacity_category",
   "pages": [
     {

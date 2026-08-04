@@ -1,0 +1,16 @@
+{
+  "name": "rotom_silice",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:rotom_silice_mega"
+    },
+    {
+      "type": "cobblemonfury:rotom_silice_hab_1"
+    },
+    {
+      "type": "cobblemonfury:rotom_silice_hab_2"
+    }
+  ]
+}

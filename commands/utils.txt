@@ -1,0 +1,2 @@
+/give @s patchouli:guide_book[patchouli:book="cobblemonfury:pokopia"]
+/execute in cobblemonfury:test_dim/gg run tp @s 0 100 0

@@ -1,0 +1,19 @@
+{
+  "name": "rotom_soup",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:rotom_soup_mega"
+    },
+    {
+      "type": "cobblemonfury:rotom_soup_hab_1"
+    },
+    {
+      "type": "cobblemonfury:rotom_soup_hab_2"
+    },
+    {
+      "type": "cobblemonfury:rotom_soup_capa_1"
+    }
+  ]
+}

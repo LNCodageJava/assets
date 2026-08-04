@@ -121,12 +121,12 @@ def update_pokopia_data(nbt_path, palette, blocks):
     # Extraire le nom du fichier NBT sans extension
     nbt_filename = os.path.basename(nbt_path).replace('.nbt', '')
 
-    # Collecter tous les blocs présents dans la structure (avec duplicatas)
+    # Collecter tous les blocs présents dans la structure (avec duplicatas, sauf les blocs rotom)
     biomes_list = []
     for b in blocks:
         state_idx = int(b['state'])
         block_name = str(palette[state_idx]['Name'])
-        if block_name not in ["minecraft:air", "minecraft:structure_void"]:
+        if block_name not in ["minecraft:air", "minecraft:structure_void"] and not block_name.startswith("cobblemonfury:rotom"):
             biomes_list.append(block_name)
 
     # Créer la nouvelle entrée mega_habitat

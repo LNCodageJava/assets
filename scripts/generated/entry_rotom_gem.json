@@ -1,0 +1,19 @@
+{
+  "name": "rotom_gem",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:rotom_gem_mega"
+    },
+    {
+      "type": "cobblemonfury:rotom_gem_hab_1"
+    },
+    {
+      "type": "cobblemonfury:rotom_gem_hab_2"
+    },
+    {
+      "type": "cobblemonfury:rotom_gem_capa_1"
+    }
+  ]
+}

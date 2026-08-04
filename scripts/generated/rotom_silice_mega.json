@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 25,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 45,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 65,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": true,
+      "x": 85,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 5,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 25,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 45,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 65,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": true,
+      "x": 85,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 5,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice_melted",
+      "framed": false,
+      "x": 25,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 45,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 65,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": true,
+      "x": 85,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 5,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 25,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 45,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 65,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": true,
+      "x": 85,
+      "y": 60
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 5,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 25,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 45,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 65,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:torch",
+      "framed": true,
+      "x": 85,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/sandile.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/numel.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/trapinch.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/sandslash.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 125
+    }
+  ]
+}
