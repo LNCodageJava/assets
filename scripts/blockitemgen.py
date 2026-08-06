@@ -192,10 +192,9 @@ def generate_block_without_model(name: str):
     generate_block_loot_table(name)
 
 
-generate_item("","stardust_white")
-generate_item("","stardust_green")
-generate_item("","stardust_purple")
-generate_item("","stardust_blue")
+generate_block("starduster_0")
+generate_block("starduster_1")
+generate_block("starduster_2")
 # generate_item("produced","smoothie_green")
 # generate_item("produced","smoothie_yellow")
 # generate_item("produced","smoothie_red")
