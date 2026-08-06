@@ -5,6 +5,9 @@
   "pages": [
     {
       "type": "cobblemonfury:nether_caves_hab_1"
+    },
+    {
+      "type": "cobblemonfury:nether_caves_capa_1"
     }
   ]
 }

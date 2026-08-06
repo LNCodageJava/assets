@@ -100,6 +100,42 @@
       "text": "10",
       "x": 100,
       "y": 50
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/scovillain.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_purple",
+      "framed": false,
+      "x": 40,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:poppy",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.3",
+      "x": 80,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "42",
+      "x": 100,
+      "y": 75
     }
   ]
 }

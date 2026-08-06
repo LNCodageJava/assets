@@ -20,7 +20,7 @@
 
     {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke4.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 55},
     {"type": "patchouli:item", "item": "poke4item1", "framed": false, "x": 40, "y": 75},
-    {"type": "patchouli:item", "item": "poke4item2", "framed": false, "x": 80, "y": 75},
+    {"type": "patchouli:item", "item": "poke4item2", "framed": false, "x": 60, "y": 75},
     {"type": "patchouli:text", "text": "poke4price", "x": 80, "y": 75},
     {"type": "patchouli:text", "text": "poke4maxValue", "x": 100, "y": 75},
 

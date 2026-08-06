@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/paras.png",
+      "image": "cobblemonfury:pokesprites/lanturn.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -19,14 +19,14 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:red_mushroom_block",
+      "item": "minecraft:bubble_coral",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:text",
-      "text": "0.8",
+      "text": "1",
       "x": 80,
       "y": 0
     },
@@ -38,7 +38,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/cofagrigus.png",
+      "image": "cobblemonfury:pokesprites/tentacruel.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -48,21 +48,21 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_green",
+      "item": "cobblemonfury:stardust_blue",
       "framed": false,
       "x": 40,
       "y": 25
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:glass",
+      "item": "minecraft:fire_coral",
       "framed": false,
       "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:text",
-      "text": "0.8",
+      "text": "0.5",
       "x": 80,
       "y": 25
     },
@@ -74,7 +74,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/combee.png",
+      "image": "cobblemonfury:pokesprites/floatzel.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -91,58 +91,22 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:dandelion",
+      "item": "minecraft:tube_coral",
       "framed": false,
       "x": 60,
       "y": 50
     },
     {
       "type": "patchouli:text",
-      "text": "0.4",
+      "text": "1",
       "x": 80,
       "y": 50
     },
     {
       "type": "patchouli:text",
-      "text": "24",
+      "text": "12",
       "x": 100,
       "y": 50
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/clefairy.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
-      "y": 55
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_green",
-      "framed": false,
-      "x": 40,
-      "y": 75
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:cherry_leaves",
-      "framed": false,
-      "x": 60,
-      "y": 75
-    },
-    {
-      "type": "patchouli:text",
-      "text": "0.5",
-      "x": 80,
-      "y": 75
-    },
-    {
-      "type": "patchouli:text",
-      "text": "16",
-      "x": 100,
-      "y": 75
     }
   ]
 }

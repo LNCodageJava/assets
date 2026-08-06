@@ -129,7 +129,7 @@
       "type": "patchouli:item",
       "item": "cobblemon:medicinal_leek",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 75
     },
     {
@@ -143,6 +143,42 @@
       "text": "20",
       "x": 100,
       "y": 75
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/victreebel.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_blue",
+      "framed": false,
+      "x": 40,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:plant_poison",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 100
+    },
+    {
+      "type": "patchouli:text",
+      "text": "20",
+      "x": 100,
+      "y": 100
     }
   ]
 }
