@@ -14,26 +14,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 0
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:red_mushroom_block",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "0.8",
-      "x": 100,
+      "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "12",
-      "x": 110,
+      "x": 100,
       "y": 0
     },
     {
@@ -50,26 +50,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 25
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:glass",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "0.8",
-      "x": 100,
+      "x": 80,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "12",
-      "x": 110,
+      "x": 100,
       "y": 25
     },
     {
@@ -86,26 +86,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 50
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:dandelion",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "0.4",
-      "x": 100,
+      "x": 80,
       "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "24",
-      "x": 110,
+      "x": 100,
       "y": 50
     },
     {
@@ -122,7 +122,7 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 75
     },
     {
@@ -135,13 +135,13 @@
     {
       "type": "patchouli:text",
       "text": "0.5",
-      "x": 100,
+      "x": 80,
       "y": 75
     },
     {
       "type": "patchouli:text",
       "text": "16",
-      "x": 110,
+      "x": 100,
       "y": 75
     }
   ]

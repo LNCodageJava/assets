@@ -14,26 +14,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_white",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 0
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:sunflower",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "0.6",
-      "x": 100,
+      "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "24",
-      "x": 110,
+      "x": 100,
       "y": 0
     },
     {
@@ -50,26 +50,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 25
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:lily_of_the_valley",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "0.6",
-      "x": 100,
+      "x": 80,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "12",
-      "x": 110,
+      "x": 100,
       "y": 25
     }
   ]

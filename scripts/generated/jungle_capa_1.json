@@ -14,19 +14,19 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_blue",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "0.4",
-      "x": 100,
+      "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "40",
-      "x": 110,
+      "x": 100,
       "y": 0
     },
     {
@@ -43,26 +43,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_blue",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 25
     },
     {
       "type": "patchouli:item",
       "item": "cobblemon:pinap_berry",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "0.4",
-      "x": 100,
+      "x": 80,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "16",
-      "x": 110,
+      "x": 100,
       "y": 25
     },
     {
@@ -79,26 +79,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_blue",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 50
     },
     {
       "type": "patchouli:item",
       "item": "cobblemon:vivichoke",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "0.5",
-      "x": 100,
+      "x": 80,
       "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "10",
-      "x": 110,
+      "x": 100,
       "y": 50
     }
   ]

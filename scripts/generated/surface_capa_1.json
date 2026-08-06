@@ -14,26 +14,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 0
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:orange_carpet",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "0.5",
-      "x": 100,
+      "x": 80,
       "y": 0
     },
     {
       "type": "patchouli:text",
       "text": "14",
-      "x": 110,
+      "x": 100,
       "y": 0
     },
     {
@@ -50,26 +50,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_blue",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 25
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:lapis_block",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "0.6",
-      "x": 100,
+      "x": 80,
       "y": 25
     },
     {
       "type": "patchouli:text",
       "text": "8",
-      "x": 110,
+      "x": 100,
       "y": 25
     },
     {
@@ -86,26 +86,26 @@
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_green",
       "framed": false,
-      "x": 60,
+      "x": 40,
       "y": 50
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:mangrove_wood",
       "framed": false,
-      "x": 80,
+      "x": 60,
       "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "0.3",
-      "x": 100,
+      "x": 80,
       "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "15",
-      "x": 110,
+      "x": 100,
       "y": 50
     }
   ]
