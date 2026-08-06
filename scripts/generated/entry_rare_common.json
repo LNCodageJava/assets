@@ -1,16 +1,16 @@
 {
   "name": "rare_common",
-  "icon": "minecraft:book",
+  "icon": "cobblemonfury:island_generator_0",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:rare_common_mega"
-    },
     {
       "type": "cobblemonfury:rare_common_hab_1"
     },
     {
       "type": "cobblemonfury:rare_common_hab_2"
+    },
+    {
+      "type": "cobblemonfury:rare_common_capa_1"
     }
   ]
 }

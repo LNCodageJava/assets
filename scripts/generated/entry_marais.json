@@ -1,11 +1,8 @@
 {
   "name": "marais",
-  "icon": "minecraft:book",
+  "icon": "minecraft:rooted_dirt",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:marais_mega"
-    },
     {
       "type": "cobblemonfury:marais_hab_1"
     },
@@ -14,6 +11,9 @@
     },
     {
       "type": "cobblemonfury:marais_hab_3"
+    },
+    {
+      "type": "cobblemonfury:marais_capa_1"
     }
   ]
 }

@@ -1,11 +1,8 @@
 {
   "name": "fire",
-  "icon": "minecraft:book",
+  "icon": "minecraft:magma_block",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:fire_mega"
-    },
     {
       "type": "cobblemonfury:fire_hab_1"
     },
@@ -14,6 +11,9 @@
     },
     {
       "type": "cobblemonfury:fire_capa_1"
+    },
+    {
+      "type": "cobblemonfury:fire_capa_2"
     }
   ]
 }

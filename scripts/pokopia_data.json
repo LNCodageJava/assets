@@ -1105,7 +1105,14 @@
   "mega_habitats": [
     {
       "name": "fire",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:magma_block"
+          ],
+          "result": "minecraft:magma_block"
+        }
+      ],
       "pokemons": [
         "magby",
         "vulpix",
@@ -1114,7 +1121,14 @@
     },
     {
       "name": "sand",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:sand"
+          ],
+          "result": "minecraft:sand"
+        }
+      ],
       "pokemons": [
         "sandshrew",
         "numel",
@@ -1125,7 +1139,14 @@
     },
     {
       "name": "marais",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:rooted_dirt"
+          ],
+          "result": "minecraft:rooted_dirt"
+        }
+      ],
       "pokemons": [
         "bellsprout",
         "muk",
@@ -1136,7 +1157,14 @@
     },
     {
       "name": "gem_caves",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:raw_gold"
+          ],
+          "result": "minecraft:raw_gold"
+        }
+      ],
       "pokemons": [
         "ditto",
         "magnemite",
@@ -1149,7 +1177,14 @@
     },
     {
       "name": "rare_unco",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "cobblemonfury:island_generator_1"
+          ],
+          "result": "cobblemonfury:island_generator_1"
+        }
+      ],
       "pokemons": [
         "spiritomb",
         "mudsdale",
@@ -1159,7 +1194,14 @@
     },
     {
       "name": "plains",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:oak_log"
+          ],
+          "result": "minecraft:oak_log"
+        }
+      ],
       "pokemons": [
         "hoothoot",
         "alcremie",
@@ -1172,7 +1214,14 @@
     },
     {
       "name": "mossy_caves",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:cobblestone"
+          ],
+          "result": "minecraft:cobblestone"
+        }
+      ],
       "pokemons": [
         "nacli",
         "chimchar",
@@ -1181,7 +1230,14 @@
     },
     {
       "name": "base",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:grass_block"
+          ],
+          "result": "minecraft:grass_block"
+        }
+      ],
       "pokemons": [
         "bidoof",
         "bulbasaur",
@@ -1190,7 +1246,14 @@
     },
     {
       "name": "fond_marin",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:clay"
+          ],
+          "result": "minecraft:clay"
+        }
+      ],
       "pokemons": [
         "chinchou",
         "tentacool",
@@ -1200,7 +1263,14 @@
     },
     {
       "name": "badlands",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:orange_terracotta"
+          ],
+          "result": "minecraft:orange_terracotta"
+        }
+      ],
       "pokemons": [
         "breloom",
         "nuzleaf",
@@ -1211,7 +1281,14 @@
     },
     {
       "name": "surface",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:white_wool"
+          ],
+          "result": "minecraft:white_wool"
+        }
+      ],
       "pokemons": [
         "smeargle",
         "abra",
@@ -1221,7 +1298,14 @@
     },
     {
       "name": "agriculture",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:farmland"
+          ],
+          "result": "minecraft:farmland"
+        }
+      ],
       "pokemons": [
         "mareep",
         "vileplume",
@@ -1233,7 +1317,14 @@
     },
     {
       "name": "fossils",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "cobblemon:root_fossil"
+          ],
+          "result": "cobblemon:root_fossil"
+        }
+      ],
       "pokemons": [
         "lileep",
         "kabuto",
@@ -1242,7 +1333,14 @@
     },
     {
       "name": "nether_caves",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:red_nether_bricks"
+          ],
+          "result": "minecraft:red_nether_bricks"
+        }
+      ],
       "pokemons": [
         "onix",
         "litleo"
@@ -1250,7 +1348,14 @@
     },
     {
       "name": "jungle",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:jungle_sapling"
+          ],
+          "result": "minecraft:jungle_sapling"
+        }
+      ],
       "pokemons": [
         "primeape",
         "exeggutor",
@@ -1262,7 +1367,14 @@
     },
     {
       "name": "rare_common",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "cobblemonfury:island_generator_0"
+          ],
+          "result": "cobblemonfury:island_generator_0"
+        }
+      ],
       "pokemons": [
         "paras",
         "cofagrigus",
@@ -1272,7 +1384,14 @@
     },
     {
       "name": "rare_rare",
-      "recipes": [],
+      "recipes": [
+        {
+          "ingredients": [
+            "cobblemonfury:island_generator_2"
+          ],
+          "result": "cobblemonfury:island_generator_2"
+        }
+      ],
       "pokemons": [
         "archen",
         "golett",

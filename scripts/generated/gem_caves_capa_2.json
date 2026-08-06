@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/ditto.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:redstone_block",
+      "framed": false,
+      "x": 80,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.7",
+      "x": 100,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "14",
+      "x": 110,
+      "y": 0
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/magnemite.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:gold_block",
+      "framed": false,
+      "x": 80,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "3",
+      "x": 100,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6",
+      "x": 110,
+      "y": 25
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/carbink.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:black_tumblestone_cluster",
+      "framed": false,
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1",
+      "x": 100,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 110,
+      "y": 50
+    }
+  ]
+}

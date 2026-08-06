@@ -1,16 +1,16 @@
 {
   "name": "surface",
-  "icon": "minecraft:book",
+  "icon": "minecraft:white_wool",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:surface_mega"
-    },
     {
       "type": "cobblemonfury:surface_hab_1"
     },
     {
       "type": "cobblemonfury:surface_hab_2"
+    },
+    {
+      "type": "cobblemonfury:surface_capa_1"
     }
   ]
 }

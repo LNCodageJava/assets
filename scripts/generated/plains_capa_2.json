@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hoothoot.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_log",
+      "framed": false,
+      "x": 80,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 100,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 110,
+      "y": 0
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/alcremie.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:cake",
+      "framed": false,
+      "x": 80,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "2",
+      "x": 100,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "4",
+      "x": 110,
+      "y": 25
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/dachsbun.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:campfire",
+      "framed": false,
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1.6",
+      "x": 100,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6",
+      "x": 110,
+      "y": 50
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/timburr.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:cherry_log",
+      "framed": false,
+      "x": 80,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1.2",
+      "x": 100,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 110,
+      "y": 75
+    }
+  ]
+}

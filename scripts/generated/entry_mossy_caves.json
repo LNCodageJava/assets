@@ -1,16 +1,16 @@
 {
   "name": "mossy_caves",
-  "icon": "minecraft:book",
+  "icon": "minecraft:cobblestone",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:mossy_caves_mega"
-    },
     {
       "type": "cobblemonfury:mossy_caves_hab_1"
     },
     {
       "type": "cobblemonfury:mossy_caves_hab_2"
+    },
+    {
+      "type": "cobblemonfury:mossy_caves_capa_1"
     }
   ]
 }

@@ -1,11 +1,8 @@
 {
   "name": "plains",
-  "icon": "minecraft:book",
+  "icon": "minecraft:oak_log",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:plains_mega"
-    },
     {
       "type": "cobblemonfury:plains_hab_1"
     },
@@ -20,6 +17,9 @@
     },
     {
       "type": "cobblemonfury:plains_capa_1"
+    },
+    {
+      "type": "cobblemonfury:plains_capa_2"
     }
   ]
 }

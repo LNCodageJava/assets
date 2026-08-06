@@ -11,6 +11,7 @@ TEMPLATE_DESTROY = "templates/template_destroy.json"
 TEMPLATE_TRANSFORM = "templates/template_transform.json"
 TEMPLATE_MEGA_HABITAT = "templates/template_mega_habitat.json"
 TEMPLATE_ENTRY = "templates/template_entry.json"
+TEMPLATE_STARDUST = "templates/template_stardust.json"
 OUT_DIR = "generated"
 
 def fill_placeholders(components, prefix, items, fallback="minecraft:birch_button"):
@@ -108,6 +109,9 @@ def main():
     with open(TEMPLATE_ENTRY, "r", encoding="utf-8") as f:
         template_entry = json.load(f)
 
+    with open(TEMPLATE_STARDUST, "r", encoding="utf-8") as f:
+        template_stardust = json.load(f)
+
     # ---------------------------------------------------------
     # Récupération des données
     # ---------------------------------------------------------
@@ -135,83 +139,11 @@ def main():
         mega_habitats_list = [habitat_dict.get(poke) for poke in mega_pokemons if poke in habitat_dict and habitat_dict.get(poke).get("hab")]
         mega_capacities_destroy = [capacity_dict.get(poke) for poke in mega_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "destroy"]
         mega_capacities_transform = [capacity_dict.get(poke) for poke in mega_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "transform"]
+        mega_capacities_stardust = [capacity_dict.get(poke) for poke in mega_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "stardust"]
 
-        # Générer la page du megahabitat
+        # On ne génère plus la page du megahabitat
         all_pages = []
-        mega_page = deepcopy(template_mega_habitat)
-        components = mega_page.get("components", [])
-
         recipes = mega.get("recipes", [])
-        pokemons = mega.get("pokemons", [])
-
-        # Remplacer les recettes (recipeN_ingredientM et recipeN_result)
-        for comp in components:
-            if comp.get("type") == "patchouli:item":
-                item_name = comp.get("item", "")
-
-                # Si c'est recipeN_ingredientM (ex: recipe1_ingredient2)
-                if item_name.startswith("recipe") and "_ingredient" in item_name:
-                    try:
-                        # Extraire le numéro de recette et d'ingrédient
-                        # Format: recipeN_ingredientM
-                        parts = item_name.replace("recipe", "").split("_ingredient")
-                        recipe_idx = int(parts[0]) - 1  # recipe1 -> index 0
-                        ingredient_idx = int(parts[1]) - 1  # ingredient1 -> index 0
-
-                        if 0 <= recipe_idx < len(recipes):
-                            ingredients = recipes[recipe_idx].get("ingredients", [])
-                            if 0 <= ingredient_idx < len(ingredients):
-                                comp["item"] = ingredients[ingredient_idx]
-                            else:
-                                comp["item"] = "minecraft:air"
-                        else:
-                            comp["item"] = "minecraft:air"
-                    except (ValueError, IndexError):
-                        comp["item"] = "minecraft:air"
-
-                # Si c'est recipeN_result (ex: recipe1_result)
-                elif item_name.startswith("recipe") and "_result" in item_name:
-                    try:
-                        # Format: recipeN_result
-                        recipe_num = item_name.replace("recipe", "").replace("_result", "")
-                        recipe_idx = int(recipe_num) - 1  # recipe1 -> index 0
-
-                        if 0 <= recipe_idx < len(recipes):
-                            result = recipes[recipe_idx].get("result", "minecraft:air")
-                            comp["item"] = result
-                        else:
-                            comp["item"] = "minecraft:air"
-                    except (ValueError, IndexError):
-                        comp["item"] = "minecraft:air"
-
-        # Remplacer les images des pokémons (poke1.png à poke6.png)
-        for comp in components:
-            if comp.get("type") == "patchouli:image":
-                image_name = comp.get("image", "")
-
-                for poke_idx in range(1, 7):
-                    if f"/poke{poke_idx}.png" in image_name:
-                        if poke_idx - 1 < len(pokemons):
-                            poke_name = pokemons[poke_idx - 1]
-                            comp["image"] = f"cobblemonfury:pokesprites/{poke_name}.png"
-                        else:
-                            # Pas de pokémon pour ce slot, on supprime l'image
-                            comp["image"] = ""
-                        break
-
-        # Filtrer les composants vides (items air et images vides)
-        components = [
-            comp for comp in components
-            if not (comp.get("item") == "minecraft:air" or (comp.get("type") == "patchouli:image" and comp.get("image") == ""))
-        ]
-        mega_page["components"] = components
-
-        mega_page_name = f"{mega_name}_mega"
-        mega_page_path = os.path.join(OUT_DIR, f"{mega_page_name}.json")
-        with open(mega_page_path, "w", encoding="utf-8") as f:
-            json.dump(mega_page, f, ensure_ascii=False, indent=2)
-        print(f"Généré: {mega_page_path}")
-        all_pages.append({"type": f"cobblemonfury:{mega_page_name}"})
 
         # Générer les pages d'habitats
         hab_pages = []
@@ -328,10 +260,69 @@ def main():
             capa_pages.append({"type": f"cobblemonfury:{page_name}"})
             capa_page_idx += 1
 
+        # Générer les pages de capacités stardust
+        for i in range(0, len(mega_capacities_stardust), 6):
+            chunk = mega_capacities_stardust[i:i+6]
+
+            out = deepcopy(template_stardust)
+            components = out.get("components", [])
+
+            for slot_idx in range(1, 7):
+                prefix = f"poke{slot_idx}"
+                if slot_idx - 1 < len(chunk):
+                    cap = chunk[slot_idx - 1]
+                    name = cap.get("name", f"unknown_{slot_idx}")
+                    blocks = cap.get("blocks", [])
+                    item_price = cap.get("itemPrice", 1)
+                    max_value = cap.get("maxValue", 1)
+
+                    # Remplacer les items (poke1item1, poke1item2)
+                    fill_placeholders(components, prefix, blocks, fallback=None)
+
+                    # Remplacer l'image
+                    for comp in components:
+                        if comp.get("type") == "patchouli:image":
+                            if f"pokesprites/{prefix}.png" in comp.get("image", ""):
+                                comp["image"] = f"cobblemonfury:pokesprites/{name}.png"
+
+                    # Remplacer les textes (poke1price, poke1maxValue)
+                    for comp in components:
+                        if comp.get("type") == "patchouli:text":
+                            text_value = comp.get("text", "")
+                            if text_value == f"{prefix}price":
+                                comp["text"] = str(item_price)
+                            elif text_value == f"{prefix}maxValue":
+                                comp["text"] = str(max_value)
+                else:
+                    # Pas de pokémon pour ce slot, on supprime les composants
+                    fill_placeholders(components, prefix, [], fallback=None)
+                    components = [
+                        comp for comp in components
+                        if not (
+                            (comp.get("type") == "patchouli:image" and f"pokesprites/{prefix}.png" in comp.get("image", ""))
+                            or (comp.get("type") == "patchouli:text" and comp.get("text", "") in [f"{prefix}price", f"{prefix}maxValue"])
+                        )
+                    ]
+
+            out["components"] = components
+            page_name = f"{mega_name}_capa_{capa_page_idx}"
+            out_path = os.path.join(OUT_DIR, f"{page_name}.json")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(out, f, ensure_ascii=False, indent=2)
+            print(f"Généré: {out_path}")
+            capa_pages.append({"type": f"cobblemonfury:{page_name}"})
+            capa_page_idx += 1
+
         # Créer le fichier entry pour ce megahabitat
         entry = deepcopy(template_entry)
         entry["name"] = mega_name
-        entry["icon"] = rotom if rotom else "minecraft:book"
+
+        # L'icône est le result de la première recette
+        if recipes and len(recipes) > 0:
+            entry["icon"] = recipes[0].get("result", "minecraft:book")
+        else:
+            entry["icon"] = "minecraft:book"
+
         entry["pages"] = all_pages + hab_pages + capa_pages
 
         entry_path = os.path.join(OUT_DIR, f"entry_{mega_name}.json")

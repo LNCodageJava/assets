@@ -1,16 +1,16 @@
 {
   "name": "base",
-  "icon": "minecraft:book",
+  "icon": "minecraft:grass_block",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:base_mega"
-    },
     {
       "type": "cobblemonfury:base_hab_1"
     },
     {
       "type": "cobblemonfury:base_hab_2"
+    },
+    {
+      "type": "cobblemonfury:base_capa_1"
     }
   ]
 }

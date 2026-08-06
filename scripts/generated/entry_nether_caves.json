@@ -1,11 +1,8 @@
 {
   "name": "nether_caves",
-  "icon": "minecraft:book",
+  "icon": "minecraft:red_nether_bricks",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:nether_caves_mega"
-    },
     {
       "type": "cobblemonfury:nether_caves_hab_1"
     }

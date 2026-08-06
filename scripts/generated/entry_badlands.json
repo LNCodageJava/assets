@@ -1,11 +1,8 @@
 {
   "name": "badlands",
-  "icon": "minecraft:book",
+  "icon": "minecraft:orange_terracotta",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:badlands_mega"
-    },
     {
       "type": "cobblemonfury:badlands_hab_1"
     },
@@ -14,6 +11,9 @@
     },
     {
       "type": "cobblemonfury:badlands_hab_3"
+    },
+    {
+      "type": "cobblemonfury:badlands_capa_1"
     }
   ]
 }

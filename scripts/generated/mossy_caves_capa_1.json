@@ -1,0 +1,40 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/chimchar.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:torch",
+      "framed": false,
+      "x": 80,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 100,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 110,
+      "y": 0
+    }
+  ]
+}

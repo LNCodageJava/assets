@@ -1,11 +1,8 @@
 {
   "name": "agriculture",
-  "icon": "minecraft:book",
+  "icon": "minecraft:farmland",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:agriculture_mega"
-    },
     {
       "type": "cobblemonfury:agriculture_hab_1"
     },
@@ -17,6 +14,9 @@
     },
     {
       "type": "cobblemonfury:agriculture_capa_1"
+    },
+    {
+      "type": "cobblemonfury:agriculture_capa_2"
     }
   ]
 }

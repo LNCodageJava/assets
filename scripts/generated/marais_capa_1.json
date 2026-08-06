@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/muk.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_pad",
+      "framed": false,
+      "x": 80,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.3",
+      "x": 100,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "18",
+      "x": 110,
+      "y": 0
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hitmonlee.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:tatami_mat",
+      "framed": false,
+      "x": 80,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 100,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "16",
+      "x": 110,
+      "y": 25
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/toxicroak.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_blue",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:dusk_stone_ore",
+      "framed": false,
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.6",
+      "x": 100,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "8",
+      "x": 110,
+      "y": 50
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/farfetchd.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:medicinal_leek",
+      "framed": false,
+      "x": 80,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.4",
+      "x": 100,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "20",
+      "x": 110,
+      "y": 75
+    }
+  ]
+}

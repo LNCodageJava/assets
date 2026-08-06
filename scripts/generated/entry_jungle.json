@@ -1,11 +1,8 @@
 {
   "name": "jungle",
-  "icon": "minecraft:book",
+  "icon": "minecraft:jungle_sapling",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:jungle_mega"
-    },
     {
       "type": "cobblemonfury:jungle_hab_1"
     },
@@ -14,6 +11,9 @@
     },
     {
       "type": "cobblemonfury:jungle_hab_3"
+    },
+    {
+      "type": "cobblemonfury:jungle_capa_1"
     }
   ]
 }

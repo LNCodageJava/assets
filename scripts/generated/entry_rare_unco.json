@@ -1,11 +1,8 @@
 {
   "name": "rare_unco",
-  "icon": "minecraft:book",
+  "icon": "cobblemonfury:island_generator_1",
   "category": "cobblemonfury:capacity_category",
   "pages": [
-    {
-      "type": "cobblemonfury:rare_unco_mega"
-    },
     {
       "type": "cobblemonfury:rare_unco_hab_1"
     },
@@ -14,6 +11,9 @@
     },
     {
       "type": "cobblemonfury:rare_unco_capa_1"
+    },
+    {
+      "type": "cobblemonfury:rare_unco_capa_2"
     }
   ]
 }
