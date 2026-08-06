@@ -1,0 +1,16 @@
+{
+  "name": "fossils",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:fossils_mega"
+    },
+    {
+      "type": "cobblemonfury:fossils_hab_1"
+    },
+    {
+      "type": "cobblemonfury:fossils_hab_2"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sand",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:sand_mega"
+    },
+    {
+      "type": "cobblemonfury:sand_hab_1"
+    },
+    {
+      "type": "cobblemonfury:sand_hab_2"
+    },
+    {
+      "type": "cobblemonfury:sand_hab_3"
+    },
+    {
+      "type": "cobblemonfury:sand_capa_1"
+    }
+  ]
+}

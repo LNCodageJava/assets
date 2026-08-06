@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/espeon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/leafeon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/vaporeon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/umbreon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/flareon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/sylveon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 125
+    }
+  ]
+}

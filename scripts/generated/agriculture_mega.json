@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/mareep.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/vileplume.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/smoliv.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/roselia.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/turtwig.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/lapras.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 125
+    }
+  ]
+}

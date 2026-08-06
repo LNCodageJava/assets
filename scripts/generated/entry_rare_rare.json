@@ -1,0 +1,16 @@
+{
+  "name": "rare_rare",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:rare_rare_mega"
+    },
+    {
+      "type": "cobblemonfury:rare_rare_hab_1"
+    },
+    {
+      "type": "cobblemonfury:rare_rare_hab_2"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/chinchou.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/tentacool.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/buizel.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/magikarp.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 125
+    }
+  ]
+}

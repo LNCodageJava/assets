@@ -1,0 +1,19 @@
+{
+  "name": "marais",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:marais_mega"
+    },
+    {
+      "type": "cobblemonfury:marais_hab_1"
+    },
+    {
+      "type": "cobblemonfury:marais_hab_2"
+    },
+    {
+      "type": "cobblemonfury:marais_hab_3"
+    }
+  ]
+}

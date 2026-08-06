@@ -1,0 +1,25 @@
+{
+  "name": "gem_caves",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:gem_caves_mega"
+    },
+    {
+      "type": "cobblemonfury:gem_caves_hab_1"
+    },
+    {
+      "type": "cobblemonfury:gem_caves_hab_2"
+    },
+    {
+      "type": "cobblemonfury:gem_caves_hab_3"
+    },
+    {
+      "type": "cobblemonfury:gem_caves_hab_4"
+    },
+    {
+      "type": "cobblemonfury:gem_caves_capa_1"
+    }
+  ]
+}

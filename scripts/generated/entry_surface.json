@@ -1,0 +1,16 @@
+{
+  "name": "surface",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:surface_mega"
+    },
+    {
+      "type": "cobblemonfury:surface_hab_1"
+    },
+    {
+      "type": "cobblemonfury:surface_hab_2"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "fond_marin",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:fond_marin_mega"
+    },
+    {
+      "type": "cobblemonfury:fond_marin_hab_1"
+    },
+    {
+      "type": "cobblemonfury:fond_marin_hab_2"
+    }
+  ]
+}

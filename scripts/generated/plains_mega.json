@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hoothoot.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/alcremie.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/fraxure.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/dachsbun.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/timburr.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 30,
+      "y": 125
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/miltank.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 60,
+      "y": 125
+    }
+  ]
+}

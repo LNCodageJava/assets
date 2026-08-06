@@ -1,0 +1,25 @@
+{
+  "name": "plains",
+  "icon": "minecraft:book",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:plains_mega"
+    },
+    {
+      "type": "cobblemonfury:plains_hab_1"
+    },
+    {
+      "type": "cobblemonfury:plains_hab_2"
+    },
+    {
+      "type": "cobblemonfury:plains_hab_3"
+    },
+    {
+      "type": "cobblemonfury:plains_hab_4"
+    },
+    {
+      "type": "cobblemonfury:plains_capa_1"
+    }
+  ]
+}
