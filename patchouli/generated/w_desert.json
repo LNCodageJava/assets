@@ -1,0 +1,54 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "     ",
+          "     ",
+          "  D  ",
+          "     "
+        ],
+        [
+          "  D  ",
+          "    D",
+          "     ",
+          "  D  ",
+          "     "
+        ],
+        [
+          "  D  ",
+          "    D",
+          " C   ",
+          "  B  ",
+          "     "
+        ],
+        [
+          "  D  ",
+          " B  E",
+          " BAB ",
+          "CBAB ",
+          "  B  "
+        ],
+        [
+          "AABBA",
+          "AAABB",
+          "AA0AA",
+          "BAAAA",
+          "AAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:sandstone",
+        "A": "minecraft:sandstone",
+        "B": "minecraft:sand",
+        "C": "minecraft:dead_bush",
+        "D": "minecraft:cactus[age=0]",
+        "E": "minecraft:cactus[age=1]"
+      }
+    },
+    "text": "器的多"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "AMMMM",
+          "MMOMQ",
+          "MMMMM",
+          "NMPMM",
+          "LMMKD"
+        ],
+        [
+          "FKHHH",
+          "HHIHI",
+          "HHHHD",
+          "IHIKD",
+          "GLHFD"
+        ],
+        [
+          "ADHHD",
+          "HHIHD",
+          "HHHJD",
+          "BHIAA",
+          "ADHAA"
+        ],
+        [
+          "AADHA",
+          "AHIHA",
+          "HHHEA",
+          "ACD A",
+          "ADAAA"
+        ],
+        [
+          "AAAAA",
+          "AABAA",
+          "AB0AA",
+          "AAAAA",
+          "AAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:dirt",
+        "A": "minecraft:stone",
+        "B": "minecraft:dirt",
+        "C": "minecraft:clay",
+        "D": "minecraft:sand",
+        "E": "minecraft:bubble_coral_block",
+        "F": "minecraft:fire_coral_block",
+        "G": "minecraft:tube_coral_block",
+        "H": "minecraft:water[level=8]",
+        "I": "minecraft:kelp_plant",
+        "J": "minecraft:bubble_coral[waterlogged=true]",
+        "K": "minecraft:fire_coral[waterlogged=true]",
+        "L": "minecraft:tube_coral[waterlogged=true]",
+        "M": "minecraft:water[level=0]",
+        "N": "minecraft:kelp[age=1]",
+        "O": "minecraft:kelp[age=9]",
+        "P": "minecraft:kelp[age=13]",
+        "Q": "minecraft:kelp[age=18]"
+      }
+    },
+    "text": "器的多"
+  }
+}

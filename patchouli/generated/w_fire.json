@@ -1,0 +1,57 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "   FH",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "  BGA",
+          "    A",
+          "    A",
+          "    A",
+          "   B "
+        ],
+        [
+          "CBBGA",
+          " C FA",
+          "    A",
+          "   BA",
+          "  CAA"
+        ],
+        [
+          "AAAAA",
+          "ADFGA",
+          "AEDFA",
+          "B EAA",
+          " BAAA"
+        ],
+        [
+          "AAAAA",
+          "AAAAA",
+          "AA0AA",
+          "ABAAA",
+          "AAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:stone",
+        "A": "minecraft:stone",
+        "B": "minecraft:magma_block",
+        "C": "minecraft:infested_chiseled_stone_bricks",
+        "D": "minecraft:lava[level=4]",
+        "E": "minecraft:lava[level=6]",
+        "F": "minecraft:lava[level=2]",
+        "G": "minecraft:lava[level=8]",
+        "H": "minecraft:lava[level=0]"
+      }
+    },
+    "text": "器的多"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "D D  ",
+          "     ",
+          "D D  ",
+          "     "
+        ],
+        [
+          "ACAAA",
+          "BC  A",
+          "BC  F",
+          "BC  F",
+          "AAAFF"
+        ],
+        [
+          "BAAAA",
+          "B  AA",
+          "    F",
+          "BAA F",
+          "BAAAA"
+        ],
+        [
+          "AAAAA",
+          "B AAA",
+          "BAEAA",
+          "BAA A",
+          "BAAAA"
+        ],
+        [
+          "AAAAA",
+          "AAAAA",
+          "BA0AA",
+          "BAAAA",
+          "BAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:gravel",
+        "A": "minecraft:gravel",
+        "B": "minecraft:dirt",
+        "C": "minecraft:bone_block[axis=z]",
+        "D": "minecraft:bone_block[axis=y]",
+        "E": "minecraft:chest[waterlogged=false,facing=west,type=single]",
+        "F": "minecraft:suspicious_sand[dusted=0]"
+      }
+    },
+    "text": "器的多"
+  }
+}

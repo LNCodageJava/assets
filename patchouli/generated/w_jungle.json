@@ -1,0 +1,61 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "     ",
+          "     ",
+          "  K  ",
+          "     "
+        ],
+        [
+          "     ",
+          "     ",
+          "  F  ",
+          "  K  ",
+          "     "
+        ],
+        [
+          "     ",
+          "     ",
+          " FFL ",
+          " JK  ",
+          "     "
+        ],
+        [
+          "     ",
+          "D H  ",
+          " FAI ",
+          "EAA  ",
+          " GGD "
+        ],
+        [
+          " AA  ",
+          "AAAAA",
+          "AA0AA",
+          "ABBAA",
+          "ACCA "
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:dirt",
+        "A": "minecraft:grass_block[snowy=false]",
+        "B": "minecraft:dirt",
+        "C": "minecraft:farmland[moisture=0]",
+        "D": "minecraft:flowering_azalea",
+        "E": "minecraft:jungle_sapling[stage=1]",
+        "F": "minecraft:bamboo[leaves=none,stage=0,age=0]",
+        "G": "cobblemon:vivichoke_seeds[age=7]",
+        "H": "minecraft:jungle_sapling[stage=0]",
+        "I": "minecraft:pitcher_plant[half=lower]",
+        "J": "minecraft:torchflower",
+        "K": "minecraft:bamboo[leaves=none,stage=0,age=1]",
+        "L": "minecraft:pitcher_plant[half=upper]"
+      }
+    },
+    "text": "器的多"
+  }
+}

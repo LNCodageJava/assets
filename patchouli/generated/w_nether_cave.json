@@ -1,0 +1,56 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "E    ",
+          "     ",
+          "     ",
+          "   D ",
+          "     "
+        ],
+        [
+          "A B  ",
+          "  G  ",
+          "  G  ",
+          "BBGDD",
+          " BBDD"
+        ],
+        [
+          "ABCCC",
+          "BBFFC",
+          "BFFFB",
+          "CFFDB",
+          "CBBBB"
+        ],
+        [
+          "AAAAB",
+          "ABBBB",
+          "BB0BB",
+          "BBBBB",
+          "BBBBB"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:red_nether_bricks",
+        "A": "minecraft:stone",
+        "B": "minecraft:red_nether_bricks",
+        "C": "minecraft:nether_bricks",
+        "D": "minecraft:basalt[axis=y]",
+        "E": "minecraft:glowstone",
+        "F": "minecraft:lava[level=0]",
+        "G": "minecraft:chain[waterlogged=false,axis=z]"
+      }
+    },
+    "text": "器的多"
+  }
+}

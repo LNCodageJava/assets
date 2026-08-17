@@ -1,0 +1,63 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "AF  A",
+          "HN   ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "F   E",
+          "M    ",
+          "     ",
+          "A  GG",
+          "AA  A"
+        ],
+        [
+          "A  EA",
+          "   L ",
+          "     ",
+          "K    ",
+          "A   A"
+        ],
+        [
+          "AAAAA",
+          "A  DA",
+          "   J ",
+          "CI   ",
+          "A AAA"
+        ],
+        [
+          "AAAAA",
+          "AAAAA",
+          "AB0AA",
+          "AAAAA",
+          "AAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:stone",
+        "A": "minecraft:stone",
+        "B": "minecraft:diamond_ore",
+        "C": "cobblemon:sky_tumblestone_block",
+        "D": "minecraft:amethyst_block",
+        "E": "minecraft:lapis_ore",
+        "F": "minecraft:redstone_ore[lit=false]",
+        "G": "minecraft:gold_ore",
+        "H": "cobblemon:tumblestone_block",
+        "I": "cobblemon:sky_tumblestone_cluster[waterlogged=false,facing=east]",
+        "J": "minecraft:amethyst_cluster[waterlogged=false,facing=south]",
+        "K": "cobblemon:sky_tumblestone_cluster[waterlogged=false,facing=up]",
+        "L": "minecraft:amethyst_cluster[waterlogged=false,facing=up]",
+        "M": "cobblemon:tumblestone_cluster[waterlogged=false,facing=down]",
+        "N": "cobblemon:tumblestone_cluster[waterlogged=false,facing=east]"
+      }
+    },
+    "text": "器的多"
+  }
+}

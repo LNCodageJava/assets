@@ -1,0 +1,65 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "  G  ",
+          "  HG ",
+          " FG  ",
+          "     ",
+          "     "
+        ],
+        [
+          "P    ",
+          "  D  ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "LAA  ",
+          " MDE ",
+          " NEN ",
+          "C NOE",
+          " COOA"
+        ],
+        [
+          "IAAAA",
+          "IKAKA",
+          "JKBKA",
+          "AKKAA",
+          "AAAAA"
+        ],
+        [
+          "AAAAA",
+          "AAAAA",
+          "AA0AA",
+          "AAAAA",
+          "AAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:rooted_dirt",
+        "A": "minecraft:rooted_dirt",
+        "B": "minecraft:mangrove_roots[waterlogged=true]",
+        "C": "cobblemonfury:plant_poison",
+        "D": "minecraft:mangrove_log[axis=y]",
+        "E": "minecraft:mangrove_roots[waterlogged=false]",
+        "F": "minecraft:mangrove_leaves[waterlogged=false,distance=3,persistent=true]",
+        "G": "minecraft:mangrove_leaves[waterlogged=false,distance=2,persistent=true]",
+        "H": "minecraft:mangrove_leaves[waterlogged=false,distance=1,persistent=true]",
+        "I": "minecraft:farmland[moisture=7]",
+        "J": "minecraft:water[level=1]",
+        "K": "minecraft:water[level=0]",
+        "L": "cobblemon:hearty_grains[half=lower,waterlogged=false,age=6]",
+        "M": "cobblemon:medicinal_leek[age=3]",
+        "N": "minecraft:lily_pad",
+        "O": "cobblemonfury:tapis_poison",
+        "P": "cobblemon:hearty_grains[half=upper,waterlogged=false,age=6]"
+      }
+    },
+    "text": "器的多"
+  }
+}

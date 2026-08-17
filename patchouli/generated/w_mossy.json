@@ -1,0 +1,61 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          " EAAE",
+          " FEKA",
+          "  AEA",
+          "   IA",
+          "   IA"
+        ],
+        [
+          "AAEAE",
+          " F HA",
+          "  L A",
+          "   IE",
+          "   IE"
+        ],
+        [
+          "AEAAE",
+          " F KA",
+          "  J B",
+          "   IA",
+          "   I "
+        ],
+        [
+          "AAAAE",
+          " FFHA",
+          "  G A",
+          "   IA",
+          "   I "
+        ],
+        [
+          "ACCCC",
+          "BBCCC",
+          "CA0AC",
+          " CDDB",
+          "  DAB"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:mossy_cobblestone",
+        "A": "minecraft:stone",
+        "B": "minecraft:cobblestone",
+        "C": "minecraft:mossy_cobblestone",
+        "D": "minecraft:moss_block",
+        "E": "minecraft:stone_bricks",
+        "F": "minecraft:vine[east=false,south=false,north=true,west=false,up=false]",
+        "G": "minecraft:cave_vines[berries=false,age=8]",
+        "H": "minecraft:stone_brick_wall[east=tall,waterlogged=false,south=none,north=tall,west=none,up=true]",
+        "I": "minecraft:vine[east=true,south=false,north=false,west=false,up=false]",
+        "J": "minecraft:cave_vines_plant[berries=true]",
+        "K": "minecraft:stone_brick_slab[waterlogged=false,type=bottom]",
+        "L": "minecraft:cave_vines_plant[berries=false]"
+      }
+    },
+    "text": "器的多"
+  }
+}

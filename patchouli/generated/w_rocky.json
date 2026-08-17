@@ -1,0 +1,67 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "     ",
+          "     ",
+          "     ",
+          " H   ",
+          "  E  ",
+          "     ",
+          "     "
+        ],
+        [
+          "     ",
+          "  G  ",
+          " D G ",
+          "CA   ",
+          " EA  ",
+          "     ",
+          " FF  "
+        ],
+        [
+          "     ",
+          "  AA ",
+          "AAAA ",
+          "AA0A ",
+          "AAABB",
+          " AAB ",
+          " AA  "
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:stone",
+        "A": "minecraft:stone",
+        "B": "minecraft:diorite",
+        "C": "minecraft:deepslate_lapis_ore",
+        "D": "minecraft:deepslate_redstone_ore[lit=false]",
+        "E": "minecraft:deepslate_gold_ore",
+        "F": "minecraft:blackstone",
+        "G": "cobblemonfury:cobblestone_poisoned",
+        "H": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "text": "器的多"
+  }
+}

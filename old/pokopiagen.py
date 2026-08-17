@@ -138,4 +138,4 @@ def generate_mod_data_json(excel_file_name, output_json_name):
     print(f"Fichier généré avec succès : {output_path}")
 
 # Lancement
-generate_mod_data_json("pokomons.xlsx", "pokopia_data.json")
+generate_mod_data_json("../scripts/pokomons.xlsx", "pokopia_data.json")

@@ -22,13 +22,15 @@ def convert_nbt_to_patchouli(nbt_path, output_path):
     # 2. Déterminer le bloc d'ancrage ('0')
     # Patchouli a besoin d'un point d'ancrage '0'. On cible le centre de la couche inférieure (y=0).
     anchor_x, anchor_y, anchor_z = size_x // 2, 0, size_z // 2
-    anchor_state = block_grid.get((anchor_x, anchor_y, anchor_z), None)
+    anchor_pos = (anchor_x, anchor_y, anchor_z)
+    anchor_state = block_grid.get(anchor_pos, None)
 
     # Sécurité : Si le centre est vide, on prend le premier bloc non-air trouvé
     if anchor_state is None or str(palette[anchor_state]['Name']) in ["minecraft:air", "minecraft:structure_void"]:
         for b in blocks:
             s = int(b['state'])
             if str(palette[s]['Name']) not in ["minecraft:air", "minecraft:structure_void"]:
+                anchor_pos = tuple(int(x) for x in b['pos'])
                 anchor_state = s
                 break
 
@@ -38,18 +40,24 @@ def convert_nbt_to_patchouli(nbt_path, output_path):
     state_to_char = {}
     mapping = {}
 
-    # Assigner '0' à l'ancrage
+    # Fonction pour construire le nom complet du bloc avec ses propriétés
+    def get_block_name_with_properties(tag):
+        name = str(tag['Name'])
+        if 'Properties' in tag and tag['Properties']:
+            props = tag['Properties']
+            prop_list = [f"{k}={v}" for k, v in props.items()]
+            return f"{name}[{','.join(prop_list)}]"
+        return name
+
+    # Assigner '0' à l'ancrage dans le mapping
     if anchor_state is not None:
-        anchor_name = str(palette[anchor_state]['Name'])
-        state_to_char[anchor_state] = "0"
+        anchor_name = get_block_name_with_properties(palette[anchor_state])
         mapping["0"] = anchor_name
 
-    # Assigner un caractère unique au reste de la palette
+    # Assigner un caractère unique à TOUTE la palette (y compris le type d'ancrage)
     for idx, tag in enumerate(palette):
         name = str(tag['Name'])
         if name in ["minecraft:air", "minecraft:structure_void"]:
-            continue
-        if idx in state_to_char:
             continue
 
         char = next(char_pool, None)
@@ -57,7 +65,7 @@ def convert_nbt_to_patchouli(nbt_path, output_path):
             raise ValueError("Trop de blocs uniques pour le format de Patchouli !")
 
         state_to_char[idx] = char
-        mapping[char] = name
+        mapping[char] = get_block_name_with_properties(tag)
 
     # 3. Générer le pattern 3D (Couches Y, puis lignes Z, puis colonnes X)
     # Patchouli lit les couches du HAUT (Y max) vers le BAS (Y min)
@@ -67,9 +75,13 @@ def convert_nbt_to_patchouli(nbt_path, output_path):
         for z in range(size_z):
             row_chars = []
             for x in range(size_x):
-                state_idx = block_grid.get((x, y, z), None)
+                pos = (x, y, z)
+                state_idx = block_grid.get(pos, None)
 
-                if state_idx is None:
+                # Si c'est la position d'ancrage, utiliser '0'
+                if pos == anchor_pos:
+                    row_chars.append("0")
+                elif state_idx is None:
                     row_chars.append(" ") # Air par défaut
                 else:
                     name = str(palette[state_idx]['Name'])
@@ -82,28 +94,15 @@ def convert_nbt_to_patchouli(nbt_path, output_path):
 
     # 4. Injecter les données dans ton modèle JSON personnalisé
     patchouli_json = {
-        "name": "充電器",
-        "icon": mapping.get("0", "minecraft:stone"),
-        "category": "cobblemonfury:capacity_category",
-        "pages": [
-            {
+            "Topaste":{
                 "type": "multiblock",
                 "name": "充電器的多方塊結構",
                 "multiblock": {
                     "pattern": pattern,
                     "mapping": mapping
-                }
-            },
-            {
-                "type": "text",
-                "text": "這是一些內部含有能源的物品:$(li)桶裝的液態靈魂$(li)神秘粉塵$(li)神秘樹葉$(li)神秘水晶棒$(li)水晶催化劑$(li)被囚禁的光$(li)螢石粉$(li)TNT$(li)煤炭$(li)經驗瓶$(br2)如果這些扔入的物品會產生副產品, 這些副產品將會從充電器頂部產出."
-            },
-            {
-                "type": "crafting",
-                "name": "充電器",
-                "recipe": "minecraft:crafting_table"
+                },
+                "text": "器的多",
             }
-        ]
     }
 
     # Sauvegarder le résultat en conservant les caractères UTF-8 (chinois) intacts
@@ -113,56 +112,19 @@ def convert_nbt_to_patchouli(nbt_path, output_path):
     print(f" Converti avec succès ! Fichier sauvegardé dans : {output_path}")
 
     # 5. Mettre à jour pokopia_data.json
-    update_pokopia_data(nbt_path, palette, blocks)
-
-def update_pokopia_data(nbt_path, palette, blocks):
-    import os
-
-    # Extraire le nom du fichier NBT sans extension
-    nbt_filename = os.path.basename(nbt_path).replace('.nbt', '')
-
-    # Collecter tous les blocs présents dans la structure (avec duplicatas, sauf les blocs rotom)
-    biomes_list = []
-    for b in blocks:
-        state_idx = int(b['state'])
-        block_name = str(palette[state_idx]['Name'])
-        if block_name not in ["minecraft:air", "minecraft:structure_void"] and not block_name.startswith("cobblemonfury:rotom"):
-            biomes_list.append(block_name)
-
-    # Créer la nouvelle entrée mega_habitat
-    new_entry = {
-        "name": nbt_filename,
-        "rotom": f"cobblemonfury:{nbt_filename}",
-        "biomes": biomes_list
-    }
-
-    # Charger pokopia_data.json
-    pokopia_path = "scripts/pokopia_data.json"
-    with open(pokopia_path, 'r', encoding='utf-8') as f:
-        pokopia_data = json.load(f)
-
-    # Vérifier si une entrée avec ce nom existe déjà
-    mega_habitats = pokopia_data.get("mega_habitats", [])
-    existing_index = None
-    for i, habitat in enumerate(mega_habitats):
-        if habitat.get("name") == nbt_filename:
-            existing_index = i
-            break
-
-    # Ajouter ou modifier l'entrée
-    if existing_index is not None:
-        mega_habitats[existing_index] = new_entry
-        print(f" Entrée '{nbt_filename}' mise à jour dans pokopia_data.json")
-    else:
-        mega_habitats.append(new_entry)
-        print(f" Nouvelle entrée '{nbt_filename}' ajoutée à pokopia_data.json")
-
-    pokopia_data["mega_habitats"] = mega_habitats
-
-    # Sauvegarder pokopia_data.json
-    with open(pokopia_path, 'w', encoding='utf-8') as f:
-        json.dump(pokopia_data, f, ensure_ascii=False, indent=2)
 
 # --- Utilisation ---
 # Remplace par les chemins de tes fichiers
-convert_nbt_to_patchouli("scripts/rotom_farm.nbt", "rotom_farm.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_agriculture.nbt", "patchouli/generated/w_agriculture.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_badlands.nbt", "patchouli/generated/w_badlands.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_desert.nbt", "patchouli/generated/w_desert.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_fire.nbt", "patchouli/generated/w_fire.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_fossils.nbt", "patchouli/generated/w_fossils.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_gem.nbt", "patchouli/generated/w_gem.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_jungle.nbt", "patchouli/generated/w_jungle.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_marais.nbt", "patchouli/generated/w_marais.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_mossy.nbt", "patchouli/generated/w_mossy.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_nether_cave.nbt", "patchouli/generated/w_nether_cave.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_plains.nbt", "patchouli/generated/w_plains.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_rocky.nbt", "patchouli/generated/w_rocky.json")
+convert_nbt_to_patchouli("patchouli/multiblocks/w_underwater.nbt", "patchouli/generated/w_underwater.json")

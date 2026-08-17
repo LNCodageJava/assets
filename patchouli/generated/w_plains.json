@@ -1,0 +1,67 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "   PF",
+          "   QG",
+          "    R",
+          "     ",
+          "     "
+        ],
+        [
+          "  LFE",
+          "  MGF",
+          "   NO",
+          "     ",
+          "     "
+        ],
+        [
+          "    E",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "H AAB",
+          " IAAA",
+          " J AA",
+          "IC   ",
+          " ID K"
+        ],
+        [
+          "AABBB",
+          "AABBB",
+          "AA0BB",
+          "ABAAA",
+          "AABAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:grass_block[snowy=false]",
+        "A": "minecraft:grass_block[snowy=false]",
+        "B": "minecraft:dirt",
+        "C": "minecraft:pumpkin",
+        "D": "minecraft:melon",
+        "E": "cobblemon:apricorn_log[axis=y]",
+        "F": "cobblemon:apricorn_leaves[waterlogged=false,distance=1,persistent=true]",
+        "G": "cobblemon:apricorn_leaves[waterlogged=false,distance=2,persistent=true]",
+        "H": "minecraft:cherry_sapling[stage=1]",
+        "I": "minecraft:short_grass",
+        "J": "minecraft:oak_sapling[stage=0]",
+        "K": "minecraft:birch_sapling[stage=0]",
+        "L": "cobblemon:red_apricorn[facing=east,age=3]",
+        "M": "cobblemon:yellow_apricorn[facing=east,age=3]",
+        "N": "cobblemon:blue_apricorn[facing=north,age=3]",
+        "O": "cobblemon:white_apricorn[facing=north,age=3]",
+        "P": "cobblemon:green_apricorn[facing=east,age=3]",
+        "Q": "cobblemon:pink_apricorn[facing=east,age=3]",
+        "R": "cobblemon:black_apricorn[facing=north,age=3]"
+      }
+    },
+    "text": "器的多"
+  }
+}

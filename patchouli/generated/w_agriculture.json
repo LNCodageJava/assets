@@ -1,0 +1,61 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "   K ",
+          "    L",
+          "    H",
+          "    H",
+          "     "
+        ],
+        [
+          "   CA",
+          " I  C",
+          "D JFG",
+          " E  G",
+          " D   "
+        ],
+        [
+          "AAABB",
+          "ACAAB",
+          "AA0AA",
+          "AAAAA",
+          "AAAAA"
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:farmland[moisture=0]",
+        "A": "minecraft:grass_block[snowy=false]",
+        "B": "minecraft:dirt",
+        "C": "minecraft:farmland[moisture=0]",
+        "D": "minecraft:poppy",
+        "E": "minecraft:lily_of_the_valley",
+        "F": "minecraft:dandelion",
+        "G": "minecraft:sunflower[half=lower]",
+        "H": "minecraft:sunflower[half=upper]",
+        "I": "cobblemon:oran_berry[generated=false,rooted=false,age=5,mulch=none]",
+        "J": "cobblemon:pinap_berry[generated=false,rooted=false,age=5,mulch=none]",
+        "K": "cobblemon:chesto_berry[generated=false,rooted=false,age=5,mulch=none]",
+        "L": "cobblemon:cheri_berry[generated=false,rooted=false,age=5,mulch=none]"
+      }
+    },
+    "text": "器的多"
+  }
+}

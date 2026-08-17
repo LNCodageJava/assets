@@ -1,0 +1,66 @@
+{
+  "Topaste": {
+    "type": "multiblock",
+    "name": "充電器的多方塊結構",
+    "multiblock": {
+      "pattern": [
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "     ",
+          "     ",
+          "     ",
+          "     ",
+          "     "
+        ],
+        [
+          "     ",
+          " N   ",
+          " OQE ",
+          " P E ",
+          "     "
+        ],
+        [
+          " HL  ",
+          " IMD ",
+          "FJBBB",
+          "GKCB ",
+          "     "
+        ],
+        [
+          " BB  ",
+          "ABBB ",
+          "BB0BB",
+          "BBBB ",
+          " BB  "
+        ]
+      ],
+      "mapping": {
+        "0": "minecraft:orange_terracotta",
+        "A": "cobblemonfury:crystal_poison",
+        "B": "minecraft:orange_terracotta",
+        "C": "cobblemonfury:crystal_sand",
+        "D": "cobblemonfury:crystal_fire",
+        "E": "minecraft:yellow_terracotta",
+        "F": "minecraft:rail[waterlogged=false,shape=south_east]",
+        "G": "minecraft:rail[waterlogged=false,shape=north_south]",
+        "H": "minecraft:redstone_torch[lit=true]",
+        "I": "minecraft:oak_fence[east=false,waterlogged=false,south=false,north=false,west=false]",
+        "J": "minecraft:powered_rail[waterlogged=false,powered=false,shape=ascending_east]",
+        "K": "minecraft:oak_fence[east=true,waterlogged=false,south=false,north=false,west=false]",
+        "L": "minecraft:powered_rail[waterlogged=false,powered=true,shape=north_south]",
+        "M": "minecraft:rail[waterlogged=false,shape=ascending_south]",
+        "N": "minecraft:oak_fence[east=false,waterlogged=false,south=true,north=false,west=false]",
+        "O": "minecraft:oak_fence[east=false,waterlogged=false,south=true,north=true,west=false]",
+        "P": "minecraft:oak_fence[east=false,waterlogged=false,south=false,north=true,west=false]",
+        "Q": "minecraft:rail[waterlogged=false,shape=north_west]"
+      }
+    },
+    "text": "器的多"
+  }
+}
