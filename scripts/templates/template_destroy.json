@@ -1,9 +1,7 @@
 {
   "components": [
     {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke1.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": -20},
-    {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 60, "y": 0},
-    {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 80, "y": 0},
-    {"type": "patchouli:item", "item": "poke1item3", "framed": false, "x": 100, "y": 0},
+
     {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke2.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 5},
     {"type": "patchouli:item", "item": "poke2item1", "framed": false, "x": 60, "y": 25},
     {"type": "patchouli:item", "item": "poke2item2", "framed": false, "x": 80, "y": 25},

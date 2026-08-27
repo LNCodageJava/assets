@@ -11,6 +11,36 @@
       "y": -20
     },
     {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/naclstack.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/monferno.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/lairon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
       "type": "patchouli:item",
       "item": "cobblemonfury:stardust_white",
       "framed": false,
@@ -28,22 +58,12 @@
       "type": "patchouli:text",
       "text": "0.8",
       "x": 80,
-      "y": 0
+      "y": 5
     },
     {
       "type": "patchouli:text",
       "text": "12",
       "x": 100,
-      "y": 0
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/naclstack.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
       "y": 5
     },
     {
@@ -64,22 +84,12 @@
       "type": "patchouli:text",
       "text": "1.6",
       "x": 80,
-      "y": 25
+      "y": 30
     },
     {
       "type": "patchouli:text",
       "text": "6",
       "x": 100,
-      "y": 25
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/monferno.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
       "y": 30
     },
     {
@@ -100,22 +110,12 @@
       "type": "patchouli:text",
       "text": "0.8",
       "x": 80,
-      "y": 50
+      "y": 55
     },
     {
       "type": "patchouli:text",
       "text": "12",
       "x": 100,
-      "y": 50
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/lairon.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 0,
       "y": 55
     },
     {
@@ -136,13 +136,13 @@
       "type": "patchouli:text",
       "text": "3",
       "x": 80,
-      "y": 75
+      "y": 80
     },
     {
       "type": "patchouli:text",
       "text": "6",
       "x": 100,
-      "y": 75
+      "y": 80
     }
   ]
 }

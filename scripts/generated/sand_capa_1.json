@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/hippopotas.png",
+      "image": "cobblemonfury:pokesprites/sandshrew.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -11,60 +11,147 @@
       "y": -20
     },
     {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/numel.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/sandile.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/gligar.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hippopotas.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
       "type": "patchouli:item",
-      "item": "minecraft:sand",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:dead_bush",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
-      "y": -20
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 80,
       "y": 5
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_sandstone",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 80,
       "y": 30
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_white",
+      "framed": false,
+      "x": 40,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:cactus",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.4",
+      "x": 80,
       "y": 55
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
+      "type": "patchouli:text",
+      "text": "24",
+      "x": 100,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_green",
+      "framed": false,
+      "x": 40,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.4",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "type": "patchouli:text",
+      "text": "20",
+      "x": 100,
       "y": 80
     },
     {
@@ -74,8 +161,17 @@
       "height": 48,
       "texture_width": 48,
       "texture_height": 48,
+      "u": 0,
+      "v": 0,
       "x": 22,
-      "y": 105
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sand",
+      "framed": false,
+      "x": 60,
+      "y": 100
     }
   ]
 }

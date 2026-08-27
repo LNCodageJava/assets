@@ -7,11 +7,11 @@ from copy import deepcopy
 
 INPUT = "pokopia_data.json"
 TEMPLATE_HAB = "templates/template_spawn.json"
-TEMPLATE_DESTROY = "templates/template_destroy.json"
-TEMPLATE_TRANSFORM = "templates/template_transform.json"
-TEMPLATE_MEGA_HABITAT = "templates/template_mega_habitat.json"
+# TEMPLATE_DESTROY = "templates/template_destroy.json"
+# TEMPLATE_TRANSFORM = "templates/template_transform.json"
+# TEMPLATE_MEGA_HABITAT = "templates/template_mega_habitat.json"
 TEMPLATE_ENTRY = "templates/template_entry.json"
-TEMPLATE_STARDUST = "templates/template_stardust.json"
+TEMPLATE_STRUCT = "templates/template_struct.json"
 OUT_DIR = "generated"
 
 # Liste des évolutions pokémon
@@ -438,20 +438,20 @@ def main():
     with open(TEMPLATE_HAB, "r", encoding="utf-8") as f:
         template_hab = json.load(f)
 
-    with open(TEMPLATE_DESTROY, "r", encoding="utf-8") as f:
-        template_destroy = json.load(f)
-
-    with open(TEMPLATE_TRANSFORM, "r", encoding="utf-8") as f:
-        template_transform = json.load(f)
-
-    with open(TEMPLATE_MEGA_HABITAT, "r", encoding="utf-8") as f:
-        template_mega_habitat = json.load(f)
+    # with open(TEMPLATE_DESTROY, "r", encoding="utf-8") as f:
+    #     template_destroy = json.load(f)
+    #
+    # with open(TEMPLATE_TRANSFORM, "r", encoding="utf-8") as f:
+    #     template_transform = json.load(f)
+    #
+    # with open(TEMPLATE_MEGA_HABITAT, "r", encoding="utf-8") as f:
+    #     template_mega_habitat = json.load(f)
 
     with open(TEMPLATE_ENTRY, "r", encoding="utf-8") as f:
         template_entry = json.load(f)
 
-    with open(TEMPLATE_STARDUST, "r", encoding="utf-8") as f:
-        template_stardust = json.load(f)
+    with open(TEMPLATE_STRUCT, "r", encoding="utf-8") as f:
+        template_struct = json.load(f)
 
     # ---------------------------------------------------------
     # Récupération des données
@@ -486,9 +486,19 @@ def main():
                 evolutions = EVOLUTIONS.get(poke, [])
                 extended_pokemons.extend(evolutions)
 
-        mega_capacities_destroy = [capacity_dict.get(poke) for poke in extended_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "destroy"]
-        mega_capacities_transform = [capacity_dict.get(poke) for poke in extended_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "transform"]
-        mega_capacities_stardust = [capacity_dict.get(poke) for poke in extended_pokemons if poke in capacity_dict and capacity_dict.get(poke).get("ability") == "stardust"]
+        # Créer une liste unifiée de toutes les capacités avec leur type
+        all_capacities = []
+        for poke in extended_pokemons:
+            if poke in capacity_dict:
+                cap = capacity_dict.get(poke)
+                if cap.get("ability") in ["destroy", "transform", "stardust"]:
+                    all_capacities.append({
+                        "name": cap.get("name"),
+                        "ability": cap.get("ability"),
+                        "blocks": cap.get("blocks", []),
+                        "itemPrice": cap.get("itemPrice", 1),
+                        "maxValue": cap.get("maxValue", 1)
+                    })
 
         # On ne génère plus la page du megahabitat
         all_pages = []
@@ -502,17 +512,37 @@ def main():
             h2 = mega_habitats_list[i + 1] if i + 1 < len(mega_habitats_list) else None
 
             out = deepcopy(template_hab)
+            components = out.get("components", [])
             items1 = h1.get("hab", []) or []
             name1 = h1.get("name", f"hab_{i}")
 
-            fill_placeholders(out.get("components", []), "poke1", items1)
+            # Si l'habitat est vide, on ne met rien (fallback=None)
+            if items1:
+                fill_placeholders(components, "poke1", items1)
+            else:
+                fill_placeholders(components, "poke1", [], fallback=None)
+                # Supprimer aussi l'image placeholder pour poke1
+                components[:] = [
+                    comp for comp in components
+                    if not (comp.get("type") == "patchouli:image" and "placeholder" in comp.get("image", "") and comp.get("y") == 5)
+                ]
 
             if h2:
                 items2 = h2.get("hab", []) or []
                 name2 = h2.get("name", f"hab_{i+1}")
-                fill_placeholders(out.get("components", []), "poke2", items2)
 
-                for comp in out.get("components", []):
+                # Si l'habitat est vide, on ne met rien (fallback=None)
+                if items2:
+                    fill_placeholders(components, "poke2", items2)
+                else:
+                    fill_placeholders(components, "poke2", [], fallback=None)
+                    # Supprimer aussi l'image placeholder pour poke2
+                    components[:] = [
+                        comp for comp in components
+                        if not (comp.get("type") == "patchouli:image" and "placeholder" in comp.get("image", "") and comp.get("y") == 80)
+                    ]
+
+                for comp in components:
                     if comp.get("type") == "patchouli:image":
                         x = comp.get("x")
                         y = comp.get("y")
@@ -521,14 +551,20 @@ def main():
                         elif x == 60 and y == 80:
                             comp["image"] = f"cobblemonfury:pokesprites/{name2}.png"
             else:
-                fill_placeholders(out.get("components", []), "poke2", [])
-                for comp in out.get("components", []):
+                fill_placeholders(components, "poke2", [], fallback=None)
+                # Supprimer aussi l'image placeholder pour poke2
+                components[:] = [
+                    comp for comp in components
+                    if not (comp.get("type") == "patchouli:image" and "placeholder" in comp.get("image", "") and comp.get("y") == 80)
+                ]
+                for comp in components:
                     if comp.get("type") == "patchouli:image":
                         x = comp.get("x")
                         y = comp.get("y")
                         if x == 60 and y == 5:
                             comp["image"] = f"cobblemonfury:pokesprites/{name1}.png"
 
+            out["components"] = components
             page_name = f"{mega_name}_hab_{hab_page_idx}"
             out_path = os.path.join(OUT_DIR, f"{page_name}.json")
             with open(out_path, "w", encoding="utf-8") as f:
@@ -537,123 +573,108 @@ def main():
             hab_pages.append({"type": f"cobblemonfury:{page_name}"})
             hab_page_idx += 1
 
-        # Générer les pages de capacités destroy
+        # Générer les pages de capacités (toutes mélangées)
         capa_pages = []
         capa_page_idx = 1
-        for i in range(0, len(mega_capacities_destroy), 6):
-            chunk = mega_capacities_destroy[i:i+6]
-            pokemon_list = [{"name": cap.get("name"), "items_to_display": cap.get("blocks", [])} for cap in chunk]
 
-            out = deepcopy(template_destroy)
-            components = out.get("components", [])
+        for i in range(0, len(all_capacities), 6):
+            chunk = all_capacities[i:i+6]
 
+            # Copier les composants pokémons du template_struct
+            components = deepcopy(template_struct.get("components", []))
+
+            # Remplacer les images des pokémons et ajouter les composants de capacité
             for slot_idx in range(1, 7):
-                prefix = f"poke{slot_idx}"
-                if slot_idx - 1 < len(pokemon_list):
-                    poke = pokemon_list[slot_idx - 1]
-                    name = poke.get("name", f"unknown_{slot_idx}")
-                    items = poke.get("items_to_display", [])
-                    fill_placeholders(components, prefix, items, fallback=None)
-                    for comp in components:
-                        if comp.get("type") == "patchouli:image":
-                            if f"pokesprites/{prefix}.png" in comp.get("image", ""):
-                                comp["image"] = f"cobblemonfury:pokesprites/{name}.png"
-                else:
-                    fill_placeholders(components, prefix, [], fallback=None)
-                    components = [
-                        comp for comp in components
-                        if not (comp.get("type") == "patchouli:image" and f"pokesprites/{prefix}.png" in comp.get("image", ""))
-                    ]
-
-            out["components"] = components
-            page_name = f"{mega_name}_capa_{capa_page_idx}"
-            out_path = os.path.join(OUT_DIR, f"{page_name}.json")
-            with open(out_path, "w", encoding="utf-8") as f:
-                json.dump(out, f, ensure_ascii=False, indent=2)
-            print(f"Généré: {out_path}")
-            capa_pages.append({"type": f"cobblemonfury:{page_name}"})
-            capa_page_idx += 1
-
-        # Générer les pages de capacités transform
-        for i in range(0, len(mega_capacities_transform), 6):
-            chunk = mega_capacities_transform[i:i+6]
-            pokemon_list = [{"name": cap.get("name"), "items_to_display": cap.get("blocks", [])} for cap in chunk]
-
-            out = deepcopy(template_transform)
-            components = out.get("components", [])
-
-            for slot_idx in range(1, 7):
-                prefix = f"poke{slot_idx}"
-                if slot_idx - 1 < len(pokemon_list):
-                    poke = pokemon_list[slot_idx - 1]
-                    name = poke.get("name", f"unknown_{slot_idx}")
-                    items = poke.get("items_to_display", [])
-                    fill_placeholders(components, prefix, items, fallback=None)
-                    for comp in components:
-                        if comp.get("type") == "patchouli:image":
-                            if f"pokesprites/{prefix}.png" in comp.get("image", ""):
-                                comp["image"] = f"cobblemonfury:pokesprites/{name}.png"
-                else:
-                    fill_placeholders(components, prefix, [], fallback=None)
-                    components = [
-                        comp for comp in components
-                        if not (comp.get("type") == "patchouli:image" and f"pokesprites/{prefix}.png" in comp.get("image", ""))
-                    ]
-
-            out["components"] = components
-            page_name = f"{mega_name}_capa_{capa_page_idx}"
-            out_path = os.path.join(OUT_DIR, f"{page_name}.json")
-            with open(out_path, "w", encoding="utf-8") as f:
-                json.dump(out, f, ensure_ascii=False, indent=2)
-            print(f"Généré: {out_path}")
-            capa_pages.append({"type": f"cobblemonfury:{page_name}"})
-            capa_page_idx += 1
-
-        # Générer les pages de capacités stardust
-        for i in range(0, len(mega_capacities_stardust), 6):
-            chunk = mega_capacities_stardust[i:i+6]
-
-            out = deepcopy(template_stardust)
-            components = out.get("components", [])
-
-            for slot_idx in range(1, 7):
-                prefix = f"poke{slot_idx}"
                 if slot_idx - 1 < len(chunk):
                     cap = chunk[slot_idx - 1]
-                    name = cap.get("name", f"unknown_{slot_idx}")
+                    name = cap.get("name")
+                    ability = cap.get("ability")
                     blocks = cap.get("blocks", [])
-                    item_price = cap.get("itemPrice", 1)
-                    max_value = cap.get("maxValue", 1)
 
-                    # Remplacer les items (poke1item1, poke1item2)
-                    fill_placeholders(components, prefix, blocks, fallback=None)
+                    # Récupérer la position Y du template pour ce slot
+                    poke_component = components[slot_idx - 1]
+                    y_pos = poke_component.get("y")
 
-                    # Remplacer l'image
-                    for comp in components:
-                        if comp.get("type") == "patchouli:image":
-                            if f"pokesprites/{prefix}.png" in comp.get("image", ""):
-                                comp["image"] = f"cobblemonfury:pokesprites/{name}.png"
+                    # Remplacer l'image du pokémon dans le template
+                    poke_component["image"] = f"cobblemonfury:pokesprites/{name}.png"
 
-                    # Remplacer les textes (poke1price, poke1maxValue)
-                    for comp in components:
-                        if comp.get("type") == "patchouli:text":
-                            text_value = comp.get("text", "")
-                            if text_value == f"{prefix}price":
-                                comp["text"] = str(item_price)
-                            elif text_value == f"{prefix}maxValue":
-                                comp["text"] = str(max_value)
+                    # Ajouter les composants selon le type de capacité
+                    if ability == "stardust":
+                        # STARDUST: 2 items + 2 textes (tous à y_pos + 20)
+                        for item_idx, block in enumerate(blocks[:2], start=1):
+                            components.append({
+                                "type": "patchouli:item",
+                                "item": block,
+                                "framed": False,
+                                "x": 40 if item_idx == 1 else 60,
+                                "y": y_pos + 20
+                            })
+                        components.append({
+                            "type": "patchouli:text",
+                            "text": str(cap.get("itemPrice", 1)),
+                            "x": 80,
+                            "y": y_pos + 25
+                        })
+                        components.append({
+                            "type": "patchouli:text",
+                            "text": str(cap.get("maxValue", 1)),
+                            "x": 100,
+                            "y": y_pos + 25
+                        })
+
+                    elif ability == "destroy":
+                        # DESTROY: image break + 3 items
+                        components.append({
+                            "type": "patchouli:image",
+                            "image": "cobblemonfury:pokesprites/0_break.png",
+                            "width": 48,
+                            "height": 48,
+                            "texture_width": 48,
+                            "texture_height": 48,
+                            "u": 0,
+                            "v": 0,
+                            "x": 22,
+                            "y": y_pos
+                        })
+                        for item_idx, block in enumerate(blocks[:3], start=1):
+                            components.append({
+                                "type": "patchouli:item",
+                                "item": block,
+                                "framed": False,
+                                "x": 40 + (item_idx * 20),
+                                "y": y_pos + 20
+                            })
+
+                    elif ability == "transform":
+                        # PLACE: image transform + 3 items
+                        components.append({
+                            "type": "patchouli:image",
+                            "image": "cobblemonfury:pokesprites/0_transform.png",
+                            "width": 48,
+                            "height": 48,
+                            "texture_width": 48,
+                            "texture_height": 48,
+                            "u": 0,
+                            "v": 0,
+                            "x": 22,
+                            "y": y_pos
+                        })
+                        for item_idx, block in enumerate(blocks[:3], start=1):
+                            components.append({
+                                "type": "patchouli:item",
+                                "item": block,
+                                "framed": False,
+                                "x": 40 + (item_idx * 20),
+                                "y": y_pos + 20
+                            })
                 else:
-                    # Pas de pokémon pour ce slot, on supprime les composants
-                    fill_placeholders(components, prefix, [], fallback=None)
-                    components = [
-                        comp for comp in components
-                        if not (
-                            (comp.get("type") == "patchouli:image" and f"pokesprites/{prefix}.png" in comp.get("image", ""))
-                            or (comp.get("type") == "patchouli:text" and comp.get("text", "") in [f"{prefix}price", f"{prefix}maxValue"])
-                        )
-                    ]
+                    # Pas de capacité pour ce slot, supprimer l'image du pokémon
+                    components[slot_idx - 1] = None
 
-            out["components"] = components
+            # Nettoyer les composants None
+            components = [c for c in components if c is not None]
+
+            out = {"components": components}
             page_name = f"{mega_name}_capa_{capa_page_idx}"
             out_path = os.path.join(OUT_DIR, f"{page_name}.json")
             with open(out_path, "w", encoding="utf-8") as f:

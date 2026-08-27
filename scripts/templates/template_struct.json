@@ -1,0 +1,17 @@
+{
+  "components": [
+    {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke1.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": -20},
+
+    {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke2.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 5},
+
+    {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke3.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 30},
+
+    {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke4.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 55},
+
+    {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke5.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 80},
+
+    {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/poke6.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 0, "y": 105}
+  ]
+}
+
+

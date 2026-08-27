@@ -1496,11 +1496,6 @@
       "maxValue": 12
     },
     {
-      "name": "graveler",
-      "ability": "destroy",
-      "blocks": []
-    },
-    {
       "name": "ditto",
       "ability": "stardust",
       "blocks": [

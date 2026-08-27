@@ -5,6 +5,28 @@ import os
 import json
 import shutil
 
+
+
+# STARDUST
+# {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 40, "y": Y},
+# {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 60, "y": Y},
+# {"type": "patchouli:text", "text": "poke1price", "x": 80, "y": Y},
+# {"type": "patchouli:text", "text": "poke1maxValue", "x": 100, "y": Y}
+
+# DESTROY
+# {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 60, "y": Y+20},
+# {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 80, "y": Y+20},
+# {"type": "patchouli:item", "item": "poke1item3", "framed": false, "x": 100, "y": Y+20},
+# {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/0_break.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 22, "y": Y},
+#
+# PLACE
+# {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 60, "y": Y+20},
+# {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 80, "y": Y+20},
+# {"type": "patchouli:item", "item": "poke1item3", "framed": false, "x": 100, "y": Y+20},
+# {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/0_transform.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 22, "y": Y},
+
+
+cobblemonfury:pokesprites/0_transform.png
 def generate_blockstate(name: str):
     data = {
         "variants": {
@@ -48,8 +70,15 @@ def copy_json(name: str):
     print(f"✅ Block model JSON copied & updated at: {dest_path}")
 
 def copy_texture_png(name: str):
-    # Source file path in same folder as script
-    src_path = os.path.join(os.path.dirname(__file__), f"{name}.png")
+    # Chercher d'abord dans bbmodels/justTextures
+    script_dir = os.path.dirname(__file__)
+    src_path_bbmodels = os.path.join(os.path.dirname(script_dir), "bbmodels", "justTextures", f"{name}.png")
+
+    # Si non trouvé, chercher dans le dossier du script
+    if os.path.exists(src_path_bbmodels):
+        src_path = src_path_bbmodels
+    else:
+        src_path = os.path.join(script_dir, f"{name}.png")
 
     # Destination path
     dest_path = rf"C:\Users\garat\Documents\cobblemon_fury_2_fabric\src\main\resources\assets\cobblemonfury\textures\block\{name}.png"
@@ -192,9 +221,7 @@ def generate_block_without_model(name: str):
     generate_block_loot_table(name)
 
 
-generate_block("starduster_0")
-generate_block("starduster_1")
-generate_block("starduster_2")
+generate_block_without_model("island_generator_base")
 # generate_item("produced","smoothie_green")
 # generate_item("produced","smoothie_yellow")
 # generate_item("produced","smoothie_red")

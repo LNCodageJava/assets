@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/dugtrio.png",
+      "image": "cobblemonfury:pokesprites/spiritomb.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -11,37 +11,49 @@
       "y": -20
     },
     {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/dugtrio.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/cursola.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
       "type": "patchouli:item",
-      "item": "minecraft:dirt",
+      "item": "cobblemonfury:stardust_blue",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:obsidian",
       "framed": false,
       "x": 60,
       "y": 0
     },
     {
-      "type": "patchouli:item",
-      "item": "minecraft:grass_block",
-      "framed": false,
+      "type": "patchouli:text",
+      "text": "0.4",
       "x": 80,
-      "y": 0
+      "y": 5
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
-      "y": -20
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
+      "type": "patchouli:text",
+      "text": "16",
+      "x": 100,
       "y": 5
     },
     {
@@ -51,38 +63,50 @@
       "height": 48,
       "texture_width": 48,
       "texture_height": 48,
+      "u": 0,
+      "v": 0,
       "x": 22,
-      "y": 30
+      "y": 5
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
+      "type": "patchouli:item",
+      "item": "minecraft:dirt",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:grass_block",
+      "framed": false,
+      "x": 80,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_blue",
+      "framed": false,
+      "x": 40,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sponge",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.4",
+      "x": 80,
       "y": 55
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
-      "y": 80
-    },
-    {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "x": 22,
-      "y": 105
+      "type": "patchouli:text",
+      "text": "14",
+      "x": 100,
+      "y": 55
     }
   ]
 }
