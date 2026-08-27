@@ -7,26 +7,6 @@ import shutil
 
 
 
-# STARDUST
-# {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 40, "y": Y},
-# {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 60, "y": Y},
-# {"type": "patchouli:text", "text": "poke1price", "x": 80, "y": Y},
-# {"type": "patchouli:text", "text": "poke1maxValue", "x": 100, "y": Y}
-
-# DESTROY
-# {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 60, "y": Y+20},
-# {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 80, "y": Y+20},
-# {"type": "patchouli:item", "item": "poke1item3", "framed": false, "x": 100, "y": Y+20},
-# {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/0_break.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 22, "y": Y},
-#
-# PLACE
-# {"type": "patchouli:item", "item": "poke1item1", "framed": false, "x": 60, "y": Y+20},
-# {"type": "patchouli:item", "item": "poke1item2", "framed": false, "x": 80, "y": Y+20},
-# {"type": "patchouli:item", "item": "poke1item3", "framed": false, "x": 100, "y": Y+20},
-# {"type": "patchouli:image", "image": "cobblemonfury:pokesprites/0_transform.png", "width": 48, "height": 48, "texture_width": 48, "texture_height": 48, "x": 22, "y": Y},
-
-
-cobblemonfury:pokesprites/0_transform.png
 def generate_blockstate(name: str):
     data = {
         "variants": {

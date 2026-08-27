@@ -42,7 +42,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/graveler.png",
+      "image": "cobblemonfury:pokesprites/boldore.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -52,7 +52,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/boldore.png",
+      "image": "cobblemonfury:pokesprites/machoke.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -158,16 +158,30 @@
       "y": 75
     },
     {
-      "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/0_break.png",
-      "width": 48,
-      "height": 48,
-      "texture_width": 48,
-      "texture_height": 48,
-      "u": 0,
-      "v": 0,
-      "x": 22,
-      "y": 80
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_blue",
+      "framed": false,
+      "x": 40,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:large_budding_tumblestone",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 105
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 105
     },
     {
       "type": "patchouli:item",
@@ -178,7 +192,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemon:large_budding_tumblestone",
+      "item": "cobblemon:large_budding_sky_tumblestone",
       "framed": false,
       "x": 60,
       "y": 125

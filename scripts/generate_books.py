@@ -482,19 +482,22 @@ def main():
         # Construire une liste étendue des pokémons incluant les évolutions
         extended_pokemons = list(mega_pokemons)
         for poke in mega_pokemons:
-            if poke in habitat_dict and habitat_dict[poke].get("hab"):
-                evolutions = EVOLUTIONS.get(poke, [])
-                extended_pokemons.extend(evolutions)
+            evolutions = EVOLUTIONS.get(poke, [])
+            extended_pokemons.extend(evolutions)
 
         # Créer une liste unifiée de toutes les capacités avec leur type
         all_capacities = []
         for poke in extended_pokemons:
             if poke in capacity_dict:
                 cap = capacity_dict.get(poke)
-                if cap.get("ability") in ["destroy", "transform", "stardust"]:
+                # Accepter destroy, transform/place (synonymes), et stardust
+                ability = cap.get("ability")
+                if ability in ["destroy", "transform", "place", "stardust"]:
+                    # Normaliser "place" en "transform" pour le traitement
+                    normalized_ability = "transform" if ability == "place" else ability
                     all_capacities.append({
                         "name": cap.get("name"),
-                        "ability": cap.get("ability"),
+                        "ability": normalized_ability,
                         "blocks": cap.get("blocks", []),
                         "itemPrice": cap.get("itemPrice", 1),
                         "maxValue": cap.get("maxValue", 1)
