@@ -32,13 +32,23 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/scovillain.png",
+      "image": "cobblemonfury:pokesprites/annihilape.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
       "texture_height": 48,
       "x": 0,
       "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/scovillain.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
     },
     {
       "type": "patchouli:item",
@@ -120,7 +130,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:poppy",
+      "item": "minecraft:bookshelf",
       "framed": false,
       "x": 60,
       "y": 75
@@ -133,9 +143,35 @@
     },
     {
       "type": "patchouli:text",
-      "text": "42",
+      "text": "30",
       "x": 100,
       "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust_purple",
+      "framed": false,
+      "x": 40,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:poppy",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.3",
+      "x": 80,
+      "y": 105
+    },
+    {
+      "type": "patchouli:text",
+      "text": "42",
+      "x": 100,
+      "y": 105
     }
   ]
 }

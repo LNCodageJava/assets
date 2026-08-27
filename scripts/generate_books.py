@@ -355,6 +355,25 @@ EVOLUTIONS = {
     "poltchageist": ["sinistcha"]
 }
 
+def get_all_evolutions(pokemon_name):
+    """
+    Retourne toutes les évolutions d'un pokémon, même si c'est une évolution intermédiaire.
+    Par exemple: graveler -> [golem]
+    """
+    # D'abord, chercher si le pokémon est une base
+    if pokemon_name in EVOLUTIONS:
+        return EVOLUTIONS[pokemon_name]
+
+    # Sinon, chercher si le pokémon est une évolution intermédiaire
+    for base, evos in EVOLUTIONS.items():
+        if pokemon_name in evos:
+            # Trouver l'index du pokémon dans la chaîne d'évolution
+            idx = evos.index(pokemon_name)
+            # Retourner toutes les évolutions après celui-ci
+            return evos[idx + 1:] if idx + 1 < len(evos) else []
+
+    return []
+
 def fill_placeholders(components, prefix, items, fallback="minecraft:birch_button"):
     """
     Remplace les composants dont le champ 'item' est 'prefixitemN' par items[N-1].
@@ -482,7 +501,7 @@ def main():
         # Construire une liste étendue des pokémons incluant les évolutions
         extended_pokemons = list(mega_pokemons)
         for poke in mega_pokemons:
-            evolutions = EVOLUTIONS.get(poke, [])
+            evolutions = get_all_evolutions(poke)
             extended_pokemons.extend(evolutions)
 
         # Créer une liste unifiée de toutes les capacités avec leur type

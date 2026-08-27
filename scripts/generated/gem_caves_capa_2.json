@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/machoke.png",
+      "image": "cobblemonfury:pokesprites/golem.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -11,30 +11,23 @@
       "y": -20
     },
     {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_blue",
-      "framed": false,
-      "x": 40,
-      "y": 0
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": -20
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemon:large_budding_sky_tumblestone",
+      "item": "minecraft:stone",
       "framed": false,
       "x": 60,
       "y": 0
-    },
-    {
-      "type": "patchouli:text",
-      "text": "0.5",
-      "x": 80,
-      "y": 5
-    },
-    {
-      "type": "patchouli:text",
-      "text": "12",
-      "x": 100,
-      "y": 5
     }
   ]
 }
