@@ -201,17 +201,30 @@ def generate_block_without_model(name: str):
     generate_block_loot_table(name)
 
 
-generate_block_without_model("island_generator_base")
-# generate_item("produced","smoothie_green")
-# generate_item("produced","smoothie_yellow")
-# generate_item("produced","smoothie_red")
-# generate_item("produced","smoothie_blue")
-# generate_item("produced","smoothie_white")
-# generate_item("produced","soup_carrot")
-# generate_item("produced","soup_potato")
-# generate_item("produced","soup_wheat")
-# generate_item("produced","wood_birch")
-# generate_item("produced","wood_jungle")
-# generate_item("produced","wood_oak")
-# generate_item("produced","wood_spruce")
-# generate_item("produced","wood_cherry")
+#generate_block_without_model("island_generator_base")
+
+
+# generate_item("stardust","stardust_expanse_alpha")
+# generate_item("stardust","stardust_expanse_beta")
+# generate_item("stardust","stardust_expanse_gamma")
+# generate_item("stardust","stardust_genesis_alpha")
+# generate_item("stardust","stardust_genesis_beta")
+# generate_item("stardust","stardust_genesis_gamma")
+# generate_item("stardust","stardust_mythical_alpha")
+# generate_item("stardust","stardust_mythical_beta")
+# generate_item("stardust","stardust_mythical_gamma")
+# generate_item("stardust","stardust_zenith_alpha")
+# generate_item("stardust","stardust_zenith_beta")
+# generate_item("stardust","stardust_zenith_gamma")
+
+
+generate_block_without_model("abyssal_plate")
+generate_block_without_model("fish_stack")
+generate_block_without_model("island_generator_3")
+generate_block_without_model("mud_crack")
+generate_block_without_model("rusty_plate")
+generate_block_without_model("shell")
+generate_block_without_model("strange_coral")
+generate_block_without_model("zebred_deepslate")
+
+
