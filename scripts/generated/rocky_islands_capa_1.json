@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/smeargle.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/abra.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/weezing.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/conkeldurr.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/zebstrika.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:orange_carpet",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "14",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lapis_block",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 80,
+      "y": 30
+    },
+    {
+      "type": "patchouli:text",
+      "text": "8",
+      "x": 100,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:mangrove_wood",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 55
+    },
+    {
+      "type": "patchouli:text",
+      "text": "15",
+      "x": 100,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:deepslate_gold_ore",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "type": "patchouli:text",
+      "text": "10",
+      "x": 100,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_mount.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 85
+    }
+  ]
+}

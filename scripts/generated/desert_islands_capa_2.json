@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/chinchou.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/gligar.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_genesis_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:bubble_coral",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1",
+      "x": 80,
+      "y": 5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_beta",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:silice",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.4",
+      "x": 80,
+      "y": 30
+    },
+    {
+      "type": "patchouli:text",
+      "text": "20",
+      "x": 100,
+      "y": 30
+    }
+  ]
+}

@@ -22,14 +22,14 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_mythical_alpha",
       "framed": false,
       "x": 40,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:diamond_block",
+      "item": "minecraft:obsidian",
       "framed": false,
       "x": 60,
       "y": 0
@@ -48,7 +48,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_mythical_beta",
       "framed": false,
       "x": 40,
       "y": 25

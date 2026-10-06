@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/hoothoot.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/smoliv.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/vileplume.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/ferroseed.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/fraxure.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/roselia.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_genesis_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_log",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 80,
+      "y": 5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_genesis_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sunflower",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.6",
+      "x": 80,
+      "y": 30
+    },
+    {
+      "type": "patchouli:text",
+      "text": "24",
+      "x": 100,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:carrot",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:potato",
+      "framed": false,
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:wheat",
+      "framed": false,
+      "x": 100,
+      "y": 50
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:carrot",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:potato",
+      "framed": false,
+      "x": 80,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:wheat",
+      "framed": false,
+      "x": 100,
+      "y": 75
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:oak_log",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:birch_log",
+      "framed": false,
+      "x": 80,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:cherry_log",
+      "framed": false,
+      "x": 100,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_beta",
+      "framed": false,
+      "x": 40,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:rose_bush",
+      "framed": false,
+      "x": 60,
+      "y": 125
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.6",
+      "x": 80,
+      "y": 130
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 130
+    }
+  ]
+}

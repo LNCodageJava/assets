@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 25,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 45,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 5,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:rose_bush",
+      "framed": true,
+      "x": 25,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 45,
+      "y": 20
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 5,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 25,
+      "y": 40
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:lily_of_the_valley",
+      "framed": false,
+      "x": 45,
+      "y": 40
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/roselia.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 60,
+      "y": 5
+    }
+  ]
+}

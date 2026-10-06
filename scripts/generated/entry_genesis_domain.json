@@ -1,0 +1,19 @@
+{
+  "name": "genesis_domain",
+  "icon": "cobblemonfury:island_generator_0",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:genesis_domain_hab_1"
+    },
+    {
+      "type": "cobblemonfury:genesis_domain_hab_2"
+    },
+    {
+      "type": "cobblemonfury:genesis_domain_hab_3"
+    },
+    {
+      "type": "cobblemonfury:genesis_domain_capa_1"
+    }
+  ]
+}

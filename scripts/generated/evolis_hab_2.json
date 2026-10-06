@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:chiseled_stone_bricks",
       "framed": false,
       "x": 5,
       "y": 0
@@ -65,7 +65,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:birch_button",
+      "item": "minecraft:chiseled_stone_bricks",
       "framed": false,
       "x": 5,
       "y": 75

@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/exeggutor.png",
+      "image": "cobblemonfury:pokesprites/komala.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -52,26 +52,33 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_blue",
+      "item": "cobblemonfury:stardust/stardust_zenith_beta",
       "framed": false,
       "x": 40,
       "y": 0
     },
     {
+      "type": "patchouli:item",
+      "item": "minecraft:bamboo",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
       "type": "patchouli:text",
-      "text": "0.4",
+      "text": "0.5",
       "x": 80,
       "y": 5
     },
     {
       "type": "patchouli:text",
-      "text": "40",
+      "text": "12",
       "x": 100,
       "y": 5
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_blue",
+      "item": "cobblemonfury:stardust/stardust_zenith_alpha",
       "framed": false,
       "x": 40,
       "y": 25
@@ -97,7 +104,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_blue",
+      "item": "cobblemonfury:stardust/stardust_expanse_gamma",
       "framed": false,
       "x": 40,
       "y": 50
@@ -123,7 +130,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_mythical_gamma",
       "framed": false,
       "x": 40,
       "y": 75
@@ -149,7 +156,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_mythical_gamma",
       "framed": false,
       "x": 40,
       "y": 100
@@ -163,7 +170,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "0.3",
+      "text": "0.2",
       "x": 80,
       "y": 105
     },

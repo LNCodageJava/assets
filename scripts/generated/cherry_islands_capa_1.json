@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/tangela.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/dachsbun.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/exeggcute.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/miltank.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/alcremie.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/slowbro.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:vivichoke",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "10",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:campfire",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1.2",
+      "x": 80,
+      "y": 30
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6",
+      "x": 100,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:egg",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_transform.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:milk_bucket",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:cake",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:text",
+      "text": "2",
+      "x": 80,
+      "y": 105
+    },
+    {
+      "type": "patchouli:text",
+      "text": "4",
+      "x": 100,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_gamma",
+      "framed": false,
+      "x": 40,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:magost_berry",
+      "framed": false,
+      "x": 60,
+      "y": 125
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1",
+      "x": 80,
+      "y": 130
+    },
+    {
+      "type": "patchouli:text",
+      "text": "10",
+      "x": 100,
+      "y": 130
+    }
+  ]
+}

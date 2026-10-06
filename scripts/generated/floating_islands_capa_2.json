@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/sharpedo.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_mount.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": -15
+    }
+  ]
+}

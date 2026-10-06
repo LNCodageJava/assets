@@ -2,70 +2,70 @@
   "components": [
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:redstone_torch",
       "framed": false,
       "x": 5,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:redstone_torch",
       "framed": false,
       "x": 25,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:redstone_torch",
       "framed": false,
       "x": 45,
       "y": 0
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:redstone_torch",
       "framed": false,
       "x": 5,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:iron_block",
+      "item": "minecraft:redstone_ore",
       "framed": true,
       "x": 25,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 5,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 25,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:birch_button",
       "framed": false,
       "x": 45,
       "y": 40
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/aron.png",
+      "image": "cobblemonfury:pokesprites/ditto.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

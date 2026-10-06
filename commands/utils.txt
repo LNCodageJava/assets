@@ -1,3 +1,4 @@
 /give @s patchouli:guide_book[patchouli:book="cobblemonfury:pokopia"]
 /execute in cobblemonfury:test_dim/gg run tp @s 0 100 0
 /setblock ~ ~ ~ cobblemonfury:riddle_block[riddle_number=3]
+/kill @e[type=cobblemon:pokemon]

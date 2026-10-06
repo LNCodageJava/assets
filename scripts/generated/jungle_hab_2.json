@@ -30,7 +30,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:torchflower",
+      "item": "minecraft:bamboo",
       "framed": true,
       "x": 25,
       "y": 20
@@ -93,7 +93,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:bamboo",
+      "item": "minecraft:pitcher_plant",
       "framed": true,
       "x": 25,
       "y": 95
@@ -128,7 +128,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/capsakid.png",
+      "image": "cobblemonfury:pokesprites/komala.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/komala.png",
+      "image": "cobblemonfury:pokesprites/tropius.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

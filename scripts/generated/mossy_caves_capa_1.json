@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/chimchar.png",
+      "image": "cobblemonfury:pokesprites/aron.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,7 +12,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/naclstack.png",
+      "image": "cobblemonfury:pokesprites/ditto.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -22,7 +22,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/monferno.png",
+      "image": "cobblemonfury:pokesprites/lairon.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -32,27 +32,13 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/lairon.png",
+      "image": "cobblemonfury:pokesprites/boldore.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
       "texture_height": 48,
       "x": 0,
       "y": 55
-    },
-    {
-      "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_white",
-      "framed": false,
-      "x": 40,
-      "y": 0
-    },
-    {
-      "type": "patchouli:item",
-      "item": "minecraft:torch",
-      "framed": false,
-      "x": 60,
-      "y": 0
     },
     {
       "type": "patchouli:text",
@@ -68,33 +54,33 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_green",
+      "item": "cobblemonfury:stardust/stardust_genesis_alpha",
       "framed": false,
       "x": 40,
       "y": 25
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:copper_block",
+      "item": "minecraft:redstone_block",
       "framed": false,
       "x": 60,
       "y": 25
     },
     {
       "type": "patchouli:text",
-      "text": "1.6",
+      "text": "1.4",
       "x": 80,
       "y": 30
     },
     {
       "type": "patchouli:text",
-      "text": "6",
+      "text": "7",
       "x": 100,
       "y": 30
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_green",
+      "item": "cobblemonfury:stardust/stardust_expanse_alpha",
       "framed": false,
       "x": 40,
       "y": 50
@@ -120,27 +106,27 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_green",
+      "item": "cobblemonfury:stardust/stardust_expanse_alpha",
       "framed": false,
       "x": 40,
       "y": 75
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:iron_block",
+      "item": "cobblemon:tumblestone_cluster",
       "framed": false,
       "x": 60,
       "y": 75
     },
     {
       "type": "patchouli:text",
-      "text": "3",
+      "text": "1",
       "x": 80,
       "y": 80
     },
     {
       "type": "patchouli:text",
-      "text": "6",
+      "text": "12",
       "x": 100,
       "y": 80
     }

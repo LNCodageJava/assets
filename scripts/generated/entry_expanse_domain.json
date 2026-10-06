@@ -1,0 +1,28 @@
+{
+  "name": "expanse_domain",
+  "icon": "cobblemonfury:island_generator_1",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:expanse_domain_hab_1"
+    },
+    {
+      "type": "cobblemonfury:expanse_domain_hab_2"
+    },
+    {
+      "type": "cobblemonfury:expanse_domain_hab_3"
+    },
+    {
+      "type": "cobblemonfury:expanse_domain_hab_4"
+    },
+    {
+      "type": "cobblemonfury:expanse_domain_hab_5"
+    },
+    {
+      "type": "cobblemonfury:expanse_domain_capa_1"
+    },
+    {
+      "type": "cobblemonfury:expanse_domain_capa_2"
+    }
+  ]
+}

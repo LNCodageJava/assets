@@ -509,9 +509,9 @@ def main():
         for poke in extended_pokemons:
             if poke in capacity_dict:
                 cap = capacity_dict.get(poke)
-                # Accepter destroy, transform/place (synonymes), et stardust
+                # Accepter destroy, transform/place (synonymes), stardust, mount, drop et convert
                 ability = cap.get("ability")
-                if ability in ["destroy", "transform", "place", "stardust"]:
+                if ability in ["destroy", "transform", "place", "stardust", "mount", "drop", "convert"]:
                     # Normaliser "place" en "transform" pour le traitement
                     normalized_ability = "transform" if ability == "place" else ability
                     all_capacities.append({
@@ -687,6 +687,52 @@ def main():
                                 "item": block,
                                 "framed": False,
                                 "x": 40 + (item_idx * 20),
+                                "y": y_pos + 20
+                            })
+
+                    elif ability == "mount":
+                        # MOUNT: image mount + 3 items
+                        components.append({
+                            "type": "patchouli:image",
+                            "image": "cobblemonfury:pokesprites/0_mount.png",
+                            "width": 48,
+                            "height": 48,
+                            "texture_width": 48,
+                            "texture_height": 48,
+                            "u": 0,
+                            "v": 0,
+                            "x": 22,
+                            "y": y_pos + 5
+                        })
+                        for item_idx, block in enumerate(blocks[:3], start=1):
+                            components.append({
+                                "type": "patchouli:item",
+                                "item": block,
+                                "framed": False,
+                                "x": 40 + (item_idx * 20),
+                                "y": y_pos + 20
+                            })
+
+                    elif ability in ["drop", "convert"]:
+                        # DROP/CONVERT: image transform + premier bloc seulement
+                        components.append({
+                            "type": "patchouli:image",
+                            "image": "cobblemonfury:pokesprites/0_transform.png",
+                            "width": 48,
+                            "height": 48,
+                            "texture_width": 48,
+                            "texture_height": 48,
+                            "u": 0,
+                            "v": 0,
+                            "x": 22,
+                            "y": y_pos
+                        })
+                        if blocks:
+                            components.append({
+                                "type": "patchouli:item",
+                                "item": blocks[0],
+                                "framed": False,
+                                "x": 60,
                                 "y": y_pos + 20
                             })
                 else:

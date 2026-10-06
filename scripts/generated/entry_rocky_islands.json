@@ -1,0 +1,19 @@
+{
+  "name": "rocky_islands",
+  "icon": "minecraft:white_wool",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:rocky_islands_hab_1"
+    },
+    {
+      "type": "cobblemonfury:rocky_islands_hab_2"
+    },
+    {
+      "type": "cobblemonfury:rocky_islands_hab_3"
+    },
+    {
+      "type": "cobblemonfury:rocky_islands_capa_1"
+    }
+  ]
+}

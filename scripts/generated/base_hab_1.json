@@ -44,21 +44,21 @@
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:oak_planks",
+      "item": "minecraft:grass_block",
       "framed": false,
       "x": 5,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:oak_planks",
+      "item": "minecraft:grass_block",
       "framed": false,
       "x": 25,
       "y": 40
     },
     {
       "type": "patchouli:item",
-      "item": "minecraft:oak_planks",
+      "item": "minecraft:grass_block",
       "framed": false,
       "x": 45,
       "y": 40
@@ -140,7 +140,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/bulbasaur.png",
+      "image": "cobblemonfury:pokesprites/patrat.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,

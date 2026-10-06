@@ -12,7 +12,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/bulbasaur.png",
+      "image": "cobblemonfury:pokesprites/patrat.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -32,7 +32,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_white",
+      "item": "cobblemonfury:stardust/stardust_genesis_gamma",
       "framed": false,
       "x": 40,
       "y": 0
@@ -46,7 +46,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "0.6",
+      "text": "0.3",
       "x": 80,
       "y": 5
     },
@@ -58,7 +58,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_white",
+      "item": "cobblemonfury:stardust/stardust_genesis_alpha",
       "framed": false,
       "x": 40,
       "y": 25
@@ -72,7 +72,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "0.8",
+      "text": "0.4",
       "x": 80,
       "y": 30
     },
@@ -84,7 +84,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_white",
+      "item": "cobblemonfury:stardust/stardust_genesis_beta",
       "framed": false,
       "x": 40,
       "y": 50
@@ -98,7 +98,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "0.8",
+      "text": "0.4",
       "x": 80,
       "y": 55
     },

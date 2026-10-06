@@ -1,0 +1,22 @@
+{
+  "name": "floating_islands",
+  "icon": "minecraft:clay",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:floating_islands_hab_1"
+    },
+    {
+      "type": "cobblemonfury:floating_islands_hab_2"
+    },
+    {
+      "type": "cobblemonfury:floating_islands_hab_3"
+    },
+    {
+      "type": "cobblemonfury:floating_islands_capa_1"
+    },
+    {
+      "type": "cobblemonfury:floating_islands_capa_2"
+    }
+  ]
+}

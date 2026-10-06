@@ -1,7 +1,7 @@
 {
   "habitats": [
     {
-      "name": "sandile",
+      "name": "cacnea",
       "hab": [
         "minecraft:cactus",
         "minecraft:water_bucket",
@@ -27,7 +27,7 @@
         "minecraft:chiseled_sandstone",
         "minecraft:chiseled_sandstone"
       ],
-      "lvl": 10
+      "lvl": 20
     },
     {
       "name": "gligar",
@@ -47,31 +47,33 @@
     {
       "name": "leafeon",
       "hab": [
-        "cobblemon:leaf_stone_ore"
+        "cobblemon:leaf_stone_ore",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 40
     },
     {
       "name": "espeon",
       "hab": [
-        "cobblemon:sun_stone_ore"
+        "cobblemon:sun_stone_ore",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 40
     },
     {
-      "name": "chimchar",
+      "name": "aron",
       "hab": [
         "minecraft:mossy_cobblestone",
         "minecraft:torch",
-        "minecraft:torch",
-        "minecraft:torch",
+        "minecraft:mossy_cobblestone",
         "minecraft:torch",
         "minecraft:mossy_cobblestone",
         "minecraft:mossy_cobblestone",
+        "minecraft:torch",
         "minecraft:mossy_cobblestone",
-        "minecraft:mossy_cobblestone"
+        "minecraft:torch"
       ],
-      "lvl": 10
+      "lvl": 20
     },
     {
       "name": "magby",
@@ -86,12 +88,20 @@
         "minecraft:magma_block",
         "minecraft:magma_block"
       ],
-      "lvl": 20
+      "lvl": 30
     },
     {
       "name": "carbink",
       "hab": [
-        "minecraft:diamond_ore"
+        "minecraft:diamond_ore",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 30
     },
@@ -108,7 +118,7 @@
         "minecraft:magma_block",
         "minecraft:magma_block"
       ],
-      "lvl": 20
+      "lvl": 30
     },
     {
       "name": "slugma",
@@ -123,7 +133,7 @@
         "minecraft:lava_bucket",
         "minecraft:lava_bucket"
       ],
-      "lvl": 20
+      "lvl": 35
     },
     {
       "name": "paras",
@@ -143,31 +153,36 @@
     {
       "name": "graveler",
       "hab": [
-        "minecraft:diamond_block",
+        "minecraft:emerald_block",
         "minecraft:redstone_block",
         "minecraft:gold_block",
         "minecraft:lapis_block",
         "minecraft:copper_block",
         "minecraft:iron_block"
       ],
-      "lvl": 20
+      "lvl": 30
     },
     {
       "name": "machop",
       "hab": [
-        "cobblemon:sky_tumblestone_cluster"
+        "cobblemon:sky_tumblestone_cluster",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks"
       ],
-      "lvl": 20
+      "lvl": 10
     },
     {
       "name": "ditto",
       "hab": [
-        "minecraft:redstone_block",
-        "minecraft:redstone_block",
-        "minecraft:lapis_ore",
-        "minecraft:redstone_block"
+        "minecraft:redstone_ore",
+        "minecraft:redstone_torch",
+        "minecraft:redstone_torch",
+        "minecraft:redstone_torch",
+        "minecraft:redstone_torch"
       ],
-      "lvl": 20
+      "lvl": 15
     },
     {
       "name": "magnemite",
@@ -182,49 +197,61 @@
         "minecraft:copper_block",
         "minecraft:copper_block"
       ],
-      "lvl": 20
+      "lvl": 35
     },
     {
       "name": "dugtrio",
       "hab": [
         "cobblemonfury:block_special_ore",
-        "minecraft:redstone_torch",
-        "minecraft:rail",
-        "minecraft:redstone_torch",
         "minecraft:rail",
         "minecraft:rail",
-        "minecraft:redstone_torch",
         "minecraft:rail",
-        "minecraft:redstone_torch"
+        "minecraft:rail"
       ],
       "lvl": 30
     },
     {
       "name": "sylveon",
       "hab": [
-        "cobblemon:moon_stone_ore"
+        "cobblemon:moon_stone_ore",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 60
     },
     {
+      "name": "slowpoke",
+      "hab": [
+        "cobblemon:magost_berry",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch"
+      ],
+      "lvl": 20
+    },
+    {
       "name": "mareep",
       "hab": [
-        "cobblemon:wepear_berry",
-        "cobblemon:pinap_berry"
+        "minecraft:composter",
+        "cobblemon:pinap_berry",
+        "cobblemon:wepear_berry"
       ],
-      "lvl": 10
+      "lvl": 20
     },
     {
       "name": "miltank",
       "hab": [
-        "minecraft:crafting_table",
         "minecraft:hay_block",
         "minecraft:hay_block",
+        "minecraft:cherry_log",
         "minecraft:hay_block",
+        "minecraft:cherry_log",
+        "minecraft:cherry_log",
         "minecraft:hay_block",
+        "minecraft:cherry_log",
         "minecraft:hay_block"
       ],
-      "lvl": 20
+      "lvl": 30
     },
     {
       "name": "lapras",
@@ -236,10 +263,9 @@
     {
       "name": "swablu",
       "hab": [
-        "minecraft:white_wool",
-        "cobblemon:large_budding_tumblestone",
-        "cobblemon:large_budding_sky_tumblestone",
-        "cobblemon:large_budding_black_tumblestone"
+        "cobblemon:sky_tumblestone_cluster",
+        "cobblemon:tumblestone_cluster",
+        "cobblemon:black_tumblestone_cluster"
       ],
       "lvl": 40
     },
@@ -291,25 +317,21 @@
         "minecraft:stone",
         "cobblemonfury:cobblestone_poisoned"
       ],
-      "lvl": 20
+      "lvl": 40
     },
     {
       "name": "toxicroak",
       "hab": [
         "cobblemonfury:plant_poison",
-        "cobblemonfury:cobblestone_poisoned",
-        "cobblemonfury:tapis_poison",
-        "cobblemonfury:cobblestone_poisoned",
         "cobblemonfury:tapis_poison",
         "cobblemonfury:tapis_poison",
-        "cobblemonfury:cobblestone_poisoned",
         "cobblemonfury:tapis_poison",
-        "cobblemonfury:cobblestone_poisoned"
+        "cobblemonfury:tapis_poison"
       ],
-      "lvl": 35
+      "lvl": 25
     },
     {
-      "name": "turtwig",
+      "name": "ferroseed",
       "hab": [
         "minecraft:composter",
         "minecraft:hay_block",
@@ -321,24 +343,26 @@
     {
       "name": "fraxure",
       "hab": [
-        "minecraft:melon",
-        "minecraft:pumpkin"
+        "minecraft:composter",
+        "minecraft:pumpkin",
+        "minecraft:melon"
       ],
       "lvl": 20
     },
     {
       "name": "vileplume",
       "hab": [
-        "cobblemon:cheri_berry",
+        "minecraft:composter",
         "cobblemon:oran_berry",
+        "cobblemon:cheri_berry",
         "cobblemon:chesto_berry"
       ],
       "lvl": 10
     },
     {
-      "name": "monferno",
+      "name": "lairon",
       "hab": [],
-      "lvl": 0
+      "lvl": 32
     },
     {
       "name": "magmortar",
@@ -346,9 +370,9 @@
       "lvl": 30
     },
     {
-      "name": "golem",
+      "name": "zebstrika",
       "hab": [],
-      "lvl": 25
+      "lvl": 27
     },
     {
       "name": "victreebel",
@@ -356,14 +380,15 @@
       "lvl": 21
     },
     {
-      "name": "grotle",
+      "name": "ferrothorn",
       "hab": [],
       "lvl": 0
     },
     {
       "name": "vaporeon",
       "hab": [
-        "cobblemon:water_stone_ore"
+        "cobblemon:water_stone_ore",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 50
     },
@@ -393,11 +418,6 @@
       "lvl": 30
     },
     {
-      "name": "lanturn",
-      "hab": [],
-      "lvl": 27
-    },
-    {
       "name": "ariados",
       "hab": [
         "minecraft:powered_rail",
@@ -424,7 +444,7 @@
       "lvl": 10
     },
     {
-      "name": "bulbasaur",
+      "name": "patrat",
       "hab": [
         "minecraft:hay_block",
         "minecraft:wheat",
@@ -447,19 +467,19 @@
         "minecraft:oak_planks",
         "minecraft:oak_planks",
         "minecraft:oak_planks",
-        "minecraft:oak_planks",
-        "minecraft:oak_planks",
-        "minecraft:oak_planks"
+        "minecraft:grass_block",
+        "minecraft:grass_block",
+        "minecraft:grass_block"
       ],
-      "lvl": 20
+      "lvl": 15
     },
     {
       "name": "hoothoot",
       "hab": [
         "minecraft:birch_log",
-        "minecraft:birch_leaves",
-        "minecraft:birch_leaves",
-        "minecraft:birch_leaves",
+        "minecraft:birch_log",
+        "minecraft:birch_log",
+        "minecraft:birch_log",
         "minecraft:birch_leaves",
         "minecraft:birch_leaves",
         "minecraft:birch_leaves",
@@ -471,15 +491,11 @@
     {
       "name": "timburr",
       "hab": [
-        "minecraft:cherry_log",
-        "minecraft:white_concrete",
-        "minecraft:white_concrete",
-        "minecraft:white_concrete",
-        "minecraft:cherry_log",
-        "minecraft:cherry_log",
-        "minecraft:white_concrete",
-        "minecraft:white_concrete",
-        "minecraft:white_concrete"
+        "cobblemon:spelon_berry",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:deepslate_gold_ore"
       ],
       "lvl": 20
     },
@@ -496,22 +512,18 @@
         "minecraft:cherry_planks",
         "minecraft:cherry_planks"
       ],
-      "lvl": 30
+      "lvl": 45
     },
     {
       "name": "dachsbun",
       "hab": [
+        "minecraft:peony",
         "minecraft:campfire",
         "minecraft:campfire",
-        "cobblemon:apricorn_planks",
         "minecraft:campfire",
-        "cobblemon:apricorn_planks",
-        "cobblemon:apricorn_planks",
-        "cobblemon:apricorn_planks",
-        "cobblemon:apricorn_planks",
-        "cobblemon:apricorn_planks"
+        "minecraft:campfire"
       ],
-      "lvl": 10
+      "lvl": 40
     },
     {
       "name": "sandshrew",
@@ -531,52 +543,42 @@
     {
       "name": "nacli",
       "hab": [
-        "minecraft:moss_block",
-        "minecraft:mossy_cobblestone",
-        "minecraft:mossy_cobblestone",
-        "minecraft:mossy_cobblestone",
-        "minecraft:moss_block",
-        "minecraft:moss_block",
-        "minecraft:mossy_cobblestone",
-        "minecraft:mossy_cobblestone",
-        "minecraft:mossy_cobblestone"
+        "minecraft:emerald_ore",
+        "minecraft:stone",
+        "minecraft:copper_block",
+        "minecraft:stone",
+        "minecraft:copper_block",
+        "minecraft:copper_block",
+        "minecraft:stone",
+        "minecraft:copper_block",
+        "minecraft:stone"
       ],
       "lvl": 10
     },
     {
       "name": "roselia",
       "hab": [
-        "minecraft:dandelion",
+        "minecraft:rose_bush",
         "minecraft:lily_of_the_valley",
-        "minecraft:dandelion",
-        "minecraft:dandelion",
-        "minecraft:dandelion",
-        "minecraft:dandelion",
-        "minecraft:dandelion",
-        "minecraft:dandelion",
-        "minecraft:dandelion"
+        "minecraft:lily_of_the_valley",
+        "minecraft:lily_of_the_valley",
+        "minecraft:lily_of_the_valley",
+        "minecraft:lily_of_the_valley",
+        "minecraft:lily_of_the_valley",
+        "minecraft:lily_of_the_valley",
+        "minecraft:lily_of_the_valley"
       ],
-      "lvl": 20
+      "lvl": 25
     },
     {
-      "name": "aron",
-      "hab": [
-        "minecraft:iron_block",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone",
-        "minecraft:cobblestone"
-      ],
-      "lvl": 20
+      "name": "sharpedo",
+      "hab": [],
+      "lvl": 30
     },
     {
       "name": "smoliv",
       "hab": [
-        "minecraft:sunflower",
+        "minecraft:composter",
         "minecraft:sunflower",
         "minecraft:sunflower",
         "minecraft:sunflower",
@@ -586,14 +588,24 @@
       "lvl": 15
     },
     {
-      "name": "lairon",
-      "hab": [],
-      "lvl": 0
+      "name": "octillery",
+      "hab": [
+        "minecraft:horn_coral",
+        "minecraft:horn_coral",
+        "minecraft:horn_coral_block",
+        "minecraft:horn_coral",
+        "minecraft:horn_coral_block",
+        "minecraft:horn_coral_block",
+        "minecraft:horn_coral",
+        "minecraft:horn_coral_block",
+        "minecraft:horn_coral"
+      ],
+      "lvl": 35
     },
     {
       "name": "naclstack",
       "hab": [],
-      "lvl": 0
+      "lvl": 24
     },
     {
       "name": "combee",
@@ -609,12 +621,12 @@
       "hab": [
         "cobblemonfury:mini_xp",
         "minecraft:sandstone",
-        "minecraft:orange_terracotta",
+        "minecraft:orange_concrete",
         "minecraft:sandstone",
-        "minecraft:orange_terracotta",
-        "minecraft:orange_terracotta",
+        "minecraft:orange_concrete",
+        "minecraft:orange_concrete",
         "minecraft:sandstone",
-        "minecraft:orange_terracotta",
+        "minecraft:orange_concrete",
         "minecraft:sandstone"
       ],
       "lvl": 25
@@ -652,47 +664,54 @@
     {
       "name": "roggenrola",
       "hab": [
-        "cobblemon:tumblestone_cluster"
+        "cobblemon:tumblestone_cluster",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 20
     },
     {
       "name": "sableye",
       "hab": [
-        "minecraft:amethyst_cluster"
+        "minecraft:amethyst_cluster",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 30
     },
     {
       "name": "flareon",
       "hab": [
-        "cobblemon:fire_stone_ore"
+        "cobblemon:fire_stone_ore",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 60
     },
     {
       "name": "mudsdale",
       "hab": [
-        "cobblemon:revival_herb",
-        "cobblemon:revival_herb",
-        "minecraft:mangrove_planks",
-        "cobblemon:revival_herb",
-        "minecraft:mangrove_planks",
-        "minecraft:mangrove_planks",
-        "cobblemon:revival_herb",
-        "cobblemon:revival_herb"
+        "cobblemonfury:mud_crack"
       ],
-      "lvl": 40
+      "lvl": 25
     },
     {
       "name": "exeggcute",
       "hab": [
-        "cobblemon:campfire_pot_red",
-        "cobblemon:apricorn_log",
-        "cobblemon:apricorn_log",
-        "cobblemon:apricorn_log"
+        "minecraft:lilac",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch"
       ],
-      "lvl": 15
+      "lvl": 30
     },
     {
       "name": "smeargle",
@@ -713,14 +732,10 @@
       "name": "abra",
       "hab": [
         "minecraft:enchanting_table",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore",
-        "minecraft:lapis_ore"
+        "minecraft:infested_chiseled_stone_bricks",
+        "minecraft:infested_chiseled_stone_bricks",
+        "minecraft:infested_chiseled_stone_bricks",
+        "minecraft:infested_chiseled_stone_bricks"
       ],
       "lvl": 40
     },
@@ -737,12 +752,12 @@
         "cobblemon:hearty_grains",
         "cobblemon:hearty_grains"
       ],
-      "lvl": 32
+      "lvl": 25
     },
     {
       "name": "boldore",
       "hab": [],
-      "lvl": 0
+      "lvl": 25
     },
     {
       "name": "farfetchd",
@@ -769,7 +784,13 @@
       "hab": [
         "minecraft:bubble_coral",
         "minecraft:tube_coral",
-        "minecraft:fire_coral"
+        "minecraft:sand",
+        "minecraft:fire_coral",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand"
       ],
       "lvl": 0
     },
@@ -787,7 +808,8 @@
     {
       "name": "umbreon",
       "hab": [
-        "cobblemon:dusk_stone_ore"
+        "cobblemon:dusk_stone_ore",
+        "minecraft:chiseled_stone_bricks"
       ],
       "lvl": 50
     },
@@ -880,6 +902,17 @@
       "lvl": 50
     },
     {
+      "name": "psyduck",
+      "hab": [
+        "cobblemon:belue_berry",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch",
+        "minecraft:torch"
+      ],
+      "lvl": 35
+    },
+    {
       "name": "tentacool",
       "hab": [
         "minecraft:fire_coral",
@@ -920,13 +953,6 @@
         "minecraft:jungle_sapling"
       ],
       "lvl": 20
-    },
-    {
-      "name": "exeggutor",
-      "hab": [
-        "minecraft:azalea"
-      ],
-      "lvl": 40
     },
     {
       "name": "breloom",
@@ -1057,7 +1083,7 @@
       "lvl": 0
     },
     {
-      "name": "trapinch",
+      "name": "noivern",
       "hab": [
         "cobblemonfury:crystal_poison",
         "cobblemonfury:crystal_sand",
@@ -1097,30 +1123,133 @@
       "lvl": 35
     },
     {
-      "name": "ninetales",
+      "name": "relicanth",
+      "hab": [
+        "cobblemonfury:abyssal_plate"
+      ],
+      "lvl": 45
+    },
+    {
+      "name": "staryu",
+      "hab": [
+        "cobblemonfury:strange_coral",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block"
+      ],
+      "lvl": 35
+    },
+    {
+      "name": "wingull",
+      "hab": [
+        "cobblemonfury:fish_stack",
+        "minecraft:water_bucket",
+        "minecraft:sand",
+        "minecraft:water_bucket",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:water_bucket",
+        "minecraft:sand",
+        "minecraft:water_bucket"
+      ],
+      "lvl": 35
+    },
+    {
+      "name": "huntail",
+      "hab": [
+        "minecraft:brain_coral",
+        "minecraft:brain_coral",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral",
+        "minecraft:brain_coral_block",
+        "minecraft:brain_coral"
+      ],
+      "lvl": 40
+    },
+    {
+      "name": "starmie",
       "hab": [],
       "lvl": 0
+    },
+    {
+      "name": "carvanha",
+      "hab": [
+        "cobblemonfury:rusty_plate",
+        "minecraft:sand",
+        "cobblemonfury:rusty_plate",
+        "minecraft:sand",
+        "cobblemonfury:rusty_plate",
+        "cobblemonfury:rusty_plate",
+        "minecraft:sand",
+        "cobblemonfury:rusty_plate",
+        "minecraft:sand"
+      ],
+      "lvl": 20
+    },
+    {
+      "name": "clauncher",
+      "hab": [
+        "cobblemonfury:shell",
+        "minecraft:sand",
+        "minecraft:water_bucket",
+        "minecraft:sand",
+        "minecraft:water_bucket",
+        "minecraft:water_bucket",
+        "minecraft:sand",
+        "minecraft:water_bucket",
+        "minecraft:sand"
+      ],
+      "lvl": 30
+    },
+    {
+      "name": "clawitzer",
+      "hab": [],
+      "lvl": 37
+    },
+    {
+      "name": "conkeldurr",
+      "hab": [],
+      "lvl": 25
+    },
+    {
+      "name": "blitzle",
+      "hab": [
+        "cobblemonfury:zebred_deepslate"
+      ],
+      "lvl": 10
+    },
+    {
+      "name": "slowbro",
+      "hab": [],
+      "lvl": 37
+    },
+    {
+      "name": "trapinch",
+      "hab": [
+        "minecraft:peony",
+        "cobblemonfury:cobblestone_poisoned",
+        "cobblemon:belue_berry",
+        "cobblemonfury:cobblestone_poisoned",
+        "minecraft:peony",
+        "minecraft:peony",
+        "cobblemonfury:cobblestone_poisoned",
+        "cobblemon:belue_berry",
+        "cobblemonfury:cobblestone_poisoned"
+      ],
+      "lvl": 25
     }
   ],
   "mega_habitats": [
     {
-      "name": "fire",
-      "recipes": [
-        {
-          "ingredients": [
-            "minecraft:magma_block"
-          ],
-          "result": "minecraft:magma_block"
-        }
-      ],
-      "pokemons": [
-        "magby",
-        "vulpix",
-        "slugma"
-      ]
-    },
-    {
-      "name": "sand",
+      "name": "desert_islands",
       "recipes": [
         {
           "ingredients": [
@@ -1130,15 +1259,18 @@
         }
       ],
       "pokemons": [
+        "hippopotas",
+        "mudsdale",
+        "mareep",
+        "cacnea",
         "sandshrew",
         "numel",
-        "sandile",
-        "gligar",
-        "hippopotas"
+        "chinchou",
+        "gligar"
       ]
     },
     {
-      "name": "marais",
+      "name": "swamp_islands",
       "recipes": [
         {
           "ingredients": [
@@ -1148,15 +1280,16 @@
         }
       ],
       "pokemons": [
-        "bellsprout",
         "muk",
         "hitmonlee",
+        "farfetchd",
+        "bellsprout",
         "toxicroak",
-        "farfetchd"
+        "tentacool"
       ]
     },
     {
-      "name": "gem_caves",
+      "name": "crystal_caves",
       "recipes": [
         {
           "ingredients": [
@@ -1166,17 +1299,16 @@
         }
       ],
       "pokemons": [
-        "ditto",
-        "magnemite",
-        "carbink",
-        "roggenrola",
-        "machop",
-        "sableye",
-        "graveler"
+        "vulpix",
+        "slugma",
+        "dugtrio",
+        "magby",
+        "machoke",
+        "sableye"
       ]
     },
     {
-      "name": "rare_unco",
+      "name": "expanse_domain",
       "recipes": [
         {
           "ingredients": [
@@ -1187,29 +1319,14 @@
       ],
       "pokemons": [
         "spiritomb",
-        "mudsdale",
-        "dugtrio",
-        "cursola"
-      ]
-    },
-    {
-      "name": "plains",
-      "recipes": [
-        {
-          "ingredients": [
-            "minecraft:oak_log"
-          ],
-          "result": "minecraft:oak_log"
-        }
-      ],
-      "pokemons": [
-        "hoothoot",
-        "alcremie",
-        "fraxure",
-        "dachsbun",
-        "timburr",
-        "miltank",
-        "exeggcute"
+        "clefairy",
+        "graveler",
+        "cursola",
+        "relicanth",
+        "magnemite",
+        "carbink",
+        "swablu",
+        "trapinch"
       ]
     },
     {
@@ -1223,9 +1340,9 @@
         }
       ],
       "pokemons": [
-        "nacli",
-        "chimchar",
-        "aron"
+        "aron",
+        "roggenrola",
+        "ditto"
       ]
     },
     {
@@ -1240,12 +1357,12 @@
       ],
       "pokemons": [
         "bidoof",
-        "bulbasaur",
+        "patrat",
         "meowth"
       ]
     },
     {
-      "name": "fond_marin",
+      "name": "floating_islands",
       "recipes": [
         {
           "ingredients": [
@@ -1255,10 +1372,13 @@
         }
       ],
       "pokemons": [
-        "chinchou",
-        "tentacool",
-        "buizel",
-        "magikarp"
+        "wingull",
+        "octillery",
+        "huntail",
+        "clauncher",
+        "starmie",
+        "carvanha",
+        "psyduck"
       ]
     },
     {
@@ -1280,7 +1400,7 @@
       ]
     },
     {
-      "name": "surface",
+      "name": "rocky_islands",
       "recipes": [
         {
           "ingredients": [
@@ -1293,11 +1413,12 @@
         "smeargle",
         "abra",
         "weezing",
-        "swablu"
+        "timburr",
+        "blitzle"
       ]
     },
     {
-      "name": "agriculture",
+      "name": "flower_islands",
       "recipes": [
         {
           "ingredients": [
@@ -1307,12 +1428,13 @@
         }
       ],
       "pokemons": [
-        "mareep",
-        "vileplume",
+        "hoothoot",
         "smoliv",
-        "roselia",
-        "turtwig",
-        "lapras"
+        "vileplume",
+        "ferroseed",
+        "fraxure",
+        "buizel",
+        "roselia"
       ]
     },
     {
@@ -1366,7 +1488,7 @@
       ]
     },
     {
-      "name": "rare_common",
+      "name": "genesis_domain",
       "recipes": [
         {
           "ingredients": [
@@ -1379,7 +1501,9 @@
         "paras",
         "cofagrigus",
         "combee",
-        "clefairy"
+        "nacli",
+        "magikarp",
+        "lapras"
       ]
     },
     {
@@ -1410,14 +1534,33 @@
         "flareon",
         "sylveon"
       ]
+    },
+    {
+      "name": "cherry_islands",
+      "recipes": [
+        {
+          "ingredients": [
+            "minecraft:cherry_planks"
+          ],
+          "result": "minecraft:cherry_planks"
+        }
+      ],
+      "pokemons": [
+        "tangela",
+        "dachsbun",
+        "exeggcute",
+        "miltank",
+        "alcremie",
+        "slowpoke"
+      ]
     }
   ],
   "capacities": [
     {
-      "name": "sandile",
+      "name": "cacnea",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_beta",
         "minecraft:cactus"
       ],
       "itemPrice": 0.4,
@@ -1434,7 +1577,7 @@
       "name": "numel",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_beta",
         "minecraft:chiseled_sandstone"
       ],
       "itemPrice": 0.8,
@@ -1444,72 +1587,81 @@
       "name": "gligar",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_beta",
         "cobblemonfury:silice"
       ],
       "itemPrice": 0.4,
       "maxValue": 20
     },
     {
-      "name": "chimchar",
+      "name": "aron",
       "ability": "stardust",
-      "blocks": [
-        "cobblemonfury:stardust_white",
-        "minecraft:torch"
-      ],
+      "blocks": [],
       "itemPrice": 0.8,
       "maxValue": 12
-    },
-    {
-      "name": "magby",
-      "ability": "transform",
-      "blocks": []
     },
     {
       "name": "carbink",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_beta",
         "cobblemon:black_tumblestone_cluster"
       ],
       "itemPrice": 1,
       "maxValue": 12
     },
     {
+      "name": "vulpix",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_expanse_alpha",
+        "minecraft:carrot"
+      ],
+      "itemPrice": 0.3,
+      "maxValue": 24
+    },
+    {
       "name": "slugma",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_alpha",
         "minecraft:chiseled_stone_bricks"
       ],
-      "itemPrice": 0.4,
+      "itemPrice": 0.5,
       "maxValue": 12
     },
     {
       "name": "paras",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_alpha",
         "minecraft:red_mushroom_block"
       ],
       "itemPrice": 0.8,
       "maxValue": 12
     },
     {
+      "name": "graveler",
+      "ability": "destroy",
+      "blocks": [
+        "minecraft:stone"
+      ]
+    },
+    {
       "name": "ditto",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_genesis_alpha",
         "minecraft:redstone_block"
       ],
-      "itemPrice": 0.7,
-      "maxValue": 14
+      "itemPrice": 1.4,
+      "maxValue": 7
     },
     {
       "name": "magnemite",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_alpha",
         "minecraft:gold_block"
       ],
       "itemPrice": 3,
@@ -1525,14 +1677,14 @@
     },
     {
       "name": "mareep",
-      "ability": "convert",
+      "ability": "drop",
       "blocks": [
         "minecraft:white_wool"
       ]
     },
     {
       "name": "miltank",
-      "ability": "convert",
+      "ability": "drop",
       "blocks": [
         "minecraft:milk_bucket"
       ]
@@ -1546,7 +1698,7 @@
       "name": "muk",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_genesis_alpha",
         "minecraft:lily_pad"
       ],
       "itemPrice": 0.3,
@@ -1561,24 +1713,24 @@
       "name": "weezing",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:mangrove_wood"
       ],
-      "itemPrice": 0.3,
+      "itemPrice": 0.5,
       "maxValue": 15
     },
     {
       "name": "toxicroak",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
-        "cobblemon:dusk_stone_ore"
+        "cobblemonfury:stardust/stardust_expanse_beta",
+        "cobblemonfury:tapis_poison"
       ],
       "itemPrice": 0.6,
       "maxValue": 8
     },
     {
-      "name": "turtwig",
+      "name": "ferroseed",
       "ability": "destroy",
       "blocks": [
         "minecraft:carrot",
@@ -1605,10 +1757,10 @@
       ]
     },
     {
-      "name": "monferno",
+      "name": "lairon",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_alpha",
         "minecraft:lantern"
       ],
       "itemPrice": 0.8,
@@ -1618,31 +1770,29 @@
       "name": "magmortar",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_zenith_alpha",
         "minecraft:magma_block"
       ],
-      "itemPrice": 0.3,
-      "maxValue": 24
+      "itemPrice": 0.8,
+      "maxValue": 12
     },
     {
-      "name": "golem",
-      "ability": "destroy",
-      "blocks": [
-        "minecraft:stone"
-      ]
+      "name": "zebstrika",
+      "ability": "mount",
+      "blocks": []
     },
     {
       "name": "victreebel",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_expanse_alpha",
         "cobblemonfury:plant_poison"
       ],
       "itemPrice": 0.5,
       "maxValue": 20
     },
     {
-      "name": "grotle",
+      "name": "ferrothorn",
       "ability": "place",
       "blocks": [
         "minecraft:oak_sapling",
@@ -1654,7 +1804,7 @@
       "name": "floatzel",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:tube_coral"
       ],
       "itemPrice": 1,
@@ -1664,77 +1814,65 @@
       "name": "tentacruel",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:fire_coral"
-      ],
-      "itemPrice": 0.5,
-      "maxValue": 12
-    },
-    {
-      "name": "lanturn",
-      "ability": "stardust",
-      "blocks": [
-        "cobblemonfury:stardust_green",
-        "minecraft:bubble_coral"
       ],
       "itemPrice": 1,
       "maxValue": 12
     },
     {
+      "name": "ariados",
+      "ability": "none",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_zenith_gamma",
+        "minecraft:redstone_torch"
+      ]
+    },
+    {
       "name": "meowth",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_beta",
         "minecraft:oak_log"
       ],
-      "itemPrice": 0.8,
+      "itemPrice": 0.4,
       "maxValue": 9
     },
     {
-      "name": "bulbasaur",
+      "name": "patrat",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_alpha",
         "minecraft:hay_block"
       ],
-      "itemPrice": 0.8,
+      "itemPrice": 0.4,
       "maxValue": 9
     },
     {
       "name": "bidoof",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_gamma",
         "minecraft:oak_planks"
       ],
-      "itemPrice": 0.6,
+      "itemPrice": 0.3,
       "maxValue": 16
     },
     {
       "name": "hoothoot",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_gamma",
         "minecraft:birch_log"
       ],
       "itemPrice": 0.8,
       "maxValue": 12
     },
     {
-      "name": "timburr",
-      "ability": "stardust",
-      "blocks": [
-        "cobblemonfury:stardust_white",
-        "minecraft:cherry_log"
-      ],
-      "itemPrice": 1.2,
-      "maxValue": 12
-    },
-    {
       "name": "alcremie",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_zenith_gamma",
         "minecraft:cake"
       ],
       "itemPrice": 2,
@@ -1744,17 +1882,17 @@
       "name": "dachsbun",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:campfire"
       ],
-      "itemPrice": 1.6,
+      "itemPrice": 1.2,
       "maxValue": 6
     },
     {
       "name": "sandshrew",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_beta",
         "minecraft:dead_bush"
       ],
       "itemPrice": 0.8,
@@ -1764,37 +1902,42 @@
       "name": "roselia",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
-        "minecraft:lily_of_the_valley"
+        "cobblemonfury:stardust/stardust_expanse_beta",
+        "minecraft:rose_bush"
       ],
       "itemPrice": 0.6,
       "maxValue": 12
     },
     {
+      "name": "sharpedo",
+      "ability": "mount",
+      "blocks": []
+    },
+    {
       "name": "smoliv",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_white",
+        "cobblemonfury:stardust/stardust_genesis_gamma",
         "minecraft:sunflower"
       ],
       "itemPrice": 0.6,
       "maxValue": 24
     },
     {
-      "name": "lairon",
+      "name": "octillery",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
-        "minecraft:iron_block"
+        "cobblemonfury:stardust/stardust_expanse_beta",
+        "minecraft:horn_coral"
       ],
-      "itemPrice": 3,
-      "maxValue": 6
+      "itemPrice": 0.5,
+      "maxValue": 12
     },
     {
       "name": "naclstack",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:copper_block"
       ],
       "itemPrice": 1.6,
@@ -1804,7 +1947,7 @@
       "name": "combee",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:dandelion"
       ],
       "itemPrice": 0.4,
@@ -1814,7 +1957,7 @@
       "name": "cofagrigus",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_beta",
         "minecraft:glass"
       ],
       "itemPrice": 0.8,
@@ -1824,11 +1967,21 @@
       "name": "clefairy",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_zenith_gamma",
         "minecraft:cherry_leaves"
       ],
       "itemPrice": 0.5,
       "maxValue": 16
+    },
+    {
+      "name": "chinchou",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_genesis_gamma",
+        "minecraft:bubble_coral"
+      ],
+      "itemPrice": 1,
+      "maxValue": 12
     },
     {
       "name": "sableye",
@@ -1843,10 +1996,17 @@
       "blocks": []
     },
     {
+      "name": "exeggcute",
+      "ability": "drop",
+      "blocks": [
+        "minecraft:egg"
+      ]
+    },
+    {
       "name": "smeargle",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "minecraft:orange_carpet"
       ],
       "itemPrice": 0.5,
@@ -1856,17 +2016,17 @@
       "name": "abra",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_expanse_alpha",
         "minecraft:lapis_block"
       ],
-      "itemPrice": 0.6,
+      "itemPrice": 0.8,
       "maxValue": 8
     },
     {
       "name": "hitmonlee",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_genesis_alpha",
         "cobblemon:tatami_mat"
       ],
       "itemPrice": 0.5,
@@ -1876,17 +2036,17 @@
       "name": "boldore",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
-        "cobblemon:large_budding_tumblestone"
+        "cobblemonfury:stardust/stardust_expanse_alpha",
+        "cobblemon:tumblestone_cluster"
       ],
-      "itemPrice": 0.5,
+      "itemPrice": 1,
       "maxValue": 12
     },
     {
       "name": "farfetchd",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
+        "cobblemonfury:stardust/stardust_genesis_alpha",
         "cobblemon:medicinal_leek"
       ],
       "itemPrice": 0.4,
@@ -1901,7 +2061,7 @@
       "name": "spiritomb",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_expanse_beta",
         "minecraft:obsidian"
       ],
       "itemPrice": 0.4,
@@ -1911,17 +2071,17 @@
       "name": "machoke",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_zenith_alpha",
         "cobblemon:large_budding_sky_tumblestone"
       ],
-      "itemPrice": 0.5,
+      "itemPrice": 1,
       "maxValue": 12
     },
     {
       "name": "bastiodon",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_beta",
         "minecraft:orange_terracotta"
       ],
       "itemPrice": 0.5,
@@ -1931,7 +2091,7 @@
       "name": "rampardos",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_alpha",
         "minecraft:yellow_terracotta"
       ],
       "itemPrice": 0.5,
@@ -1946,7 +2106,7 @@
       "name": "kabutops",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_zenith_beta",
         "minecraft:glowstone"
       ],
       "itemPrice": 0.5,
@@ -1956,7 +2116,7 @@
       "name": "cursola",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_zenith_alpha",
         "minecraft:sponge"
       ],
       "itemPrice": 0.4,
@@ -1966,36 +2126,45 @@
       "name": "tangela",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_expanse_gamma",
         "cobblemon:vivichoke"
       ],
       "itemPrice": 0.5,
       "maxValue": 10
     },
     {
+      "name": "psyduck",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_expanse_alpha",
+        "cobblemon:belue_berry"
+      ],
+      "itemPrice": 0.5,
+      "maxValue": 12
+    },
+    {
       "name": "cradily",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_zenith_alpha",
         "cobblemon:leaf_stone_ore"
       ],
       "itemPrice": 1,
       "maxValue": 8
     },
     {
-      "name": "exeggutor",
-      "ability": "stardust",
+      "name": "primeape",
+      "ability": "none",
       "blocks": [
-        "cobblemonfury:stardust_blue"
-      ],
-      "itemPrice": 0.4,
-      "maxValue": 40
+        "cobblemonfury:stardust/stardust_zenith_alpha",
+        "minecraft:jungle_sapling"
+      ]
     },
     {
       "name": "breloom",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_alpha",
         "cobblemon:iapapa_berry"
       ],
       "itemPrice": 0.4,
@@ -2005,7 +2174,7 @@
       "name": "nuzleaf",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_beta",
         "cobblemon:mago_berry"
       ],
       "itemPrice": 0.4,
@@ -2020,7 +2189,7 @@
       "name": "tropius",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_zenith_alpha",
         "cobblemon:pinap_berry"
       ],
       "itemPrice": 0.4,
@@ -2037,10 +2206,20 @@
       "blocks": []
     },
     {
+      "name": "komala",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_zenith_beta",
+        "minecraft:bamboo"
+      ],
+      "itemPrice": 0.5,
+      "maxValue": 12
+    },
+    {
       "name": "omastar",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_blue",
+        "cobblemonfury:stardust/stardust_zenith_gamma",
         "cobblemon:water_stone_ore"
       ],
       "itemPrice": 2,
@@ -2050,7 +2229,7 @@
       "name": "annihilape",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_gamma",
         "minecraft:bookshelf"
       ],
       "itemPrice": 0.3,
@@ -2060,39 +2239,102 @@
       "name": "steelix",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
-        "minecraft:diamond_block"
+        "cobblemonfury:stardust/stardust_mythical_alpha",
+        "minecraft:obsidian"
       ],
       "itemPrice": 3,
       "maxValue": 4
     },
     {
+      "name": "noivern",
+      "ability": "mount",
+      "blocks": []
+    },
+    {
       "name": "scovillain",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_gamma",
         "minecraft:poppy"
       ],
-      "itemPrice": 0.3,
+      "itemPrice": 0.2,
       "maxValue": 42
     },
     {
       "name": "pyroar",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_purple",
+        "cobblemonfury:stardust/stardust_mythical_beta",
         "cobblemon:sun_stone_ore"
       ]
     },
     {
-      "name": "ninetales",
+      "name": "relicanth",
       "ability": "stardust",
       "blocks": [
-        "cobblemonfury:stardust_green",
-        "minecraft:carrot"
+        "cobblemonfury:stardust/stardust_zenith_beta",
+        "minecraft:cobblestone"
+      ]
+    },
+    {
+      "name": "wingull",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_expanse_beta",
+        "minecraft:clay"
       ],
-      "itemPrice": 0.4,
-      "maxValue": 24
+      "itemPrice": 0.5,
+      "maxValue": 12
+    },
+    {
+      "name": "huntail",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_expanse_beta",
+        "minecraft:brain_coral"
+      ],
+      "itemPrice": 0.5,
+      "maxValue": 12
+    },
+    {
+      "name": "starmie",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_zenith_beta",
+        "minecraft:sea_pickle"
+      ],
+      "itemPrice": 1,
+      "maxValue": 12
+    },
+    {
+      "name": "clawitzer",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_zenith_beta",
+        "cobblemonfury:shell"
+      ],
+      "itemPrice": 5,
+      "maxValue": 2
+    },
+    {
+      "name": "conkeldurr",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_zenith_alpha",
+        "minecraft:deepslate_gold_ore"
+      ],
+      "itemPrice": 1,
+      "maxValue": 10
+    },
+    {
+      "name": "slowbro",
+      "ability": "stardust",
+      "blocks": [
+        "cobblemonfury:stardust/stardust_zenith_gamma",
+        "cobblemon:magost_berry"
+      ],
+      "itemPrice": 1,
+      "maxValue": 10
     }
   ]
 }

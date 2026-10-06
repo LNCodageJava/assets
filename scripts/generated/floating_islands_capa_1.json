@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/wingull.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/octillery.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/huntail.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/starmie.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/psyduck.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/clawitzer.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_beta",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:clay",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_beta",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:horn_coral",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 30
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_beta",
+      "framed": false,
+      "x": 40,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:brain_coral",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 55
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 55
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_beta",
+      "framed": false,
+      "x": 40,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:sea_pickle",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:belue_berry",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 105
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_beta",
+      "framed": false,
+      "x": 40,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:shell",
+      "framed": false,
+      "x": 60,
+      "y": 125
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5",
+      "x": 80,
+      "y": 130
+    },
+    {
+      "type": "patchouli:text",
+      "text": "2",
+      "x": 100,
+      "y": 130
+    }
+  ]
+}

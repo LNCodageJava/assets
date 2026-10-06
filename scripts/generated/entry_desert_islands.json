@@ -1,0 +1,25 @@
+{
+  "name": "desert_islands",
+  "icon": "minecraft:sand",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:desert_islands_hab_1"
+    },
+    {
+      "type": "cobblemonfury:desert_islands_hab_2"
+    },
+    {
+      "type": "cobblemonfury:desert_islands_hab_3"
+    },
+    {
+      "type": "cobblemonfury:desert_islands_hab_4"
+    },
+    {
+      "type": "cobblemonfury:desert_islands_capa_1"
+    },
+    {
+      "type": "cobblemonfury:desert_islands_capa_2"
+    }
+  ]
+}

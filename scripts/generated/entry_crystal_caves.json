@@ -1,0 +1,19 @@
+{
+  "name": "crystal_caves",
+  "icon": "minecraft:raw_gold",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:crystal_caves_hab_1"
+    },
+    {
+      "type": "cobblemonfury:crystal_caves_hab_2"
+    },
+    {
+      "type": "cobblemonfury:crystal_caves_hab_3"
+    },
+    {
+      "type": "cobblemonfury:crystal_caves_capa_1"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/vulpix.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": -20
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/slugma.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/dugtrio.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/machoke.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/sableye.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/magmortar.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 105
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:carrot",
+      "framed": false,
+      "x": 60,
+      "y": 0
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.3",
+      "x": 80,
+      "y": 5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "24",
+      "x": 100,
+      "y": 5
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_expanse_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 25
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:chiseled_stone_bricks",
+      "framed": false,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.5",
+      "x": 80,
+      "y": 30
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 30
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:dirt",
+      "framed": false,
+      "x": 60,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:grass_block",
+      "framed": false,
+      "x": 80,
+      "y": 50
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 75
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemon:large_budding_sky_tumblestone",
+      "framed": false,
+      "x": 60,
+      "y": 75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 80
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_break.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 80
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:gravel",
+      "framed": false,
+      "x": 60,
+      "y": 100
+    },
+    {
+      "type": "patchouli:item",
+      "item": "cobblemonfury:stardust/stardust_zenith_alpha",
+      "framed": false,
+      "x": 40,
+      "y": 125
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:magma_block",
+      "framed": false,
+      "x": 60,
+      "y": 125
+    },
+    {
+      "type": "patchouli:text",
+      "text": "0.8",
+      "x": 80,
+      "y": 130
+    },
+    {
+      "type": "patchouli:text",
+      "text": "12",
+      "x": 100,
+      "y": 130
+    }
+  ]
+}

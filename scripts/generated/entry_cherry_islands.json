@@ -1,0 +1,19 @@
+{
+  "name": "cherry_islands",
+  "icon": "minecraft:cherry_planks",
+  "category": "cobblemonfury:capacity_category",
+  "pages": [
+    {
+      "type": "cobblemonfury:cherry_islands_hab_1"
+    },
+    {
+      "type": "cobblemonfury:cherry_islands_hab_2"
+    },
+    {
+      "type": "cobblemonfury:cherry_islands_hab_3"
+    },
+    {
+      "type": "cobblemonfury:cherry_islands_capa_1"
+    }
+  ]
+}

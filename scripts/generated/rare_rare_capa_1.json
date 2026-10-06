@@ -2,7 +2,7 @@
   "components": [
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/bastiodon.png",
+      "image": "cobblemonfury:pokesprites/archeops.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -12,7 +12,7 @@
     },
     {
       "type": "patchouli:image",
-      "image": "cobblemonfury:pokesprites/rampardos.png",
+      "image": "cobblemonfury:pokesprites/golurk.png",
       "width": 48,
       "height": 48,
       "texture_width": 48,
@@ -21,56 +21,100 @@
       "y": 5
     },
     {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/bastiodon.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/rampardos.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "x": 0,
+      "y": 55
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_mount.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": -15
+    },
+    {
+      "type": "patchouli:image",
+      "image": "cobblemonfury:pokesprites/0_mount.png",
+      "width": 48,
+      "height": 48,
+      "texture_width": 48,
+      "texture_height": 48,
+      "u": 0,
+      "v": 0,
+      "x": 22,
+      "y": 10
+    },
+    {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_mythical_beta",
       "framed": false,
       "x": 40,
-      "y": 0
+      "y": 50
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:orange_terracotta",
       "framed": false,
       "x": 60,
-      "y": 0
+      "y": 50
     },
     {
       "type": "patchouli:text",
       "text": "0.5",
       "x": 80,
-      "y": 5
+      "y": 55
     },
     {
       "type": "patchouli:text",
       "text": "10",
       "x": 100,
-      "y": 5
+      "y": 55
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_mythical_alpha",
       "framed": false,
       "x": 40,
-      "y": 25
+      "y": 75
     },
     {
       "type": "patchouli:item",
       "item": "minecraft:yellow_terracotta",
       "framed": false,
       "x": 60,
-      "y": 25
+      "y": 75
     },
     {
       "type": "patchouli:text",
       "text": "0.5",
       "x": 80,
-      "y": 30
+      "y": 80
     },
     {
       "type": "patchouli:text",
       "text": "10",
       "x": 100,
-      "y": 30
+      "y": 80
     }
   ]
 }

@@ -32,7 +32,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_zenith_alpha",
       "framed": false,
       "x": 40,
       "y": 0
@@ -58,7 +58,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_purple",
+      "item": "cobblemonfury:stardust/stardust_zenith_beta",
       "framed": false,
       "x": 40,
       "y": 25
@@ -84,7 +84,7 @@
     },
     {
       "type": "patchouli:item",
-      "item": "cobblemonfury:stardust_blue",
+      "item": "cobblemonfury:stardust/stardust_zenith_gamma",
       "framed": false,
       "x": 40,
       "y": 50
